@@ -1,0 +1,34 @@
+# Site settings
+title: MVBC
+email: kirk@mvbc.co.za
+description: "Montana Vikings Basketball Club"
+baseurl: "http://www.mvbc.co.za"
+url: "http://www.mvbc.co.za"
+permalink: /:categories/:title
+version: 1.0
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+exclude: [README.md, Gruntfile.js, package.json, 'node_modules', '*.esproj']
+
+flickr_set:
+      gallery_tag:   'p'
+      gallery_class: 'gallery'
+      a_href:        nil
+      a_target:      '_blank'
+      image_rel:     ''
+      image_size:    ''
+      api_key:       'ab6dbc52d92c334d4f303d2c9511fb24'
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"

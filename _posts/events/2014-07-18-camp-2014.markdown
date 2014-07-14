@@ -1,0 +1,14 @@
+---
+layout: 		default-post
+page-class: 	page-event article
+categories: 	event
+title:  		"MVBC Camp 2014!"
+description:	Annual junior camp 2014 is going down soon ...
+date:   		2014-07-18
+thumb: 			event/thumbs/camp.jpg
+---
+
+<h2>Junior MVBC Camp 2014</h2>
+
+<p>This year we are taking in a new venue!!!!</p>
+<p>Check back for more details soon.</p>

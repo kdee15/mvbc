@@ -1,0 +1,118 @@
+// DESKTOP LAYER [SITE]  ##############################################
+
+	// A. SITEWIDE STYLING ++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	    .fluid-c {
+			
+			max-width: 60%;
+			margin: $baseline/4 auto;
+			
+		}
+
+		.fluid-l {
+			
+			max-width: 25%;
+			float: left;
+			margin-right: $baseline/2;
+			
+		}
+
+		.fluid-r {
+			
+			max-width: 25%;
+			float: right;
+			margin-right: $baseline/2;
+			
+		}
+			
+	// A. END ++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	// B. MASTHEAD ++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	    #masthead {
+			
+			.container {
+				
+				a {
+					
+				}
+				
+				#nav {
+					
+					@include clearfix();
+					
+					ul {
+						
+						padding: 0;
+						margin: 0;
+						overflow: hidden;
+						
+						li {
+							
+							list-style-type: none;
+							display: inline-block;
+							
+							
+							a {
+								
+								display: inline-block;
+								padding: $baseline;
+								
+							}
+						}
+						
+						.nav-close {
+						
+							transform: translateY(-300%);
+						}
+						
+					}
+				}
+				
+				.mobile-nav {
+					
+					display: none;
+					
+				}
+			}
+			
+			.figure-logo {
+
+				width: 100%;
+				height: auto;
+				margin: $baseline auto;
+				
+			}
+			
+			.menu-icon {
+				
+				width: 20px;
+				height: 20px;
+				float: right;
+				
+			}
+	    }
+	
+	// B. END ++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	// C. MAST ++++++++++++++++++++++++++++++++++++++++++++++++
+		
+		#mast {
+		
+		    
+		
+		}
+		
+	// C. END ++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	// D. FOOTEND ++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	    #footend {
+	    
+	        
+	    
+	    }
+		
+	// D. END ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// END OF FILE ##############################################
