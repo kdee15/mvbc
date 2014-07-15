@@ -10,5 +10,19 @@ thumb: 			event/thumbs/camp.jpg
 
 <h2>Junior MVBC Camp 2014</h2>
 
-<p>This year we are taking in a new venue!!!!</p>
-<p>Check back for more details soon.</p>
+<img src="{{ site.url }}/assets/images/blog/pics/camp1-1.jpg" alt="camp pic" class="fluid-c">
+
+<p>The Montana Vikings Basketball Club’s (MVBC) Junior Camp is an important opportunity for us to positively influence the daily decision-making and life-style choices of our juniors away from the basketball court.</p>
+<p>This concept originated by trying to find solutions to some of the many socio-economic challenges we face as a club.</p>
+<p>The Junior Camp encourages our members from different demographics, social and cultural backgrounds to be together for a weekend, sharing life experiences, and learning from and with each other. Our club members come from a wide range of socio-economic and cultural backgrounds. Areas include Montana, Valhalla Park, Gugulethu, Nyanga, Heideveld, Manenberg, Phillipi as well as Grassy Park, Goodwood, Salt River, Rondebosch, Blouberg and Brackenfell. One of the main reasons for our club’s success is that we are a family, and we provide the home away from home environment to our members. The integration allows the less fortunate members with particularly financial difficulties to identify opportunities and to rise above their challenges.</p>
+
+
+<p>We rely a great deal on donations sourced from our club community and their networks to help maintain the success of this all important Annual Junior Camp and therefore appeal for your contributions towards our event. </p>
+<p><a href="{{ site.url }}/assets/files/2014CampSponsorship.pdf">SPONSORSHIP LETTER</a></p>
+<p><a href="{{ site.url }}/assets/files/2014CampDonationList.pdf">DONATION LIST</a></p>
+
+<p>
+	You can contact us using the details at the bottom of the page.<br/>
+	Many thanks,<br/>
+	MVBC Exec.
+</p>

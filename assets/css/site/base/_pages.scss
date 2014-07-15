@@ -24,6 +24,21 @@
 		}
 	}
 
+	.home {
+		
+		#masthead {
+			
+			.comtainer {
+				
+				.figure-logo {
+					
+					@include aspect-ratio (60%, 56.25%);
+					
+				}
+			}
+		}
+	}
+
 
 // 1. END +++++++++++++++++++++++++++++++++++++++++++
 
@@ -44,7 +59,7 @@
 				
 				.figure-logo {
 					
-					width: 40%;
+					@include aspect-ratio (40%, 56.25%);	
 					
 				}
 			}
@@ -103,7 +118,7 @@
 				
 				.figure-logo {
 					
-					width: 40%;
+					@include aspect-ratio (40%, 56.25%);	
 					
 				}
 			}
@@ -162,11 +177,7 @@
 							
 							aside {
 								
-								position: absolute;
-								top: 0;
-								right: 0;
-								bottom: 0;
-								left: 0;
+								@include position(absolute);
 								
 								h3 {
 
@@ -218,7 +229,7 @@
 
 					.figure-logo {
 
-						width: 40%;
+						@include aspect-ratio (40%, 56.25%);	
 						
 					}
 				}
@@ -259,16 +270,12 @@
 						
 						.google-map {
 							
-							@include aspect-ratio(56.25%);
+							@include aspect-ratio (100%, 56.25%);
 							
 							.content {
 								
 								content: '';
-								position: absolute;
-								top: 0;
-								right: 0;
-								bottom: 0;
-								left: 0;
+								@include position(absolute);
 								
 							}
 						}
@@ -284,11 +291,7 @@
 
 			.play {
 
-				position: absolute;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
+				@include position(absolute);
 				background: $white;
 
 				.section-area {

@@ -18,10 +18,10 @@
 		    
 		}
 
-		@mixin aspect-ratio($aspect){
+		@mixin aspect-ratio ($width, $aspect){
 			
 			position: relative; 
-			width: 100%;
+			width: $width;
 		
 			&:before {
 				
@@ -30,6 +30,16 @@
 			padding-top: $aspect;	
 				
 			}
+		}
+
+		@mixin position ($position){
+			
+			position: $position;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			
 		}
 	
 	// A. END ++++++++++++++++++++++++++++++++++++++++++++++++

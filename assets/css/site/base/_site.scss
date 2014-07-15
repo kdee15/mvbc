@@ -14,7 +14,7 @@
 			
 			#mast {
 			
-			/*&:before {
+			&:before {
 
 					content: "";
 					position: absolute;
@@ -22,10 +22,9 @@
 					right: 0;
 					bottom: 0;
 					left: 0;
-					background: rgba($white, 0.8);
-					background-attachment: fixed;
+					background: url('../images/svg/overlay.svg') top left;
 					z-index: -1;
-				}*/
+				}
 			}
 		}
 
@@ -65,6 +64,24 @@
 			
 		}
 
+		.figure-logo {
+					
+			margin: $baseline/2 auto;
+			@include aspect-ratio (60%, 55%);
+
+			a {
+
+				@include position(absolute);
+
+				.site-logo {
+
+					width: 100%;
+					height: 100%;
+
+				}
+			}
+		}
+
 
 	// A. END ++++++++++++++++++++++++++++++++++++++++++++++++
 	
@@ -73,22 +90,6 @@
 		#masthead {
 			
 			.container {
-				
-				.figure-logo {
-					
-					width: 60%;
-					margin: $baseline auto;
-					
-					a {
-						
-						.site-logo {
-							
-							width: 100%;
-							height: auto;
-							
-						}
-					}
-				}
 				
 				#nav {
 					
