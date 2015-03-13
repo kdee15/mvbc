@@ -2,8 +2,15 @@
 title: MVBC
 email: kirk@mvbc.co.za
 description: "Montana Vikings Basketball Club"
-baseurl: "http://www.mvbc.co.za"
-url: "http://www.mvbc.co.za"
+
+# Live site settings - uncomment for live push
+# baseurl: "http://www.mvbc.co.za"
+# url: "http://www.mvbc.co.za"
+
+# Testing site settings - uncomment for local dev
+baseurl: ""
+url: ""
+
 permalink: /:categories/:title
 version: 1.0
 
