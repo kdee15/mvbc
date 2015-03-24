@@ -20,15 +20,6 @@ permalink: pretty
 
 exclude: [README.md, Gruntfile.js, package.json, 'node_modules', '*.esproj']
 
-flickr_set:
-      gallery_tag:   'p'
-      gallery_class: 'gallery'
-      a_href:        nil
-      a_target:      '_blank'
-      image_rel:     ''
-      image_size:    ''
-      api_key:       'ab6dbc52d92c334d4f303d2c9511fb24'
-
 sitemap:
     file: "/sitemap.xml"
     exclude:
@@ -39,3 +30,24 @@ sitemap:
         - "/index.html"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
+    
+    
+gallery:
+  # path to the gallery
+  dir: photos
+  # title for gallery index
+  title: "Photos"
+  # title prefix for gallery page. title=title_prefix+gallery_name
+  title_prefix: "Photos: "
+  # field to control sorting of galleries for the index page
+  # (possible values are: title, date_time, best_image)
+  sort_field: "date_time"
+  # sizes for thumbnails
+  thumbnail_size:
+    x: 400
+    y: 400
+  # custom configuration for individual gallery
+  # best_image is image for the index page (defaults to last image)
+  galleries:
+    2007_24hr:
+      best_image: Montana Vikings 24Hour 2008033.jpg
