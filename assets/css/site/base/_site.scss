@@ -369,8 +369,8 @@
 					.grid-item {
 						
 						@extend .grid__item;
-						@extend .one-whole;
-						@extend .desk--one-third;
+						@extend .one-third;
+						@extend .mobile--one-whole;
 						
 						padding-left: 0 !important;
 						

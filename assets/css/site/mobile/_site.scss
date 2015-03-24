@@ -271,8 +271,20 @@
 	
 	    #footend {
 	    
-	        
-	    
+            .grid-item {
+                
+                h2, p, ul {
+                    
+                    margin-left: $baseline;
+                    
+                }
+                
+                .social-media {
+                    
+                    margin-left: $baseline!important;   
+                    
+                }  
+            }
 	    }
 		
 	// D. END ++++++++++++++++++++++++++++++++++++++++++++++++
