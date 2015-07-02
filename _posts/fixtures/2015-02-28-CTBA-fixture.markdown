@@ -12,4 +12,4 @@ thumb: 			fixture/thumbs/sat.png
 </header>
 
 <p>The 2015 season is due to kick off on 11 April 2015.</p>
-<p>Please check back for updates once the fixtures are released.</p>
+<p>Please check back for updates once the fixtures are released.</p> 

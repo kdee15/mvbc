@@ -7,147 +7,234 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>MVBC 24 Hour Basketball Marathon 2015!</title>
-        <description>&lt;h2&gt;24 Hour Basketball Marathon 2015&lt;/h2&gt;
-
-&lt;p&gt;Our annual basketball marathon will be held on the 10th and 11th April 2015, starting at 16h00 on the friday evening (10th)&lt;/p&gt;
-&lt;p&gt;This year we plan to make it especially memorable, as it is the club&#39;s 20th anniversary!!!&lt;/p&gt;
-&lt;p&gt;Check back here for regular updates.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Apr 2015 00:00:00 +0200</pubDate>
-        <link>/event/2015/04/10/24hour-2015/</link>
-        <guid isPermaLink="true">/event/2015/04/10/24hour-2015/</guid>
-      </item>
-    
-      <item>
-        <title>MVBC doing it for SA</title>
-        <description>&lt;h2&gt;MVBC doing it for SA&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/pics/sa-team.jpg&quot; alt=&quot;SA Team&quot; class=&quot;fluid-c&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Congratulations to the guys selected to represent South Africa at the resent Quadrangular held at Wembley Stadium.&lt;/p&gt;
-&lt;p&gt;From left we have Sivuyile &quot;Maloti&quot; Qavane, Thabile &quot;Godfrey&quot; Koti, and Craig &quot;Coach&quot; Daniels.&lt;/p&gt;
-&lt;p&gt;Well done on this great achievement, and hopefully you guys will have a long fruitful career at national level.&lt;/p&gt;
-&lt;p&gt;Coach Craig is the assistant coach to the national mens team, which participated in the recent zone 6 qualifiers.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Mar 2015 00:00:00 +0200</pubDate>
-        <link>/blog/2015/03/23/mvbc-sa/</link>
-        <guid isPermaLink="true">/blog/2015/03/23/mvbc-sa/</guid>
-      </item>
-    
-      <item>
-        <title>WE HAVE SNAPSCAN!!!</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/blog/pics/snaplogo.png&quot; alt=&quot;snapscan&quot; class=&quot;fluid-c&quot; /&gt;&lt;/p&gt;
-
-&lt;h2&gt;MVBC now accepts snapscan payments&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/pics/snapcode.png&quot; alt=&quot;snapscan&quot; class=&quot;fluid-l&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;We are pleased to announce that we now accept snapscan payments.&lt;/p&gt;
-&lt;p&gt;With this great facility, you can now make any sort of payment to the club without the hassle of setting up beneficiaries and logging onto your internet banking from your desktop.&lt;/p&gt;
-&lt;p&gt;Simply download the app to your phone, snap the above barcode, and make a payment.&lt;/p&gt;
-&lt;p&gt;Easy, secure and effortless.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 13 Mar 2015 00:00:00 +0200</pubDate>
-        <link>/blog/2015/03/13/we-have-snapscan/</link>
-        <guid isPermaLink="true">/blog/2015/03/13/we-have-snapscan/</guid>
-      </item>
-    
-      <item>
-        <title>CTBA Fixtures:</title>
+        <title>CTBA Fixture:</title>
         <description>&lt;header class=&quot;post-header&quot;&gt;
-	&lt;h1&gt;CTBA Fixtures: 28 February&lt;/h1&gt;
+	&lt;h1&gt;CTBA Fixture: 26 July&lt;/h1&gt;
 &lt;/header&gt;
 
-&lt;p&gt;The 2015 season is due to kick off on 11 April 2015.&lt;/p&gt;
-&lt;p&gt;Please check back for updates once the fixtures are released.&lt;/p&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;235&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;236&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;CPUT Cats 1&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;237&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;CPUT Cats&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;238&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;WCSS&lt;/td&gt;&lt;td&gt;Pinelands&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;239&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Dragons&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;240&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Pinelands&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;/table&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;241&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;242&lt;/td&gt;&lt;td&gt;L1&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;243&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;Hellas&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;244&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;245&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;246&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
-        <pubDate>Sat, 28 Feb 2015 00:00:00 +0200</pubDate>
-        <link>/fixture/2015/02/28/CTBA-fixture/</link>
-        <guid isPermaLink="true">/fixture/2015/02/28/CTBA-fixture/</guid>
+        <pubDate>Sun, 26 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/26/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/26/CTBA-fixture/</guid>
       </item>
     
       <item>
-        <title>MVBC Camp 2014!</title>
-        <description>&lt;h2&gt;Junior MVBC Camp 2014&lt;/h2&gt;
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 25 July&lt;/h1&gt;
+&lt;/header&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/pics/camp1-1.jpg&quot; alt=&quot;camp pic&quot; class=&quot;fluid-c&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Montana Vikings Basketball Club’s (MVBC) Junior Camp is an important opportunity for us to positively influence the daily decision-making and life-style choices of our juniors away from the basketball court.&lt;/p&gt;
-&lt;p&gt;This concept originated by trying to find solutions to some of the many socio-economic challenges we face as a club.&lt;/p&gt;
-&lt;p&gt;The Junior Camp encourages our members from different demographics, social and cultural backgrounds to be together for a weekend, sharing life experiences, and learning from and with each other. Our club members come from a wide range of socio-economic and cultural backgrounds. Areas include Montana, Valhalla Park, Gugulethu, Nyanga, Heideveld, Manenberg, Phillipi as well as Grassy Park, Goodwood, Salt River, Rondebosch, Blouberg and Brackenfell. One of the main reasons for our club’s success is that we are a family, and we provide the home away from home environment to our members. The integration allows the less fortunate members with particularly financial difficulties to identify opportunities and to rise above their challenges.&lt;/p&gt;
-
-&lt;p&gt;We rely a great deal on donations sourced from our club community and their networks to help maintain the success of this all important Annual Junior Camp and therefore appeal for your contributions towards our event. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/assets/files/2014CampSponsorship.pdf&quot;&gt;SPONSORSHIP LETTER&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/assets/files/2014CampDonationList.pdf&quot;&gt;DONATION LIST&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;
-	You can contact us using the details at the bottom of the page.&lt;br /&gt;
-	Many thanks,&lt;br /&gt;
-	MVBC Exec.
-&lt;/p&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;221&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Islamia College&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;222&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Turfhall Primary&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;223&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Islamia College&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;224&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Turfhall Primary&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;225&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Turfhall Primary&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;226&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;227&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;Turfhall Primary&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;228&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;229&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;230&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;WCSS&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;231&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;232&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Islamia College&lt;/td&gt;&lt;td&gt;WCSS&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;233&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;234&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 +0200</pubDate>
-        <link>/event/2014/07/18/camp-2014/</link>
-        <guid isPermaLink="true">/event/2014/07/18/camp-2014/</guid>
+        <pubDate>Sat, 25 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/25/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/25/CTBA-fixture/</guid>
       </item>
     
       <item>
-        <title>BNL Rookies</title>
-        <description>&lt;h2&gt;Some Vikings made their BNL debut against the Panthers this weekend ...&lt;/h2&gt;
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 24 July&lt;/h1&gt;
+&lt;/header&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/pics/BNL1-2.jpg&quot; alt=&quot;BNL Pic 2&quot; class=&quot;fluid-c&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Congratulations to Cleve Dombas and Sivuyile &quot;Bam&quot; Mdekazi for making their Western Cape Mountaineers debuts this weekend.&lt;/p&gt;
-&lt;p&gt;Both of them did fantastically well, and have a bright future at the next level. Keep it up ballers!!!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/pics/BNL1-1.jpg&quot; alt=&quot;BNL Pic 1&quot; class=&quot;fluid-c&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Cleve, Bam, Godfrey and Maloti chilling before the game&lt;/p&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;217&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;19:00 - 20:30&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;218&lt;/td&gt;&lt;td&gt;L1/u18G&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;19:00 - 20:30&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;219&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;CPUT Alumni&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;20:30 - 22:00&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;220&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;20:30 - 22:00&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
-        <pubDate>Thu, 10 Jul 2014 00:00:00 +0200</pubDate>
-        <link>/blog/2014/07/10/bnl-update/</link>
-        <guid isPermaLink="true">/blog/2014/07/10/bnl-update/</guid>
+        <pubDate>Fri, 24 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/24/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/24/CTBA-fixture/</guid>
       </item>
     
       <item>
-        <title>Maloti - the REAL MVP!!!</title>
-        <description>&lt;h2&gt;Maloti wins the MVP of the tournament&lt;/h2&gt;
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 19 July&lt;/h1&gt;
+&lt;/header&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/pics/8G-2.jpg&quot; alt=&quot;8Gs Pic 2&quot; class=&quot;fluid-l&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Congratulations to Sivuyile &quot;Maloti&quot; Qavane, for being awarded the tournament MVP. Proving a thorn in the sides of all the teams we came up against, Maloti really used this tournament as his coming out party.&lt;/p&gt;
-&lt;p&gt;Lets hope this fine form can carry on into the CTBA league, as well as his further development at BNL level.&lt;/p&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;211&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;CPUT Cats 1&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;212&lt;/td&gt;&lt;td&gt;L1&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;213&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;Lethal Ladies&lt;/td&gt;&lt;td&gt;CPUT Cats 2&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;/table&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;214&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Dragons&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;215&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;216&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Hellas&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
-        <pubDate>Sun, 22 Jun 2014 00:00:00 +0200</pubDate>
-        <link>/blog/2014/06/22/sl-tournament-mvp/</link>
-        <guid isPermaLink="true">/blog/2014/06/22/sl-tournament-mvp/</guid>
+        <pubDate>Sun, 19 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/19/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/19/CTBA-fixture/</guid>
       </item>
     
       <item>
-        <title>MVBC win it all</title>
-        <description>&lt;h2&gt;MVBC take the 8 thousand rand and the title!!!&lt;/h2&gt;
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 18 July&lt;/h1&gt;
+&lt;/header&gt;
 
-&lt;p&gt;The Montana Vikings Basketball Club surged to victory in the inaugural Cape Basketball Championship on Sunday.&lt;/p&gt;
-&lt;p&gt;Vikings, a juggernaut in Cape basketball, lost just one game throughout the tournament to claim the trophy and R8000 in cash.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/pics/8G-1.jpg&quot; alt=&quot;8Gs Pic 1&quot; class=&quot;fluid-l&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The Championship started at the Cape Peninsula University of Technology (CPUT) Cape Town campus with pool matches on Saturday. Vikings were drawn in Pool B along with CPUT Cats and CPUT Alumni, while Pool A comprised Constantia-based Hurricanes Basketball Club, the University of Cape Town (UCT) and the University of the Western Cape (UWC).&lt;/p&gt;
-&lt;p&gt;Vikings got their title charge going with a narrow 67-63 win over Cats before losing 54-51 to Alumni to finish second in their group, while Cats placed first. In Group A Hurricanes beat UWC 64-60 and UCT 64-38 to finish on top, while UWC finished second after beating UCT 66-48 in their other game.&lt;/p&gt;
-&lt;p&gt;But the scores and results from the group stages proved a poor reflection of the teams involved, as both the group winners were eliminated in the semi-finals. Hurricanes lost 72-50 to Vikings, while Cats were beaten 84-66 by UWC. Cats went on to beat Hurricanes 77-70 in the third-place play-off to claim the bronze medal. And Vikings took all the spoils after beating UWC 80-75 in the final.&lt;/p&gt;
-&lt;p&gt;The final of the women&amp;rsquo;s tournament finished with the CPUT Cats first and second teams battling it out for superiority. Both teams went into the final undefeated, finishing at the summit of their respective groups.&lt;/p&gt;
-&lt;p&gt;The Cats second team topped Pool A after defeating UCT 54-30 and Lethal Ladies 57-37, while Lethal Ladies were second after beating UCT 60-22. The Cats first team beat UWC 62-49 and Vikings 43-38, and Vikings finished second in the group after beating UWC 65-41 in their other match.&lt;/p&gt;
-&lt;p&gt;The first team dominated their semi-final fixture against Lethal Ladies, winning 68-38, while the second side scraped to a 49-45 win over Vikings. The Vikings women&amp;rsquo;s team could not emulate their men&amp;rsquo;s team by taking home a medal and lost 64-42 to Lethal Ladies in the third-place play-off. In the end, the CPUT first team were too strong and beat the second team 62-44 to take home the R8000 in cash and the trophy.&lt;/p&gt;
-&lt;p&gt;The annual tournament was hosted by Platinum Media Group.&lt;/p&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;204&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;09:00 - 10:15&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;205&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;206&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;207&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;12:45 -14:00&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;208&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;209&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;210&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
-        <pubDate>Sun, 22 Jun 2014 00:00:00 +0200</pubDate>
-        <link>/blog/2014/06/22/sl-tournament/</link>
-        <guid isPermaLink="true">/blog/2014/06/22/sl-tournament/</guid>
+        <pubDate>Sat, 18 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/18/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/18/CTBA-fixture/</guid>
       </item>
     
       <item>
-        <title>MVBC 24 Hour Basketball Marathon 2014!</title>
-        <description>&lt;h2&gt;24 Hour Basketball Marathon 2014&lt;/h2&gt;
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 17 July&lt;/h1&gt;
+&lt;/header&gt;
 
-&lt;p&gt;why?&lt;/p&gt;
-&lt;p&gt;no content!!&lt;/p&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;202&lt;/td&gt;&lt;td&gt;L1&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;19:00 - 20:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;203&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;20:30 - 22:00&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
-        <pubDate>Fri, 04 Apr 2014 00:00:00 +0200</pubDate>
-        <link>/event/2014/04/04/24hour-2014/</link>
-        <guid isPermaLink="true">/event/2014/04/04/24hour-2014/</guid>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/17/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/17/CTBA-fixture/</guid>
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 12 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;196&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;CPUT Alumni&lt;/td&gt;&lt;td&gt;CPUT Cats&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;197&lt;/td&gt;&lt;td&gt;L1/u18G&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;198&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;199&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;CPUT Cats 1&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;200&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;201&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;Lethal Ladies&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/12/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/12/CTBA-fixture/</guid>
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 11 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;182&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;183&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;184&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;185&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;186&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;187&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Heideveld &lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;188&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;189&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;190&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;191&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;192&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;193&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;194&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Pinelands&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;195&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 11 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/11/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/11/CTBA-fixture/</guid>
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 05 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;179&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;180&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Dragons&lt;/td&gt;&lt;td&gt;Pinelands&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;181&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Langa Kings&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sun, 05 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/05/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/05/CTBA-fixture/</guid>
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 04 July&lt;/h1&gt;
+&lt;/header&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;172&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;09:00 - 10:15&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;173&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;10:15 -11:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;174&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;175&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;176&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;177&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;178&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 04 Jul 2015 00:00:00 +0200</pubDate>
+        <link>/fixture/2015/07/04/CTBA-fixture/</link>
+        <guid isPermaLink="true">/fixture/2015/07/04/CTBA-fixture/</guid>
       </item>
     
   </channel>
