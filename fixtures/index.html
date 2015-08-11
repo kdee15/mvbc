@@ -28,18 +28,19 @@ page-class: page-fixtures article-page
 
 				</li>
 
-				{% for post in site.categories['fixture'] %}
+				{% for fixture in site.data.fixtures %}
 
 					<div class="grid-item">
 
 						<div class="wrapper">
-							<a href="{{ post.url }}">
+							<a href="#">
 								<figure class="figure-thumb">
-									<img src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.description }}" />
+									<img src="{{ site.url }}/assets/images/fixture/thumbs/{{ fixture.day }}.png" alt="{{ fixture.day }}" />
 								</figure>
 								<aside class="aside-details">
-									<h4>{{ post.title }}</h4>
-									<h3>{{ post.date | date: '%d %b' }}</h3>
+									<h4>{{ fixture.date }},<br>{{ fixture.time }}</h4>
+									<p>{{ fixture.team_a }} vs {{ fixture.team_b }}</p>
+									<h4>{{ fixture.venue }}</h4>
 								</aside>
 							</a>
 						</div>
@@ -49,6 +50,11 @@ page-class: page-fixtures article-page
 				{% endfor %}
 
 			</ul>
+            
+            
+            
+            
+            
 
 		</div>
 

@@ -1,0 +1,275 @@
+date,game,league,team_a,a_score,b_score,team_b,time,image
+2-May,1,12G,Cape Waves,0,20,Turfhall Primary,9:00 - 10:15,results
+2-May,2,12G,MVBC,33,19,Gugulethu Hustlers,9:00 - 10:15,mvbc
+2-May,3,12B,Heideveld,42,0,Kulca Knights,10:15 - 11:30,results
+2-May,4,12B,Cape Waves,2,34,MVBC,10:15 - 11:30,mvbc
+2-May,5,14G,Heideveld,16,4,Turfhall Primary,11:30 - 12:45,results
+2-May,6,14G,Cape Waves,6,54,MVBC,11:30 - 12:45,mvbc
+2-May,7,14B,MVBC,37,36,Heideveld,12:45 - 14:00,mvbc
+2-May,8,14B,Turfhall Primary,21,40,Cape Waves,12:45 - 14:00,results
+2-May,9,16G,MVBC,20,0,Themba-Elihle,14:00 - 15:15,mvbc
+2-May,10,16G,Spartans,13,21,Gugulethu Hustlers,14:00 - 15:15,results
+2-May,11,16B,Spartans,33,30,WCSS,15:15 - 16:30,results
+2-May,12,16B,Eagles,26,51,Heideveld,15:15 - 16:30,results
+2-May,13,18B,MVBC,72,40,WCSS,16:30 - 17:45,mvbc
+2-May,14,18B,Themba - Elihle,8,132,Heideveld,16:30 - 17:45,results
+3-May,15,SL,CPUT Alumni,83,24,Eagles,13:00 - 14:30,results
+3-May,16,M1,Heideveld,46,42,Hellas,13:00 - 14:30,results
+3-May,17,SL,CPUT Cats,79,67,Cape Waves,14:30 - 16:00,results
+3-May,18,SLL,UCT,49,52,Lethal Ladies,14:30 - 16:00,results
+3-May,19,SL,Gugulethu Hustlers,55,106,UCT,16:00 - 17:30,results
+3-May,20,SLL,CPUT Cats 1,57,41,MVBC,16:00 - 17:30,mvbc
+9-May,21,12G,Heideveld,5,4,Islamia College,9:00 - 10:15,results
+9-May,22,12G,Kulca Knights,0,20,MVBC,9:00 - 10:15,mvbc
+9-May,23,12B,MVBC,32,9,Islamia College,10:15 - 11:30,mvbc
+9-May,24,12B,Heideveld,9,22,Cape Waves,10:15 - 11:30,results
+9-May,25,14G,Cape Waves,43,2,Heideveld,11:30 - 12:45,results
+9-May,26,14G,Turfhall Primary,3,81,MVBC,11:30 - 12:45,mvbc
+9-May,27,14B,Cape Waves,19,39,Heideveld,12:45 - 14:00,results
+9-May,28,14B,Eagles,45,10,Kulca Knights,12:45 - 14:00,results
+9-May,29,16G,Heideveld,42,33,WCSS,14:00 - 15:15,results
+9-May,30,16G,Eagles,13,41,Cape Waves,14:00 - 15:15,results
+9-May,31,16B,MVBC,79,7,Kulca Knights,15:15 - 16:30,mvbc
+9-May,32,16B,Islamia College,58,54,Cape Waves,15:15 - 16:30,results
+9-May,33,18B,Gugulethu Hustlers,11,51,Pinelands,16:30 - 17:45,results
+9-May,34,18B,WCSS,64,25,Themba-Elihle,16:30 - 17:45,results
+10-May,35,M1,Panthers,51,46,Dragons,13:00 - 14:30,results
+10-May,36,,,,,,13:00 - 14:30,results
+10-May,37,SLL,Gugulethu Hustlers,39,63,Lethal Ladies,14:30 - 16:00,results
+10-May,38,M1,Eagles,37,23,Maties,14:30 - 16:00,results
+10-May,39,,,,,,16:00 - 17:30,results
+10-May,40,SL,Eagles,52,82,Cape Waves,16:00 - 17:30,results
+10-May,41,M1,Pinelands,0,20,MVBC,13:00 - 14:30,mvbc
+10-May,42,L1,Heideveld,19,40,UCT,13:00 - 14:30,results
+10-May,43,SL,UCT,106,65,Heideveld,14:30 - 16:00,results
+10-May,44,SLL,UCT,46,48,MVBC,14:30 - 16:00,mvbc
+10-May,45,SL,CPUT Cats,68,74,MVBC,16:00 - 17:30,mvbc
+10-May,46,M1,Langa Kings,19,49,UCT,16:00 - 17:30,results
+16-May,47,12G,Turfhall Primary,8,2,Gugulethu Hustlers,9:00 - 10:15,results
+16-May,48,12G,Heideveld,4,8,MVBC,9:00 - 10:15,mvbc
+16-May,49,12G,Islamia College,7,14,Cape Waves,10:15 - 11:30,results
+16-May,50,12B,Future Stars,9,23,Heideveld,10:15 - 11:30,results
+16-May,51,12B,Islamia College,20,0,Kulca Knights,11:30 - 12:45,results
+16-May,52,14G,Future Stars,52,12,Turfhall Primary,11:30 - 12:45,results
+16-May,53,14B,MVBC,73,2,Turfhall Primary,12:45 - 14:00,mvbc
+16-May,54,14B,Future Stars,0,20,Eagles,12:45 - 14:00,results
+16-May,55,16G,MVBC,62,31,WCSS,14:00 - 15:15,mvbc
+16-May,56,16B,Islamia College,0,20,Gugulethu Hustlers,14:00 - 15:15,results
+16-May,57,16B,Heideveld,92,21,Future Stars,15:15 - 16:30,results
+16-May,58,18B,Pinelands,27,66,MVBC,15:15 - 16:30,mvbc
+16-May,59,18B,Gugulethu Hustlers,20,87,Heideveld,16:30 - 17:45,results
+16-May,60,L1/U18G,Panthers,29,53,MVBC,16:30 - 17:45,mvbc
+17-May,61,M1,Eagles,35,38,Dragons,13:00 - 14:30,results
+17-May,62,M1,Heideveld,68,55,Flames,13:00 - 14:30,results
+17-May,63,SL,CPUT Alumni,45,47,Cape Waves,14:30 - 16:00,results
+17-May,64,M1,Panthers,37,34,Langa Kings,14:30 - 16:00,results
+17-May,65,M1,Pinelands,22,28,UCT,16:00 - 17:30,results
+17-May,66,M1,MVBC,57,45,Hellas,16:00 - 17:30,mvbc
+17-May,67,SL,Gugulethu Hustlers,74,106,MVBC,13:00 - 14:30,mvbc
+17-May,68,SLL,CPUT Cats 1,51,49,Lethal Ladies,13:00 - 14:30,results
+17-May,69,,,,,,14:30 - 16:00,results
+17-May,70,SLL,MVBC,69,45,Gugulethu Hustlers,14:30 - 16:00,mvbc
+17-May,71,SL,Eagles,64,70,Heideveld,16:00 - 17:30,results
+17-May,72,SLL,Maties,30,61,CPUT Cats 2,16:00 - 17:30,results
+23-May,74,12G,Gugulethu Hustlers,3,11,Heideveld,09:00 - 10:15,results
+23-May,75,12B,Kulca Knights,2,29,Future Stars,10:15 - 11:30,results
+23-May,76,14B,Heideveld,119,2,Future Stars,11:30 - 12:45,results
+23-May,77,16G,Heideveld,42,17,Gugulethu Hustlers,12:45 - 14:00,results
+23-May,78,16B,Kulca Knights,6,111,WCSS,14:00 - 15:15,results
+23-May,79,16B,Spartans,50,24,Cape Waves,15:15 - 16:30,results
+23-May,80,16B,Gugulethu Hustlers,21,8,Flames,16:30 - 17:45,results
+23-May,81,16G,Eagles,14,44,MVBC,08:00 - 09:15,mvbc
+23-May,82,14B,Eagles,15,56,MVBC,09:15 - 10:30,mvbc
+23-May,83,16B,Eagles,26,28,MVBC,10:30 - 11:45,mvbc
+24-May,84,SLL,Gugulethu Hustlers,49,63,Cape Waves,16:00 - 17:30,results
+31-May,85,M1,Heideveld ,38,42,MVBC,13:00 - 14:30,mvbc
+31-May,86,L1/U18G,Heideveld,29,49,MVBC,14:30 - 16:00,mvbc
+31-May,87,M1,Maties,27,45,Langa Kings,16:00 - 17:30,results
+5-Jun,88,M1,Eagles,20,0,Flames,19:00 - 20:30,results
+5-Jun,89,M1,Pinelands,41,66,Hellas,20:30 - 22:00,results
+6-Jun,90,16G,WCSS,50,23,Spartans,09:00 - 10:15,results
+6-Jun,91,16B,Spartans,20,0,Islamia College,10:15 - 11:30,results
+6-Jun,92,16B,Eagles,20,0,Flames,11:30 - 12:45,results
+6-Jun,93,16B,WCSS,69,60,Heideveld,12:45 -14:00,results
+6-Jun,94,18B,Flames,0,20,WCSS,14:00 - 15:15,results
+6-Jun,95,18B,Pinelands,32,82,Heideveld,15:15 - 16:30,results
+6-Jun,96,L1/U18G,Heideveld,46,53,MVBC,16:30 - 17:45,mvbc
+7-Jun,97,SLL,CPUT Cats 2,20,0,Gugulethu Hustlers,13:00 - 14:30,results
+7-Jun,98,M1,Dragons,47,25,Maties,14:30 - 16:00,results
+7-Jun,99,SLL,MVBC,52,29,Maties,16:00 - 17:30,mvbc
+7-Jun,100,18B,Heideveld,108,9,Flames,13:00 - 14:30,results
+7-Jun,101,M1,Heideveld,37,39,Pinelands,14:30 - 16:00,results
+7-Jun,102,M1,Flames,43,56,MVBC,16:00 - 17:30,mvbc
+13-Jun,103,12G,Cape Waves,6,17,MVBC,9:00 - 10:15,mvbc
+13-Jun,104,12G,Islamia College,4,20,Heideveld,9:00 - 10:15,results
+13-Jun,105,12B,MVBC,20,0,Future Stars,10:15 - 11:30,mvbc
+13-Jun,106,12B,Kulca Knights,0,20,Heideveld,10:15 - 11:30,results
+13-Jun,107,14G,Future Stars,0,20,Heideveld,11:30 - 12:45,results
+13-Jun,108,,,,,,11:30 - 12:45,results
+13-Jun,109,14B,Future Stars,0,20,Heideveld,12:45 - 14:00,results
+13-Jun,110,14B,Cape Waves,20,0,Kulca Knights,12:45 - 14:00,results
+13-Jun,111,16B,Spartans,74,77,Heideveld,14:00 - 15:15,results
+13-Jun,112,16G,Cape Waves,20,0,Future Stars,14:00 - 15:15,results
+13-Jun,113,16B,Gugulethu Hustlers,0,20,WCSS,15:15 - 16:30,results
+13-Jun,114,16G,Eagles,15,94,Heideveld,15:15 - 16:30,results
+13-Jun,115,18B,Gugulethu Hustlers,0,20,Flames,16:30 - 17:45,results
+13-Jun,116,18B,Pinelands,74,13,Themba-Elihle,16:30 - 17:45,results
+14-Jun,117,SLL,Cape Waves,42,64,MVBC,13:00 - 14:30,mvbc
+14-Jun,118,18B,MVBC,20,0,Gugulethu Hustlers,13:00 - 14:30,mvbc
+14-Jun,119,SL,MVBC,67,65,Heideveld,14:30 - 16:00,mvbc
+14-Jun,120,SLL,CPUT Cats 1,27,30,CPUT Cats 2,14:30 - 16:00,results
+14-Jun,121,SL,Gugulethu Hustlers,56,80,CPUT Cats ,16:00 - 17:30,results
+14-Jun,122,M1,Eagles,35,63,Panthers,16:00 - 17:30,results
+14-Jun,123,18B,Flames,31,26,Pinelands,13:00 - 14:30,results
+14-Jun,124,M1,Langa Kings,48,49,Pinelands,14:30 - 16:00,results
+14-Jun,125,M1,Dragons,31,29,Flames,16:00 - 17:30,results
+20-Jun,126,12G ,Gugulethu Hustlers,20,0,Kulca Knights,9:00 - 10:15,results
+20-Jun,127,,,,,,9:00 - 10:15,results
+20-Jun,128,12G,Heideveld,11,15,Cape Waves,10:15 - 11:30,results
+20-Jun,129,12B,MVBC,20,0,Kulca Knights,10:15 - 11:30,mvbc
+20-Jun,130,14G,MVBC,20,0,Future Stars,11:30 - 12:45,mvbc
+20-Jun,131,14B,Eagles,29,24,Cape Waves,11:30 - 12:45,results
+20-Jun,132,14B,Heideveld,20,0,Kulca Knights,12:45 - 14:00,results
+20-Jun,133,16G,Themba - Elihle,20,0,Future Stars,12:45 - 14:00,results
+20-Jun,134,16G,Heideveld,34,35,MVBC,14:00 - 15:15,mvbc
+20-Jun,135,16G,WCSS,40,19,Cape Waves,14:00 - 15:15,results
+20-Jun,136,16B,Flames,41,35,Cape Waves,15:15 - 16:30,results
+20-Jun,137,16B,Eagles,20,0,Future Stars,15:15 - 16:30,results
+20-Jun,138,18B,Themba - Elihle,34,42,Gugulethu Hustlers,16:30 - 17:45,results
+20-Jun,139,18B,Flames,0,20,MVBC,16:30 - 17:45,mvbc
+21-Jun,140,SL,Eagles,52,81,CPUT Cats,13:00 - 14:30,results
+21-Jun,141,18B,MVBC,109,14,Themba-Elihle,13:00 - 14:30,mvbc
+21-Jun,142,SLL,CPUT Cats 2,42,30,MVBC,14:30 - 16:00,mvbc
+21-Jun,143,M1,MVBC,78,75,Eagles,14:30 - 16:00,mvbc
+21-Jun,144,SL,CPUT Alumni,66,46,MVBC,16:00 - 17:30,mvbc
+21-Jun,145,M1,Dragons,33,42,Hellas,16:00 - 17:30,results
+21-Jun,146,18B,Heideveld,74,48,WCSS,13:00 - 14:30,results
+21-Jun,147,SLL,Cape Waves,44,65,Lethal Ladies,13:00 - 14:30,results
+21-Jun,148,SL,Cape Waves,85,51,Gugulethu Hustlers,14:30 - 16:00,results
+21-Jun,149,M1,Panthers,56,47,Heideveld,14:30 - 16:00,results
+21-Jun,150,M1,Flames,65,47,Langa Kings,16:00 - 17:30,results
+21-Jun,151,SLL,UCT,39,41,Gugulethu Hustlers,16:00 - 17:30,results
+27-Jun,152,12G,MVBC,20,3,Heideveld,9:00 - 10:15,mvbc
+27-Jun,153,,,,,,9:00 - 10:15,results
+27-Jun,154,12G,Kulca Knights,0,20,Cape Waves,10:15 - 11:30,results
+27-Jun,155,12B,MVBC,28,18,Heideveld,10:15 - 11:30,mvbc
+27-Jun,156,14B,Eagles,18,55,Heideveld,11:30 - 12:45,results
+27-Jun,157,12B,Kulca Knights,0,20,Cape Waves,11:30 - 12:45,results
+27-Jun,158,14B,MVBC,20,0,Kulca Knights,12:45 - 14:00,mvbc
+27-Jun,159,14G,Cape Waves,20,0,Future Stars,12:45 - 14:00,results
+27-Jun,160,16B,MVBC,80,32,Gugulethu Hustlers,14:00 - 15:15,mvbc
+27-Jun,161,14B,Cape Waves,20,0,Future Stars,14:00 - 15:15,results
+27-Jun,162,16B,Kulca Knights,0,20,Future Stars,15:15 - 16:30,results
+27-Jun,163,16G,Cape Waves,52,2,Themba-Elihle,15:15 - 16:30,results
+27-Jun,164,16B,Eagles,20,0,Cape Waves,16:30 - 17:45,results
+27-Jun,165,16G,Future Stars,0,20,MVBC,16:30 - 17:45,mvbc
+28-Jun,166,SL,Eagles,52,103,MVBC,13:00 - 14:30,mvbc
+28-Jun,167,,,,,,,results
+28-Jun,168,SL,CPUT Alumni,100,51,Gugulethu Hustlers,14:30 - 16:00,results
+28-Jun,169,M1,Flames,55,20,Pinelands,14:30 - 16:00,results
+28-Jun,170,M1,Heideveld,41,57,Eagles,16:00 - 17:30,results
+28-Jun,171,M1,Dragons,39,29,Langa Kings,16:00 - 17:30,results
+4-Jul,172,12G,Cape Waves,0,20,Gugulethu Hustlers,09:00 - 10:15,results
+4-Jul,173,16G,Heideveld,20,0,Future Stars,10:15 -11:30,results
+4-Jul,174,16G,Gugulethu Hustlers,14,63,MVBC,11:30 - 12:45,mvbc
+4-Jul,175,14G,Cape Waves,20,0,Future Stars,12:45 - 14:00,results
+4-Jul,176,16G,Cape Waves,30,28,Gugulethu Hustlers,14:00 - 15:15,results
+4-Jul,177,16B,Heideveld,110,1,Flames,15:15 - 16:30,results
+4-Jul,178,16B,Gugulethu Hustlers,20,0,Cape Waves,16:30 - 17:45,results
+5-Jul,179,M1,Panthers,40,47,MVBC,13:00 - 14:30,mvbc
+5-Jul,180,M1,Dragons,65,44,Pinelands,14:30 - 16:00,results
+5-Jul,181,M1,Heideveld,56,30,Langa Kings,16:00 - 17:30,results
+11-Jul,182,12G,Cape Waves,14,8,Heideveld,9:00 - 10:15,results
+11-Jul,183,12G,MVBC,13,2,Gugulethu Hustlers,9:00 - 10:15,mvbc
+11-Jul,184,12B,Heideveld,20,0,Future Stars,10:15 - 11:30,results
+11-Jul,185,12B,Cape Waves,23,21,MVBC,10:15 - 11:30,mvbc
+11-Jul,186,14B,Cape Waves,10,50,MVBC,11:30 - 12:45,mvbc
+11-Jul,187,14B,Heideveld ,61,16,Eagles,11:30 - 12:45,results
+11-Jul,188,14G,Heideveld,12,49,Cape Waves,12:45 - 14:00,results
+11-Jul,189,16G,Spartans,20,0,Future Stars,12:45 - 14:00,results
+11-Jul,190,16B,Flames,20,0,Future Stars,14:00 - 15:15,results
+11-Jul,191,16G,Themba - Elihle,8,42,Gugulethu Hustlers,14:00 - 15:15,results
+11-Jul,192,18B,Heideveld,63,53,MVBC,15:15 - 16:30,mvbc
+11-Jul,193,16B,Eagles,40,54,Spartans,15:15 - 16:30,results
+11-Jul,194,18B,Pinelands,63,16,Gugulethu Hustlers,16:30 - 17:45,results
+11-Jul,195,18B,Flames,32,18,Themba - Elihle,16:30 - 17:45,results
+12-Jul,196,SL,CPUT Alumni,45,64,CPUT Cats,13:00 - 14:30,results
+12-Jul,197,L1/u18G,Heideveld,33,36,MVBC,13:00 - 14:30,mvbc
+12-Jul,198,SL,Cape Waves,57,70,Heideveld,14:30 - 16:00,results
+12-Jul,199,SLL,CPUT Cats 1,60,24,Gugulethu Hustlers,14:30 - 16:00,results
+12-Jul,200,SL,Eagles,70,74,Gugulethu Hustlers,16:00 - 17:30,results
+12-Jul,201,SLL,Lethal Ladies,63,61,MVBC,16:00 - 17:30,mvbc
+17-Jul,202,M1,Pinelands,60,67,Eagles,19:00 - 20:30,results
+17-Jul,203,M1,Flames,53,60,Panthers,20:30 - 22:00,results
+18-Jul,204,12B,Cape Waves,20,0,Future Stars,09:00 - 10:15,results
+18-Jul,205,14G,MVBC,20,0,Future Stars,10:15 - 11:30,mvbc
+18-Jul,206,16G,MVBC,84,16,Cape Waves,11:30 - 12:45,mvbc
+18-Jul,207,16B,MVBC,20,0,Future Stars,12:45 -14:00,mvbc
+18-Jul,208,14B,Eagles,26,34,Cape Waves,14:00 - 15:15,results
+18-Jul,209,16B,Eagles,20,0,Gugulethu Hustlers,15:15 - 16:30,results
+18-Jul,210,18B,MVBC,92,21,Themba - Elihle,16:30 - 17:45,mvbc
+19-Jul,211,M1,Panthers,66,62,Pinelands,13:00 - 14:30,results
+19-Jul,212,M1,Eagles,58,47,Hellas,14:30 - 16:00,results
+19-Jul,213,SLL,CPUT Cats 1,66,26,Cape Waves,16:00 - 17:30,results
+19-Jul,214,18B,Heideveld,121,12,Gugulethu Hustlers,13:00 - 14:30,results
+19-Jul,215,18B,MVBC,70,29,Flames,14:30 - 16:00,mvbc
+19-Jul,216,M1,MVBC,72,40,Dragons,16:00 - 17:30,mvbc
+25-Jul,221,12G,Islamia College,0,20,MVBC,9:00 - 10:15,mvbc
+25-Jul,222,12G,Turfhall Primary,16,8,Heideveld,9:00 - 10:15,results
+25-Jul,223,12B,Islamia College,0,20,Cape Waves,10:15 - 11:30,results
+25-Jul,224,12B,Turfhall Primary,0,20,Heideveld,10:15 - 11:30,results
+25-Jul,,Exibition,Western Cape u16G,,,Western Cape u18G,11:30 - 12:45,results
+25-Jul,225,14G,Cape Waves,45,3,Turfhall Primary,11:30 - 12:45,results
+25-Jul,,Exibition,Western Cape u16B,,,Western Cape u18B,12:45 - 14:00,results
+25-Jul,227,14B,Future Stars,20,34,Turfhall Primary,12:45 - 14:00,results
+25-Jul,229,16G,Eagles,26,32,Spartans,14:00 - 15:15,results
+25-Jul,230,16G,Future Stars,8,61,WCSS,14:00 - 15:15,results
+25-Jul,231,16G,Heideveld,74,2,Themba - Elihle,15:15 - 16:30,results
+25-Jul,232,16B,Islamia College,7,120,WCSS,15:15 - 16:30,results
+25-Jul,233,16B,Heideveld,63,42,MVBC,16:30 - 17:45,mvbc
+25-Jul,234,16B,Spartans,69,6,Future Stars,16:30 - 17:45,results
+26-Jul,235,18B,Gugulethu Hustlers,43,29,Themba - Elihle,13:00 - 14:30,results
+26-Jul,236,SLL,Maties,23,61,CPUT Cats 1,13:00 - 14:30,results
+26-Jul,237,SL,CPUT Cats,78,57,Maties,14:30 - 16:00,results
+26-Jul,238,18B,WCSS,20,0,Pinelands,14:30 - 16:00,results
+26-Jul,239,M1,Heideveld,40,50,Dragons,16:00 - 17:30,results
+26-Jul,240,M1,Pinelands,19,25,Maties,16:00 - 17:30,results
+26-Jul,241,SL,UCT,80,66,Eagles,13:00 - 14:30,results
+26-Jul,242,L1,Panthers,14,54,UCT,13:00 - 14:30,results
+26-Jul,243,M1,Panthers,58,33,Hellas,14:30 - 16:00,results
+26-Jul,246,M1,UCT,58,57,Eagles,14:30 - 16:00,results
+29-Jul,247,M1,Dragons,63,55,UCT,19:00 - 20:30,results
+29-Jul,248,L1,Panthers,25,38,UCT,19:00 - 20:30,results
+29-Jul,249,SL,Gugulethu Hustlers,71,65,Maties,20:30 - 22:00,results
+29-Jul,250,SLL,Lethal Ladies,33,44,CPUT Cats 2,20:30 - 22:00,results
+31-Jul,351,18B,Heideveld,90,15,Flames,19:00 - 20:30,results
+31-Jul,252,L1,Heideveld,46,19,Panthers,20:30 - 22:00,results
+1-Aug,267,12B,Heideveld,20,0,Islamia College,9:00 - 10:15,results
+1-Aug,268,12B,Future Stars,20,0,Turfhall Primary,9:00 - 10:15,results
+1-Aug,269,12G,Turfhall Primary,0,20,MVBC,10:15 - 11:30,mvbc
+1-Aug,270,16B,Future Stars,29,31,Islamia College,10:15 - 11:30,results
+1-Aug,271,12G,Gugulethu Hustlers,32,6,Islamia College,11:30 - 12:45,results
+1-Aug,272,12B,MVBC,20,0,Turfhall Primary,11:30 - 12:45,mvbc
+1-Aug,273,14B,Eagles,38,22,Turfhall Primary,12:45 - 14:00,results
+1-Aug,274,16B,Cape Waves,30,27,Future Stars,12:45 - 14:00,results
+1-Aug,275,16B,Eagles,49,39,Islamia College,14:00 - 15:15,results
+1-Aug,276,16B,MVBC,38,58,Spartans,14:00 - 15:15,results
+1-Aug,277,L1/u18G,UCT,42,49,MVBC,15:15 - 16:30,mvbc
+1-Aug,278,16G,Eagles,15,47,WCSS,15:15 - 16:30,results
+1-Aug,279,18B,Gugulethu Hustlers,26,93,WCSS,16:30 - 17:45,results
+1-Aug,280,L1,Heideveld,32,20,Panthers,16:30 - 17:45,results
+2-Aug,281,18B,WCSS,38,89,Heideveld,13:00 - 14:30,results
+2-Aug,282,16B,Spartans,82,21,Flames,13:00 - 14:30,results
+2-Aug,283,16B,Gugulethu Hustlers,21,101,Heideveld,14:30 - 16:00,results
+2-Aug,284,18B,Pinelands,0,20,Flames,14:30 - 16:00,results
+2-Aug,285,SL,Gugulethu Hustlers,67,81,Heideveld,16:00 - 17:30,results
+2-Aug,286,M1,Eagles,56,36,Langa Kings,16:00 - 17:30,results
+2-Aug,287,SL,UCT,71,80,MVBC,13:00 - 14:30,mvbc
+2-Aug,288,SLL,CPUT Cats 2,20,0,Cape Waves,13:00 - 14:30,results
+2-Aug,289,SL,Cape Waves,71,84,Maties,14:30 - 16:00,results
+2-Aug,290,SLL,UCT,29,56,CPUT Cats 1,14:30 - 16:00,results
+2-Aug,291,SLL,Lethal Ladies,63,34,Maties,16:00 - 17:30,results
+2-Aug,292,M1,UCT,60,40,Hellas,16:00 - 17:30,results
+3-Aug,254,M1,Maties,,,Panthers,19:00 - 20:30,results
+3-Aug,244,SLL,UCT,20,0,Cape Waves,19:00 - 20:30,results
+3-Aug,219,SL,CPUT Alumni,74,72,Heideveld,20:30 - 22:00,results

@@ -1,0 +1,54 @@
+---
+
+layout: default
+title: Our Results
+description: a list of recent results
+page-class: page-results article-page
+
+---
+
+	<section class="section-widget section-fixture">
+
+		<div class="container">
+
+			<ul class="grid">
+
+				<li class="grid-item first">
+
+					<div class="wrapper first">
+
+						<figure class="figure-thumb">
+							<img src="{{ site.url }}/assets/images/site/bg-header-orange.png" alt="Latest Events" />
+						</figure>
+						<aside class="aside-details">
+							<h2>Our<br>Results</h2>
+						</aside>
+
+					</div>
+
+				</li>
+
+				{% for result in site.data.results %}
+
+					<div class="grid-item">
+
+						<div class="wrapper">
+								<figure class="figure-thumb">
+									<img src="{{ site.url }}/assets/images/fixture/thumbs/{{ result.image }}.png" alt="{{ result.image }}" />
+								</figure>
+								<aside class="aside-details">
+									<h4>{{ result.league }}</h4>
+									<p>{{ result.team_a }}: {{ result.a_score }} - {{ result.team_b }}: {{ result.b_score }}</p>
+                                    <h4>{{ result.date }},<br>{{ result.time }}</h4>
+								</aside>
+						</div>
+
+					</div>
+
+				{% endfor %}
+
+			</ul>
+
+		</div>
+
+	</section>
