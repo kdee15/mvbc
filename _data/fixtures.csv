@@ -1,21 +1,14 @@
 date,day,game,league,team_a,team_b,time,venue
-12-Aug,wed,313,SL,CPUT Alumni,UCT,19:00 - 20:30,UCT
-12-Aug,wed,320,M1,MVBC,Langa Kings,19:00 - 20:30,UCT
-12-Aug,wed,328,SL,CPUT Cats,Heideveld,20:30 - 22:00,UCT
-12-Aug,wed,329,M1,Maties,UCT,20:30 - 22:00,UCT
-14-Aug,fri,321,SL,Eagles,Maties,19:00 - 20:30,UCT 1
-14-Aug,fri,322,L1,UCT,Heideveld,19:00 - 20:30,UCT 2
-14-Aug,fri,323,M1,Heideveld,Maties,20:30 - 22:00,UCT 1
-14-Aug,fri,324,M1,Flames,UCT,20:30 - 22:00,UCT 2
-15-Aug,sat,325,16B,Islamia College,Flames,15:00 - 16:15,PHS
-15-Aug,sat,326,18B,Pinelands,MVBC,16:15 - 17:30,PHS
-15-Aug,sat,327,16B,MVBC,Flames,17:30 - 18:45,PHS
-15-Aug,sat,251,M1,Flames,Hellas,18:45 - 20:15,PHS
-16-Aug,sun,330,16G,Spartans,Themba - Elihle,12:00 - 13:00,UCT 1
-16-Aug,sun,331,16B,Future Stars,Hustlers,12:00 - 13:00,UCT 2
-16-Aug,sun,332,16B,WCSS,MVBC,13:00 - 14:30,UCT 1
-16-Aug,sun,333,16B,Cape Waves,Heideveld,13:00 - 14:30,UCT 2
-16-Aug,sun,334,16G,Cape Waves,Spartans,14:30 - 16:00,UCT 1
-16-Aug,sun,335,16G,Eagles,Future Stars,14:30 - 16:00,UCT 2
-16-Aug,sun,336,16B,Eagles,WCSS,16:00 - 17:30,UCT 1
-16-Aug,sun,337,16B,Cape Waves,Hustlers,16:00 - 17:30,UCT 2
+16-Oct,fri,523,M1,Eagles,Panthers,19:00 - 20:30,UCT 1
+16-Oct,fri,524,M1,MVBC,Hellas,20:30 - 22:00,UCT 1
+17-Oct,sat,525,12B,MVBC,Cape Waves,10:15 - 11:30,Cape Tech 1
+17-Oct,sat,526,12G,Cape Waves,Heideveld,10:15 - 11:30,Cape Tech 2
+17-Oct,sat,527,14B,Heideveld,MVBC,11:30 - 12:45,Cape Tech 1
+17-Oct,sat,528,14G,MVBC,Cape Waves,11:30 - 12:45,Cape Tech 2
+17-Oct,sat,529,16G,Heideveld,MVBC,12:45 - 14:00,Cape Tech 1
+17-Oct,sat,530,16B,Heideveld,WCSS,14:00 - 15:15,Cape Tech 1
+17-Oct,sat,531,18B,Heideveld,MVBC,15:15 - 16:30,Cape Tech 1
+18-Oct,sun,532,M1,Winner 523,Winner 524,13:00 - 14:30,Cape Tech 1
+18-Oct,sun,533,L1,MVBC,UCT,13:00 - 14:30,Cape Tech 2
+18-Oct,sun,534,SLL,CPUT Cats 1,MVBC,14:30 - 16:00,Cape Tech 1
+18-Oct,sun,535,SL,CPUT Cats,MVBC,16:00 - 17:30,Cape Tech 1
