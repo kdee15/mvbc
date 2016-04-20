@@ -6,88 +6,46 @@
 
 #masthead {
 
-    .nav-desk {
-    
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        width: 60px;
-        display: block;
-        background: $kd-grey90;
-        z-index: 5;
-        
-        .logo {
+    .container {
 
-            @include icon (40px, 325px, $white);
-            width: 60px;
-            text-align: center;
+        #nav {
 
-        }
-        
-        
-        .nav {
-        
-            @include position (absolute, 0);
-            top: auto;
-            
-            ul { 
-                li { display: block; font-size: $x-small;
-                    
-                    a { color: $black; 
-                        outline: none; 
-                        display: block; 
-                        vertical-align: middle; 
-                        text-align: center;
-                        padding: $baseline 0;
-            }}}
-            
-            
-        }
-    }
-    
-    .nav-mobi {
-    
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        height: 60px;
-        display: block;
-        background: $kd-grey90;
-        z-index: 10000;
-        
-        .nav {
-        
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 60px;
-            
-            ul { text-align: right; 
-                li { display: inline-block; font-size: $small;
-                    a { display: block; padding: $baseline; color: $kd-grey30;
-            }}}
-        }
-        
-    }
+            @include clearfix();
+            background: rgba($kd-blueLight,0.9);
+            margin-bottom: $baseline; 
 
+            ul {
 
-    .nav {
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
 
-        ul { margin: 0; padding: 0; vertical-align: middle;	
+                li {
 
-            li { text-transform: uppercase; list-style-type: none; vertical-align: middle;
+                    list-style-type: none;
+                    display: inline-block;
 
-                a {
+                    a {
 
-                    &.active,
-                    &:hover { color: $kd-blueLight; text-decoration: none; background: $kd-grey20; }
+                        display: inline-block;
+                        padding: $baseline;
+                        color: $white;
+                        text-decoration: none;
+
+                        &:hover {
+
+                            background: rgba($white,0.6);
+                            color: $black;
+                            transition: 0.3s 0.1s; 
+
+                        }
+                    }
                 }
             }
         }
     }
+
+
 
 
 // A.1. END -----------------------------------------------------------------------------------------------------------

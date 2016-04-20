@@ -6,17 +6,6 @@
 
 html { font-weight: 300; }
 
-// A.1. GENERAL SETUP
-
-html, body, #mast, .section-home, .container { height: 100%; }
-
-body {
-    background: url('../images/front/bg-front.png') no-repeat center center fixed;
-    background-size: cover;
-}
-
-// A.1. END
-
 // A.2. TYPOGRAPHY SETUP
 
 h4, h6, ul, li, p { @include source-light(); }
@@ -26,209 +15,74 @@ p { font-size: $medium; }
 
 // A.2. END
 
-// A.1.1 LINKS
+// A.3. LINKS
 
-a { cursor: pointer; }
+body {
 
-// A.1.1. END
+    background-size: 100% auto;
+    background-color: rgba (0,0,0,0.2);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 
-// A.1.2. SECTIONS
+    #mast {
 
-.section { padding: 0; margin: 0; }
+    &:before {
 
-// A.1.2. END
-
-// A.1.3. DROPDOWNS
-
-.dropdown {
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    
-}
-
-// A.1.3. END
-
-
-// A.1.3. END
-
-.toggle-content {
-
-    display: none;
-
-    &.on {
-
-        display: block;
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: url('../images/svg/overlay.svg') top left;
+            z-index: -1;
+        }
     }
 }
 
-// A.1.3. END
+a {
 
-// A.1.4. VERTICAL ALIGN
+    color: $kd-grey90;
 
-.v-align {
-    
-    @include vertical-align (absolute);
-    left: 0;
-    right: 0;
-    
+    &:hover { color: $white; }
 }
 
-// A.1.4. END
+.hidden { display: none; }
 
-// A.1.4. END
+.active { display: block; }
 
-.button {
+.not-active { display: none; }
 
-//background: $white;
-color: $white;
-padding: 5px 10px;
-border: solid 2px $white;
-position: relative;
+.mvbc {
 
-    &:hover {
+    background: rgba($black,0.4);
+    color: $white;
 
-        background: $white;
-        color: $black!important;
-        text-decoration: none;
-
-    }
 }
 
+.figure-logo {
 
-// A. COMMON COMPONENTS ++++++++++++++++++++++++++++++++++++++++++++
+    margin: $baseline/2 auto;
+    @include aspect-ratio (60%, 55%);
 
-// A.2. PAGE HEADERS
-.section-header {
-    
-    text-align: center;
-			
-}	    
+    a {
 
-// A.2. END
+        @include position(absolute, 0);
 
+        .site-logo {
 
-// A.6. XXX
-.hidden {
-    display: none;
-}
-// A.6. END		
-
-// A.8. HOVER EFFECT
-
-.view {
-   width: 100%;
-   height: 100%;
-   padding: 0;
-   float: none;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   cursor: default;
-   //background: url(../images/bgimg.png);
-
-   img {
-       display: block;
-       margin: 0 auto;
-   }
-
-    .card-title,
-    .mainImg {
-
-       transform: translateX(0%);
-
-   }
-
-   .mask {
-
-       background: rgba($black, 0.8);
-       width: 100%;
-       height: 100%;		   
-       text-align: center;
-       position: absolute;
-       overflow: hidden;
-       top: 0;
-       left: 0;
-       transform: translateX(-100%);
-
-       .foil {
-
-           @include vertical-align(absolute);
-           left: 10px;
-           right: 10px;
-
-       }
-
-       img, h2, p, a {
-           opacity: 0;
-           transform: translateX(-100%);
-           color: $white;
-       }
-
-       img {
-           max-width: 75%;
-       }
-
-       h2 {
-           margin: 0;
-       }
-
-       p {
-
-           @include libre-header();
-           font-size: $small;
-
-       }
-
-
-
-   }
-
-   &:hover, &:focus {
-
-        .card-title,
-        .mainImg {
-            transform: translateX(100%);
-            transition: transform 0.3s ease 0.2s;
+            width: 100%;
+            height: 100%; 
 
         }
-
-       .mask {
-          opacity: 1;
-          transform: translateX(0%); 
-          transition: transform 0.3s ease 0.2s;
-
-
-           img, h2, p, a {
-
-               opacity: 1;
-               transform: translateX(0%); 
-               transition: opacity 0.3s ease 0.4s,
-                           transform 0.2s ease 0.3s;
-
-           }
-
-       }
-
-   }
-
-}	
-.reveal {
-    outline: none;
+    }
 }
 
-.bob-hoverImg {
-    text-align: center;	
-    margin: 0 auto;			
-}
 
-.card-title { margin-top: 0; }
-
-// A.7. END
-
-// A.1.4. END
+// A.3. END
 
 
 // A.1. END -----------------------------------------------------------------------------------------------------------

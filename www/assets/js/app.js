@@ -178,17 +178,26 @@ globalController.controller(
                 // B.2. MOBILE LISTENER -------------------------------------------------------------------------------
 
                 var screen = $( window ).width();
-                console.log('I am a phone, and my width is: ' + screen);
+                console.log('I am a device, and my width is: ' + screen);
 
                 // B.2. END -------------------------------------------------------------------------------------------
                 
                 // B.3. END -------------------------------------------------------------------------------------------
                 
-                $scope.toTheTop = function() {
-                  $document.scrollTopAnimated(0, 1000).then(function() {
-                    console && console.log('You just scrolled to the top!');
-                  });
-                }
+	
+                /* Random Image Generator START */
+                var totalImages = 6;
+
+                var RandomNum = Math.floor( Math.random() * totalImages);
+
+                $(document).ready(function(){
+
+                    $('body').attr("style","background-image:url('../assets/images/background/bg-main"+RandomNum+".jpg')");
+                    $('.article').attr("style","background-image:url('../../../../../assets/images/background/bg-main"+RandomNum+".jpg')");
+
+                }); 
+
+                /* Random Image Generator END */
                 
                 // B.3. END -------------------------------------------------------------------------------------------
                 
