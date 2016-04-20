@@ -1,0 +1,150 @@
+---
+layout: 	default
+page-class: home
+---
+	
+	<div class="container">
+		
+		<section class="section-widget section-blog">
+
+			<div class="container">
+
+				<ul class="grid">
+
+					<li class="grid-item first">
+						
+						<div class="wrapper first">
+
+							<figure class="figure-thumb">
+								<img src="{{ site.url }}/assets/images/site/bg-header-yellow.png" alt="Latest Events" />
+							</figure>
+							<aside class="aside-details">
+								<h2>Latest<br>News</h2>
+							</aside>
+							
+						</div>
+
+					</li>
+
+					{% for post in site.categories['blog'] limit:5 %}
+
+						<li class="grid-item">
+
+							<div class="wrapper">
+								<a href="{{ post.url }}">
+									<figure class="figure-thumb">
+										<img src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.description }}" />
+									</figure>
+									<aside class="aside-details">
+										<h3>{{ post.title }}</h3>
+										<p>{{ post.description }}</p>
+									</aside>
+								</a>
+							</div>
+
+						</li>
+
+					{% endfor %}
+
+				</ul>
+
+			</div>
+
+		</section>
+		
+		<section class="section-widget section-eventList">
+
+			<div class="container">
+
+				<ul class="grid">
+					
+					<li class="grid-item first">
+						
+						<div class="wrapper first">
+						
+							<figure class="figure-thumb">
+								<img src="{{ site.url }}/assets/images/site/bg-header-blue.png" alt="Latest Events" />
+							</figure>
+							<aside class="aside-details">
+								<h2>Latest<br>Events</h2>
+							</aside>
+							
+						</div>
+						
+					</li>
+
+					{% for post in site.categories['event'] limit:2 %}
+
+						<li class="grid-item">
+
+							<div class="wrapper">
+								<a href="{{ post.url }}">
+									<figure class="figure-thumb">
+										<img src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.description }}" />
+									</figure>
+									<aside class="aside-details">
+										<h4>{{ post.date | date: '%d %b' }}</h4>
+										<h3>{{ post.title }}</h3>
+										<p>{{ post.description }}</p>
+									</aside>
+								</a>
+							</div>
+
+						</li>
+
+					{% endfor %}
+
+				</ul>
+
+			</div>
+
+		</section>
+		
+		<section class="section-widget section-fixture">
+
+			<div class="container">
+
+				<ul class="grid">
+					
+					<li class="grid-item first">
+						
+						<div class="wrapper first">
+
+							<figure class="figure-thumb">
+								<img src="{{ site.url }}/assets/images/site/bg-header-orange.png" alt="Latest Events" />
+							</figure>
+							<aside class="aside-details">
+								<h2>Our<br>Fixtures</h2>
+							</aside>
+							
+						</div>
+
+					</li>
+
+					{% for post in site.categories['fixture'] limit:7 %}
+
+						<div class="grid-item">
+
+							<div class="wrapper">
+								<a href="{{ post.url }}">
+									<figure class="figure-thumb">
+										<img src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.description }}" />
+									</figure>
+									<aside class="aside-details">
+										<h4>{{ post.title }}</h4>
+										<h3>{{ post.date | date: '%d %b' }}</h3>
+									</aside>
+								</a>
+							</div>
+
+						</div>
+
+					{% endfor %}
+
+				</ul>
+
+			</div>
+
+		</section>
+
+	</div>

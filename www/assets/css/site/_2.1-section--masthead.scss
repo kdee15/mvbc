@@ -1,0 +1,176 @@
+// 2. SECTION [ 2.1. MASTHEAD ]  ######################################################################################
+
+// A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// A.1. MASTHEAD ------------------------------------------------------------------------------------------------------
+
+#masthead {
+
+    .nav-desk {
+    
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 60px;
+        display: block;
+        background: $kd-grey90;
+        z-index: 5;
+        
+        .logo {
+
+            @include icon (40px, 325px, $white);
+            width: 60px;
+            text-align: center;
+
+        }
+        
+        
+        .nav {
+        
+            @include position (absolute, 0);
+            top: auto;
+            
+            ul { 
+                li { display: block; font-size: $x-small;
+                    
+                    a { color: $black; 
+                        outline: none; 
+                        display: block; 
+                        vertical-align: middle; 
+                        text-align: center;
+                        padding: $baseline 0;
+            }}}
+            
+            
+        }
+    }
+    
+    .nav-mobi {
+    
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 60px;
+        display: block;
+        background: $kd-grey90;
+        z-index: 10000;
+        
+        .nav {
+        
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            
+            ul { text-align: right; 
+                li { display: inline-block; font-size: $small;
+                    a { display: block; padding: $baseline; color: $kd-grey30;
+            }}}
+        }
+        
+    }
+
+
+    .nav {
+
+        ul { margin: 0; padding: 0; vertical-align: middle;	
+
+            li { text-transform: uppercase; list-style-type: none; vertical-align: middle;
+
+                a {
+
+                    &.active,
+                    &:hover { color: $kd-blueLight; text-decoration: none; background: $kd-grey20; }
+                }
+            }
+        }
+    }
+
+
+// A.1. END -----------------------------------------------------------------------------------------------------------
+
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    @include media-query(feature) { 
+
+        .nav-mobi { display: block; 
+            
+            .nav {
+            
+                &.hidden { display: none; }
+                
+                display: block;
+            
+            }
+        
+        }
+        
+        .nav-desk { display: none; }
+
+    }
+
+// B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    @include media-query(mobile) { 
+
+        .nav-mobi { display: block; 
+            
+            .nav {
+            
+                &.hidden { display: none; }
+                
+                display: block;
+            
+            }
+        
+        }
+        
+        .nav-desk { display: none; }
+
+    }
+
+// C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    @include media-query(tablet) { 
+
+        .nav-mobi { display: block; }
+        .nav-desk { display: none; }
+
+    }
+
+// D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    @include media-query(desk) { 
+
+        .nav-mobi { display: none; }
+        .nav-desk { display: block; }
+
+    }
+
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    @include media-query(desk-wide) { 
+
+        .nav-mobi { display: none; }
+        .nav-desk { display: block; }
+
+    }
+
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+}
+
+// END OF FILE ########################################################################################################

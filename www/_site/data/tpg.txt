@@ -1,0 +1,21 @@
+[
+    {
+        "pic": "assets/images/work/pics/tpg-1.png"
+    },          
+    {
+        "url": "https://www.youtube.com/watch?v=Fkd9TWUtFm0",
+        "title": "Make your own apps like 12 year old Thomas Suarez"
+    },	        
+    {
+        "url": "https://www.youtube.com/watch?v=7qnqkNbGu4s",
+        "title": "A day in the life of a chemical engineer"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=3bnMBhO0LnU",
+        "title": "Science, technology, egineering and mathematics based careers"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=ddtHCeZ9J40",
+        "title": "What do programmers do?"
+    }
+] 

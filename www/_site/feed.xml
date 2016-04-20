@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MVBC</title>
+    <description>Montana Vikings Basketball Club</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 20 Apr 2016 14:04:32 +0200</pubDate>
+    <lastBuildDate>Wed, 20 Apr 2016 14:04:32 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 26 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;235&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;236&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;CPUT Cats 1&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;237&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;CPUT Cats&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;238&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;WCSS&lt;/td&gt;&lt;td&gt;Pinelands&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;239&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Dragons&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;240&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Pinelands&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;/table&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;241&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;242&lt;/td&gt;&lt;td&gt;L1&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;243&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;Hellas&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;244&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;245&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;246&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sun, 26 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/26/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/26/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 25 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;221&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Islamia College&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;222&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Turfhall Primary&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;223&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Islamia College&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;224&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Turfhall Primary&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;225&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Turfhall Primary&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;226&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;227&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;Turfhall Primary&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;228&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;229&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;230&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;WCSS&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;231&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;232&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Islamia College&lt;/td&gt;&lt;td&gt;WCSS&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;233&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;234&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 25 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/25/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/25/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 24 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;217&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;19:00 - 20:30&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;218&lt;/td&gt;&lt;td&gt;L1/u18G&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;19:00 - 20:30&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;219&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;CPUT Alumni&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;20:30 - 22:00&lt;/td&gt;&lt;td&gt;UCT 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;220&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;20:30 - 22:00&lt;/td&gt;&lt;td&gt;UCT 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Fri, 24 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/24/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/24/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 19 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;211&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;CPUT Cats 1&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;212&lt;/td&gt;&lt;td&gt;L1&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;UCT&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;213&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;Lethal Ladies&lt;/td&gt;&lt;td&gt;CPUT Cats 2&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;/table&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;214&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Dragons&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;215&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Maties&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;216&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Hellas&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sun, 19 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/19/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/19/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 18 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;204&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;09:00 - 10:15&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;205&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;206&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;207&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;12:45 -14:00&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;208&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;209&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;210&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 18 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/18/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/18/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 17 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;202&lt;/td&gt;&lt;td&gt;L1&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;19:00 - 20:30&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;203&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;20:30 - 22:00&lt;/td&gt;&lt;td&gt;Belhar&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/17/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/17/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 12 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;196&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;CPUT Alumni&lt;/td&gt;&lt;td&gt;CPUT Cats&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;197&lt;/td&gt;&lt;td&gt;L1/u18G&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;198&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;199&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;CPUT Cats 1&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;200&lt;/td&gt;&lt;td&gt;SL&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;201&lt;/td&gt;&lt;td&gt;SLL&lt;/td&gt;&lt;td&gt;Lethal Ladies&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/12/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/12/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 11 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;182&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;183&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;184&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;185&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;186&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;187&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Heideveld &lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;188&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;189&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;190&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;191&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;192&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;193&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;194&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Pinelands&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;195&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 11 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/11/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/11/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 05 July&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;179&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Panthers&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;13:00 - 14:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;180&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Dragons&lt;/td&gt;&lt;td&gt;Pinelands&lt;/td&gt;&lt;td&gt;14:30 - 16:00&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;181&lt;/td&gt;&lt;td&gt;M1&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Langa Kings&lt;/td&gt;&lt;td&gt;16:00 - 17:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sun, 05 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/05/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/05/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+      <item>
+        <title>CTBA Fixture:</title>
+        <description>&lt;header class=&quot;post-header&quot;&gt;
+	&lt;h1&gt;CTBA Fixture: 04 July&lt;/h1&gt;
+&lt;/header&gt;
+&lt;table&gt;
+&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;172&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;09:00 - 10:15&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;173&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;10:15 -11:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;174&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;175&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;176&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;177&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td&gt;178&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Gugulethu Sports Complex&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 04 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/fixture/2015/07/04/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/04/CTBA-fixture/</guid>
+        
+        
+        <category>fixture</category>
+        
+      </item>
+    
+  </channel>
+</rss>

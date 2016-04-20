@@ -1,0 +1,32 @@
+{% include head.html %}
+
+    <body class="{{ page.page-class }}">
+
+    {% include header.html %}
+		
+		<div id="mast">
+
+			{{ content }}
+
+		</div>
+		<!-- C.2. END -->
+			
+			<!-- C.3. FOOTEND -->
+			{% include footer.html %}
+			<!-- C.3. END -->
+		
+		<!-- C. END ++++++++++++++++++++++++++++++++++++++ -->
+		
+        <!-- D. JAVASCRIPT ++++++++++++++++++++++++++++++++++++++ -->
+	        
+	        <!-- D.1. GOOGLE ANALYTICS -->
+	        {% include snippet-analytics.html %}
+		
+			<!-- D.2. FOOTER JS -->
+	        {% include snippet-js.html %}
+		
+	        
+        <!-- D. END ++++++++++++++++++++++++++++++++++++++ -->
+        
+    </body>
+</html>
