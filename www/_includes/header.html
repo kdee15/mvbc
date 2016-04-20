@@ -8,7 +8,7 @@
 		</a>
 	</figure>
 	  
-    <nav class="site-nav" id="nav">
+    <nav class="site-nav" id="nav" ng-class="{'target': divOn }">
 		
       <!--
 		<div class="trigger">
@@ -25,12 +25,12 @@
 			<li><a href="{{ site.url }}/events/"><span>Our Events</span></a></li>
 			<li><a href="{{ site.url }}/contact"><span>Contact Us</span></a></li>
 			<li><a href="{{ site.url }}/"><span>Home</span></a></li>
-			<li><a href="#" class="nav-close"><span>Close</span></a></li>
+			<li><a href="#" class="nav-close" ng-click="upDown()"><span>Close</span></a></li>
 		</ul>
 		
     </nav>
 	  
-	<a href="#nav" class=" mobile-nav"><span>MENU</span></a>
+	<a href="#nav" class="mobile-nav" ng-class="{'target': divOn }" ng-click="upDown()"><span>MENU</span></a>
 
   </div>
 

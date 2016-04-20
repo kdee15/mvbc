@@ -184,6 +184,15 @@ globalController.controller(
                 
                 // B.3. END -------------------------------------------------------------------------------------------
                 
+
+                $scope.upDown = function() {
+
+                    $scope.divOn = !$scope.divOn;
+                    $rootScope.viewing = false;
+
+                }
+                
+                
 	
                 /* Random Image Generator START */
                 var totalImages = 6;
@@ -198,6 +207,22 @@ globalController.controller(
                 }); 
 
                 /* Random Image Generator END */
+                
+	
+                //A.1.1 Show/Hide element
+
+                $(".reveal").click(function(e) {
+                    var target = $(this).attr('href');
+                    if ($(target).css('display') === 'none') {
+                      $(target).fadeIn(130);
+                    }
+                    else {
+                      $(target).fadeOut(130);
+                    }
+                    e.preventDefault();
+                  });
+
+                //A.1.1 End
                 
                 // B.3. END -------------------------------------------------------------------------------------------
                 

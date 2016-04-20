@@ -81,6 +81,27 @@ a {
     }
 }
 
+section {
+
+    .grid {
+
+        .grid-item {
+
+
+            h3 {
+
+                margin: $baseline $baseline/4;	
+
+            }
+
+            ul {
+
+                margin: 0 $baseline/4;	
+
+            }
+        }
+    }
+}
 
 // A.3. END
 
@@ -110,6 +131,14 @@ a {
     h1 { margin: 0 0 0 0; }
     
     // A.1.6. END
+    
+    // A.1.7. images
+	
+    .fluid-c { max-width: 90%; margin: $baseline/4 auto; }
+
+    .fluid-l,
+    .fluid-r { max-width: 90%; float: none; margin: $baseline/4 auto; }
+    
 }
 
 // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -137,7 +166,14 @@ a {
     h1 { margin: 0 0 0 0; }
     
     // A.1.6. END
+    
+    // A.1.7. images
+	
+    .fluid-c { max-width: 90%; margin: $baseline/4 auto; }
 
+    .fluid-l,
+    .fluid-r { max-width: 90%; float: none; margin: $baseline/4 auto; }
+    
 }
 
 // C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

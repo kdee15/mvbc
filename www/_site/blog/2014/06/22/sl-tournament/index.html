@@ -16,7 +16,7 @@
     
 </head>
 
-    <body class="page-blog article">
+    <body class="page-blog article" ng-controller="ctrlGlobal">
 
     <header id="masthead">
 
@@ -28,7 +28,7 @@
 		</a>
 	</figure>
 	  
-    <nav class="site-nav" id="nav">
+    <nav class="site-nav" id="nav" ng-class="{'target': divOn }">
 		
       <!--
 		<div class="trigger">
@@ -55,12 +55,12 @@
 			<li><a href="http://localhost:4000/events/"><span>Our Events</span></a></li>
 			<li><a href="http://localhost:4000/contact"><span>Contact Us</span></a></li>
 			<li><a href="http://localhost:4000/"><span>Home</span></a></li>
-			<li><a href="#" class="nav-close"><span>Close</span></a></li>
+			<li><a href="#" class="nav-close" ng-click="upDown()"><span>Close</span></a></li>
 		</ul>
 		
     </nav>
 	  
-	<a href="#nav" class=" mobile-nav"><span>MENU</span></a>
+	<a href="#nav" class="mobile-nav" ng-class="{'target': divOn }" ng-click="upDown()"><span>MENU</span></a>
 
   </div>
 

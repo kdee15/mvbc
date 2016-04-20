@@ -4,114 +4,99 @@
 
 // A.1. STRUCTURE -----------------------------------------------------------------------------------------------------
 
-.page-work {
+.article {
     
     // A.1. WORK LISTING PAGE
+	
+		#masthead {
+			
+			.container {
+				
+				.figure-logo {
+					
+					@include aspect-ratio (40%, 56.25%);	
+					
+				}
+			}
+	    }
+		
+		#mast {
+			
+			.container {
+				
+				background: rgba($white,0.9);
+				
+				.wrapper {
+					
+					padding: $baseline*2;
+					@include clearfix();
+					
+					.blogpic-l {
+						
+						max-width: 25%;
+						float: left;
+						margin-right: $baseline;
+						
+					}
+					
+					.blogpic-c {
+						
+						max-width: 60%;
+						margin: $baseline/2 auto;
+						
+					}
+				}
+			}
+			
+			table {
+			
+				td, th {
+					
+					padding: $baseline/2;
+					border: 1px solid $black;
+					font-size: $small;
+					
+				}
+			}
+		}
     
-    .card__body { h2 { line-height: normal; height: 40%; } p { font-size: $small; }}
-    
-    // A.1. END
-    
-    // A.2. PROJECT DETAIL PAGE
+    // A.2. END
+}
 
-    .project { 
-        
-        display: flex;
-        
-        .column-1 { display: flex; flex-direction: column; align-items: stretch; flex: 0 1 auto; }
-        .column-2 { display: flex; flex-direction: row; flex-wrap: wrap; flex: 0 1 auto; }
-        
-        .row-1 { display: flex; flex-direction: row; }
-        .row-2 { display: flex; flex-direction: row; }
-    
-        #start  { background: $kd-red; }
-        #end    { background: $kd-red; }
-        #info   { background: $kd-grey50; }
-        
-        .square { flex-basis: auto; flex-grow: 2; }
-        .mobile { flex-basis: 0; flex-grow: 2; align-items: flex-start; img { width: 100%; height: auto; }}
-        
-        // A.1.1. CLIENT COLOURS
-        
-        &#tonplaygo { 
-            #start {background: $kd-red; }
-            #end {background: $kd-red; }
-        }
-        
-        &#intelleapp { 
-            #start {background: $kd-blueDark; }
-            #end {background: $kd-yellowMid; }
-        }
-        
-        &#stj { 
-            #start {background: $kd-blueDark; span { color: $white; }}
-            #end {background: $kd-goldDark; }
-        }
-        
-        &#colourworks { 
-            #start {background: $kd-maroon; }
-            #end {background: $kd-cyan; }
-        }
-                
-        &#usb { 
-            #start {background: $kd-olive; }
-            #end {background: $kd-burgundy; span { color: $white; }}
-        }
-                        
-        &#usb-ed { 
-            #start {background: $kd-olive; }
-            #end {background: $kd-burgundy; span { color: $white; }}
-        }
-        
-        &#navigator { 
-            #start {background: $white; }
-            #end {background: $kd-grey90; span { color: $white; }}
-        }
-                
-        &#waterfront { 
-            #start {background: $kd-yellow; }
-            #end {background: $kd-blueNavy; span { color: $white; }}
-        }
-                        
-        &#om { 
-            #start {background: $kd-greenEmerald; span { color: $white; }}
-            #end {background: $kd-greenEver; }
-        }
-                                
-        &#capitec { 
-            #start {background: $kd-maroonDark; span { color: $white; }}
-            #end {background: $kd-blueNavy; span { color: $white; }}
-        }
-                                        
-        &#vlc { 
-            #start {background: $kd-maroonDark; }
-            #end {background: $kd-maroonDark; span { color: $white; }}
-        }
-                                                
-        &#mvbc { 
-            #start {background: $white; }
-            #end {background: $black; span { color: $white; }}
-        }
-        
-        #end { text-align: right;}
-        
-        .square { 
 
-            padding: $baseline-small $baseline; 
+// 3.2. content landing page styling +++++++++++++++++++++++++++++++++++++++++++
 
-            &.big { padding: $baseline; background: $kd-grey50;
+.article-page {
 
-                h2 { font-size: $x-large; line-height: normal; padding: 0; margin: 0; }
-                h3 { font-size: $normal; line-height: normal; }
-                p { font-size: $small; line-height: normal; margin-top: $baseline-small; }
-                li { font-size: $small; line-height: normal; }
+    #masthead {
+
+        .container {
+
+            .figure-logo {
+
+                @include aspect-ratio (40%, 56.25%);	
 
             }
         }
     }
-    
-    // A.2. END
-    
+
+    #mast {
+
+        .container {
+
+            .wrapper {
+
+                padding: 0;
+
+            }
+        }
+    }
+}
+
+// 3.2. END +++++++++++++++++++++++++++++++++++++++++++
+
+
+
 // A.1. END -----------------------------------------------------------------------------------------------------------
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -189,7 +174,5 @@
 }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-}
     
 // END OF FILE ########################################################################################################
