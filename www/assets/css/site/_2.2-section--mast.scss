@@ -223,13 +223,55 @@
 
 // B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(feature) {}
+@include media-query(feature) {
+
+    section {
+
+        .grid {
+
+            .grid-item {
+
+                .wrapper {
+
+                    &.first { h2 { font-size: $xx-large; padding: $baseline; } }
+
+                    h3 { font-size: $large; padding: $baseline/2; }
+                    h4 { font-size: $medium; padding: 0 $baseline/2; }
+                    p { font-size: $normal; padding: $baseline/2; }
+
+                }
+            }
+        }
+    }
+
+}
 
 // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(mobile) {}
+@include media-query(mobile) {
+
+    section {
+
+        .grid {
+
+            .grid-item {
+
+                .wrapper {
+
+                    &.first { h2 { font-size: $xx-large; padding: $baseline; } }
+
+                    h3 { font-size: $large; padding: $baseline/2; }
+                    h4 { font-size: $medium; padding: 0 $baseline/2; }
+                    p { font-size: $normal; padding: $baseline/2; }
+
+                }
+            }
+        }
+    }
+
+}
 
 // C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

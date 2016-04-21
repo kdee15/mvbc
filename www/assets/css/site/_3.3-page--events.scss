@@ -61,13 +61,47 @@
 
 // B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(feature) {}
+@include media-query(feature) {
+
+    .section-eventList {
+
+        .container {
+
+            .grid {
+
+                .grid-item {
+
+                    h3 { font-size: $x-large; padding: $baseline; }
+                    h4 { font-size: $large; padding: 0 $baseline; }
+                    p { font-size: $medium; padding: $baseline; }
+                }
+            }
+        }
+    }
+}
 
 // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(mobile) {}
+@include media-query(mobile) {
+
+    .section-eventList {
+
+        .container {
+
+            .grid {
+
+                .grid-item {
+
+                    h3 { font-size: $x-large; padding: $baseline; }
+                    h4 { font-size: $large; padding: 0 $baseline; }
+                    p { font-size: $medium; padding: $baseline; }
+                }
+            }
+        }
+    }
+}
 
 // C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

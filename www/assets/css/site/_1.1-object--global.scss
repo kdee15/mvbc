@@ -37,7 +37,7 @@ body {
             right: 0;
             bottom: 0;
             left: 0;
-            background: url('../images/svg/overlay.svg') top left;
+            //background: url('../images/svg/overlay.svg') top left;
             z-index: -1;
         }
     }
@@ -103,6 +103,7 @@ section {
     }
 }
 
+
 // A.3. END
 
 
@@ -126,7 +127,7 @@ section {
     
     // A.1.6. HEADERS
 
-    h1, h2 { font-size: 33px; }
+    h1, h2 { font-size: 33px; line-height: normal;}
 
     h1 { margin: 0 0 0 0; }
     
@@ -161,7 +162,7 @@ section {
     
     // A.1.6. HEADERS
 
-    h1, h2 { font-size: 33px; }
+    h1, h2 { font-size: 33px; line-height: normal;}
 
     h1 { margin: 0 0 0 0; }
     
@@ -194,6 +195,14 @@ section {
     h1, h2 { font-size: 45px; }
     
     // A.1.6. END
+    
+    // A.1.7. images
+    
+    .fluid-c { max-width: 80%; margin: $baseline/4 auto; }
+
+    .fluid-l,
+    .fluid-r { max-width: 90%; float: none; margin: $baseline/4 auto; }
+    
 }
 
 // D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -214,6 +223,11 @@ section {
     h1, h2 { font-size: 45px; }
     
     // A.1.6. END
+    
+    .fluid-c { max-width: 60%; margin: $baseline/4 auto; }
+    .fluid-l { max-width: 25%; float: left;  margin-right: $baseline/2; }
+    .fluid-r { max-width: 25%; float: right; margin-right: $baseline/2; }
+    
 }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -234,6 +248,11 @@ section {
     h1, h2 { font-size: 45px; }
     
     // A.1.6. END
+    
+    .fluid-c { max-width: 60%; margin: $baseline/4 auto; }
+    .fluid-l { max-width: 25%; float: left;  margin-right: $baseline/2; }
+    .fluid-r { max-width: 25%; float: right; margin-right: $baseline/2; }
+    
 }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

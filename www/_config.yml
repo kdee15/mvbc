@@ -4,10 +4,10 @@ email: kirk@mvbc.co.za
 description: "Montana Vikings Basketball Club"
 
 # FOR LIVE PUBLISHING
-#url: "http://mvbc.co.za" # the base hostname & protocol for your site
+url: "http://mvbc.co.za" # the base hostname & protocol for your site
 
 # FOR TESTING
-url: "http://localhost:4000" # the base hostname & protocol for your site
+# url: "http://localhost:4000" # the base hostname & protocol for your site
 
 permalink: /:categories/:title
 version: 1.0
@@ -17,8 +17,9 @@ markdown: kramdown
 permalink: pretty
 
 # Config
-gems:
-  - jekyll-angular    
+#gems:
+#  - jekyll-angular
+#  - jekyll-gallery-generator
 
 exclude: [README.md, package.json, 'node_modules', '*.esproj', 'site', 'konstruct', 'config', 'components', 'scripts']
 
@@ -32,3 +33,24 @@ sitemap:
         - "/index.html"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
+    
+    
+gallery:
+  # path to the gallery
+  dir: photos
+  # title for gallery index
+  title: "Photos"
+  # title prefix for gallery page. title=title_prefix+gallery_name
+  title_prefix: "Photos: "
+  # field to control sorting of galleries for the index page
+  # (possible values are: title, date_time, best_image)
+  sort_field: "date_time"
+  # sizes for thumbnails
+  thumbnail_size:
+    x: 400
+    y: 400
+  # custom configuration for individual gallery
+  # best_image is image for the index page (defaults to last image)
+  galleries:
+    2015_values_camp:
+      best_image: DSC_2654.JPG

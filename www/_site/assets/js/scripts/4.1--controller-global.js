@@ -91,10 +91,10 @@ globalController.controller(
                 
                 // B.3.2. TONPLAYGO
 
-                 $http.get('data/tpg.txt').success(function (data)
-                 {
-                     $scope.tpgs = data;
-                 });
+//                 $http.get('data/tpg.txt').success(function (data)
+//                 {
+//                     $scope.tpgs = data;
+//                 });
 
                 // B.4. END -------------------------------------------------------------------------------------------
                 

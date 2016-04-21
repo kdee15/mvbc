@@ -4,7 +4,7 @@
 
 // A.1. STRUCTURE -----------------------------------------------------------------------------------------------------
 
-.article {
+.article { 
     
     // A.1. WORK LISTING PAGE
 	
@@ -105,10 +105,46 @@
 
 @include media-query(feature) {
 
-    #mast { padding-top: 80px; }
-    
-    .project { flex-direction: column; }
-    .square { width: 100%; }
+	
+	.article {
+		
+		#mast {
+			
+			.container {
+				
+				.wrapper {
+					
+					padding: $baseline/6;
+					
+					.blogpic-l {
+						
+						max-width: 25%;
+						float: left;
+						margin-right: $baseline;
+						
+					}
+					
+					.blogpic-c {
+						
+						max-width: 60%;
+						margin: $baseline/2 auto;
+						
+					}
+				}
+			}
+			
+			table {
+			
+				td, th {
+					
+					padding: $baseline/6;
+					font-size: $normal;
+					
+				}
+			}
+		}
+	}
+
 
 }
 
@@ -118,9 +154,46 @@
 
 @include media-query(mobile) {
 
-    #mast { padding-top: 60px; }
-    
-    .project { flex-direction: column; }
+	
+	.article {
+		
+		#mast {
+			
+			.container {
+				
+				.wrapper {
+					
+					padding: $baseline/6;
+					
+					.blogpic-l {
+						
+						max-width: 25%;
+						float: left;
+						margin-right: $baseline;
+						
+					}
+					
+					.blogpic-c {
+						
+						max-width: 60%;
+						margin: $baseline/2 auto;
+						
+					}
+				}
+			}
+			
+			table {
+			
+				td, th {
+					
+					padding: $baseline/6;
+					font-size: $normal;
+					
+				}
+			}
+		}
+	}
+
 
 }
 

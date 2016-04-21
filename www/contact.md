@@ -22,7 +22,7 @@ permalink: 	/contact/
 <table>
 	<tr>
 		<td>Ladies Super League & U18 Girls</td>
-		<td>Tues & Thur from 18h00 to 19h30</td>
+		<td>Tues &amp; Thur from 18h00 to 19h30</td>
 	</tr>
 	<tr class="mvbc">
 		<td>Ladies 1st Div</td>

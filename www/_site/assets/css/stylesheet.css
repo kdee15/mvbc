@@ -272,7 +272,7 @@ html, body {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%; }
-  .mobile--one-half, .mobile--two-quarters, .mobile--three-sixths, .mobile--four-eighths, .mobile--five-tenths, .mobile--six-twelfths, #mast .section-blog .container .grid .grid-item, #mast .section-blog .container .tabs .tabs__header .grid-item, .tabs #mast .section-blog .container .tabs__header .grid-item, #mast .section-blog .container .modal__grid .grid-item, #mast .section-fixture .container .grid .grid-item, #mast .section-fixture .container .tabs .tabs__header .grid-item, .tabs #mast .section-fixture .container .tabs__header .grid-item, #mast .section-fixture .container .modal__grid .grid-item {
+  .mobile--one-half, .mobile--two-quarters, .mobile--three-sixths, .mobile--four-eighths, .mobile--five-tenths, .mobile--six-twelfths, #mast .section-blog .container .grid .grid-item, #mast .section-blog .container .tabs .tabs__header .grid-item, .tabs #mast .section-blog .container .tabs__header .grid-item, #mast .section-blog .container .modal__grid .grid-item, #mast .section-fixture .container .grid .grid-item, #mast .section-fixture .container .tabs .tabs__header .grid-item, .tabs #mast .section-fixture .container .tabs__header .grid-item, #mast .section-fixture .container .modal__grid .grid-item, .section-fixture .container .grid .grid-item, .section-fixture .container .tabs .tabs__header .grid-item, .tabs .section-fixture .container .tabs__header .grid-item, .section-fixture .container .modal__grid .grid-item, .section-fixture .container #mast section .grid .grid-item, .section-fixture #footend .container .grid .grid-item, #footend .section-fixture .container .grid .grid-item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%; }
@@ -1081,7 +1081,6 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url("../images/svg/overlay.svg") top left;
     z-index: -1; }
 
 a {
@@ -1130,7 +1129,8 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
   .no-mobile, .no-mobile-inline {
     display: none; }
   h1, h2 {
-    font-size: 33px; }
+    font-size: 33px;
+    line-height: normal; }
   h1 {
     margin: 0 0 0 0; }
   .fluid-c {
@@ -1148,7 +1148,8 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
   .no-mobile, .no-mobile-inline {
     display: none; }
   h1, h2 {
-    font-size: 33px; }
+    font-size: 33px;
+    line-height: normal; }
   h1 {
     margin: 0 0 0 0; }
   .fluid-c {
@@ -1168,7 +1169,15 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
     display: -ms-flexbox;
     display: flex; }
   h1, h2 {
-    font-size: 45px; } }
+    font-size: 45px; }
+  .fluid-c {
+    max-width: 80%;
+    margin: 5px auto; }
+  .fluid-l,
+  .fluid-r {
+    max-width: 90%;
+    float: none;
+    margin: 5px auto; } }
 
 @media only screen and (min-width: 1024px) {
   .no-mobile {
@@ -1178,7 +1187,18 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
     display: -ms-flexbox;
     display: flex; }
   h1, h2 {
-    font-size: 45px; } }
+    font-size: 45px; }
+  .fluid-c {
+    max-width: 60%;
+    margin: 5px auto; }
+  .fluid-l {
+    max-width: 25%;
+    float: left;
+    margin-right: 10px; }
+  .fluid-r {
+    max-width: 25%;
+    float: right;
+    margin-right: 10px; } }
 
 @media only screen and (min-width: 1200px) {
   .no-mobile {
@@ -1188,7 +1208,18 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
     display: -ms-flexbox;
     display: flex; }
   h1, h2 {
-    font-size: 45px; } }
+    font-size: 45px; }
+  .fluid-c {
+    max-width: 60%;
+    margin: 5px auto; }
+  .fluid-l {
+    max-width: 25%;
+    float: left;
+    margin-right: 10px; }
+  .fluid-r {
+    max-width: 25%;
+    float: right;
+    margin-right: 10px; } }
 
 .parallax {
   -webkit-perspective: 1px;
@@ -2036,7 +2067,7 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
     width: 80% !important;
     margin: 40px auto; }
   #masthead .container #nav {
-    background: #87D1D7;
+    background: #4A90E2;
     position: absolute;
     top: 0;
     right: 0;
@@ -2082,7 +2113,7 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
         font-size: 1.5em; }
   #masthead .container .mobile-nav {
     display: block;
-    background: #87D1D7;
+    background: #4A90E2;
     border: 1px solid #fff;
     padding: 20px;
     text-align: center; } }
@@ -2092,7 +2123,7 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
     width: 80% !important;
     margin: 40px auto; }
   #masthead .container #nav {
-    background: #87D1D7;
+    background: #4A90E2;
     position: absolute;
     top: 0;
     right: 0;
@@ -2138,7 +2169,7 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
         font-size: 1.5em; }
   #masthead .container .mobile-nav {
     display: block;
-    background: #87D1D7;
+    background: #4A90E2;
     border: 1px solid #fff;
     padding: 20px;
     text-align: center; } }
@@ -2256,6 +2287,34 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
 #mast .section-eventList .container .grid .grid-item.first, #mast .section-eventList .container .tabs .tabs__header .grid-item.first, .tabs #mast .section-eventList .container .tabs__header .grid-item.first, #mast .section-eventList .container .modal__grid .grid-item.first {
   float: right; }
 
+@media only screen and (max-width: 320px) {
+  section .grid .grid-item .wrapper.first h2, section .tabs .tabs__header .grid-item .wrapper.first h2, .tabs section .tabs__header .grid-item .wrapper.first h2, section .modal__grid .grid-item .wrapper.first h2, #mast section .grid .grid-item .wrapper.first h2, section #footend .container .grid .grid-item .wrapper.first h2, #footend .container section .grid .grid-item .wrapper.first h2 {
+    font-size: 2em;
+    padding: 20px; }
+  section .grid .grid-item .wrapper h3, section .tabs .tabs__header .grid-item .wrapper h3, .tabs section .tabs__header .grid-item .wrapper h3, section .modal__grid .grid-item .wrapper h3, #mast section .grid .grid-item .wrapper h3, section #footend .container .grid .grid-item .wrapper h3, #footend .container section .grid .grid-item .wrapper h3 {
+    font-size: 1.5em;
+    padding: 10px; }
+  section .grid .grid-item .wrapper h4, section .tabs .tabs__header .grid-item .wrapper h4, .tabs section .tabs__header .grid-item .wrapper h4, section .modal__grid .grid-item .wrapper h4, #mast section .grid .grid-item .wrapper h4, section #footend .container .grid .grid-item .wrapper h4, #footend .container section .grid .grid-item .wrapper h4 {
+    font-size: 1.125em;
+    padding: 0 10px; }
+  section .grid .grid-item .wrapper p, section .tabs .tabs__header .grid-item .wrapper p, .tabs section .tabs__header .grid-item .wrapper p, section .modal__grid .grid-item .wrapper p, #mast section .grid .grid-item .wrapper p, section #footend .container .grid .grid-item .wrapper p, #footend .container section .grid .grid-item .wrapper p {
+    font-size: 1em;
+    padding: 10px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  section .grid .grid-item .wrapper.first h2, section .tabs .tabs__header .grid-item .wrapper.first h2, .tabs section .tabs__header .grid-item .wrapper.first h2, section .modal__grid .grid-item .wrapper.first h2, #mast section .grid .grid-item .wrapper.first h2, section #footend .container .grid .grid-item .wrapper.first h2, #footend .container section .grid .grid-item .wrapper.first h2 {
+    font-size: 2em;
+    padding: 20px; }
+  section .grid .grid-item .wrapper h3, section .tabs .tabs__header .grid-item .wrapper h3, .tabs section .tabs__header .grid-item .wrapper h3, section .modal__grid .grid-item .wrapper h3, #mast section .grid .grid-item .wrapper h3, section #footend .container .grid .grid-item .wrapper h3, #footend .container section .grid .grid-item .wrapper h3 {
+    font-size: 1.5em;
+    padding: 10px; }
+  section .grid .grid-item .wrapper h4, section .tabs .tabs__header .grid-item .wrapper h4, .tabs section .tabs__header .grid-item .wrapper h4, section .modal__grid .grid-item .wrapper h4, #mast section .grid .grid-item .wrapper h4, section #footend .container .grid .grid-item .wrapper h4, #footend .container section .grid .grid-item .wrapper h4 {
+    font-size: 1.125em;
+    padding: 0 10px; }
+  section .grid .grid-item .wrapper p, section .tabs .tabs__header .grid-item .wrapper p, .tabs section .tabs__header .grid-item .wrapper p, section .modal__grid .grid-item .wrapper p, #mast section .grid .grid-item .wrapper p, section #footend .container .grid .grid-item .wrapper p, #footend .container section .grid .grid-item .wrapper p {
+    font-size: 1em;
+    padding: 10px; } }
+
 #footend {
   background: rgba(51, 51, 51, 0.9);
   padding: 20px 0;
@@ -2280,6 +2339,8 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
               height: 30px; }
       #footend .container .tabs .tabs__header .grid-item p, .tabs #footend .container .tabs__header .grid-item p, #footend .container .modal__grid .grid-item p, #footend .container .grid .grid-item p {
         color: #999; }
+      #footend .container .tabs .tabs__header .grid-item h2, .tabs #footend .container .tabs__header .grid-item h2, #footend .container .modal__grid .grid-item h2, #footend .container .grid .grid-item h2 {
+        font-size: 1.7em; }
   @media only screen and (max-width: 320px) {
     #footend {
       padding: 60px 0; }
@@ -2677,24 +2738,32 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
   padding: 0; }
 
 @media only screen and (max-width: 320px) {
-  #mast {
-    padding-top: 80px; }
-  .project {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .square {
-    width: 100%; } }
+  .article #mast .container .wrapper {
+    padding: 3.33333px; }
+    .article #mast .container .wrapper .blogpic-l {
+      max-width: 25%;
+      float: left;
+      margin-right: 20px; }
+    .article #mast .container .wrapper .blogpic-c {
+      max-width: 60%;
+      margin: 10px auto; }
+  .article #mast table td, .article #mast table th {
+    padding: 3.33333px;
+    font-size: 1em; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  #mast {
-    padding-top: 60px; }
-  .project {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; } }
+  .article #mast .container .wrapper {
+    padding: 3.33333px; }
+    .article #mast .container .wrapper .blogpic-l {
+      max-width: 25%;
+      float: left;
+      margin-right: 20px; }
+    .article #mast .container .wrapper .blogpic-c {
+      max-width: 60%;
+      margin: 10px auto; }
+  .article #mast table td, .article #mast table th {
+    padding: 3.33333px;
+    font-size: 1em; } }
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   #mast {
@@ -2751,10 +2820,40 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
       .section-events .container .grid .grid-item .wrapper a aside h3, .section-events .container .tabs .tabs__header .grid-item .wrapper a aside h3, .tabs .section-events .container .tabs__header .grid-item .wrapper a aside h3, .section-events .container .modal__grid .grid-item .wrapper a aside h3, .section-events .container #mast section .grid .grid-item .wrapper a aside h3, #mast section .section-events .container .grid .grid-item .wrapper a aside h3, .section-events #footend .container .grid .grid-item .wrapper a aside h3, #footend .section-events .container .grid .grid-item .wrapper a aside h3 {
         margin: 0 !important; }
 
+@media only screen and (max-width: 320px) {
+  .section-eventList .container .grid .grid-item h3, .section-eventList .container .tabs .tabs__header .grid-item h3, .tabs .section-eventList .container .tabs__header .grid-item h3, .section-eventList .container .modal__grid .grid-item h3, .section-eventList .container #mast section .grid .grid-item h3, #mast section .section-eventList .container .grid .grid-item h3, .section-eventList #footend .container .grid .grid-item h3, #footend .section-eventList .container .grid .grid-item h3 {
+    font-size: 1.7em;
+    padding: 20px; }
+  .section-eventList .container .grid .grid-item h4, .section-eventList .container .tabs .tabs__header .grid-item h4, .tabs .section-eventList .container .tabs__header .grid-item h4, .section-eventList .container .modal__grid .grid-item h4, .section-eventList .container #mast section .grid .grid-item h4, #mast section .section-eventList .container .grid .grid-item h4, .section-eventList #footend .container .grid .grid-item h4, #footend .section-eventList .container .grid .grid-item h4 {
+    font-size: 1.5em;
+    padding: 0 20px; }
+  .section-eventList .container .grid .grid-item p, .section-eventList .container .tabs .tabs__header .grid-item p, .tabs .section-eventList .container .tabs__header .grid-item p, .section-eventList .container .modal__grid .grid-item p, .section-eventList .container #mast section .grid .grid-item p, #mast section .section-eventList .container .grid .grid-item p, .section-eventList #footend .container .grid .grid-item p, #footend .section-eventList .container .grid .grid-item p {
+    font-size: 1.125em;
+    padding: 20px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .section-eventList .container .grid .grid-item h3, .section-eventList .container .tabs .tabs__header .grid-item h3, .tabs .section-eventList .container .tabs__header .grid-item h3, .section-eventList .container .modal__grid .grid-item h3, .section-eventList .container #mast section .grid .grid-item h3, #mast section .section-eventList .container .grid .grid-item h3, .section-eventList #footend .container .grid .grid-item h3, #footend .section-eventList .container .grid .grid-item h3 {
+    font-size: 1.7em;
+    padding: 20px; }
+  .section-eventList .container .grid .grid-item h4, .section-eventList .container .tabs .tabs__header .grid-item h4, .tabs .section-eventList .container .tabs__header .grid-item h4, .section-eventList .container .modal__grid .grid-item h4, .section-eventList .container #mast section .grid .grid-item h4, #mast section .section-eventList .container .grid .grid-item h4, .section-eventList #footend .container .grid .grid-item h4, #footend .section-eventList .container .grid .grid-item h4 {
+    font-size: 1.5em;
+    padding: 0 20px; }
+  .section-eventList .container .grid .grid-item p, .section-eventList .container .tabs .tabs__header .grid-item p, .tabs .section-eventList .container .tabs__header .grid-item p, .section-eventList .container .modal__grid .grid-item p, .section-eventList .container #mast section .grid .grid-item p, #mast section .section-eventList .container .grid .grid-item p, .section-eventList #footend .container .grid .grid-item p, #footend .section-eventList .container .grid .grid-item p {
+    font-size: 1.125em;
+    padding: 20px; } }
+
 .page-fixture #mast .container {
   background: rgba(255, 255, 255, 0.9); }
   .page-fixture #mast .container .wrapper {
-    padding: 40px; }
+    padding: 0 !important; }
+
+@media only screen and (max-width: 320px) {
+  .section-fixture .container .grid .grid-item.first h2, .section-fixture .container .tabs .tabs__header .grid-item.first h2, .tabs .section-fixture .container .tabs__header .grid-item.first h2, .section-fixture .container .modal__grid .grid-item.first h2, .section-fixture .container #mast section .grid .grid-item.first h2, #mast section .section-fixture .container .grid .grid-item.first h2, .section-fixture #footend .container .grid .grid-item.first h2, #footend .section-fixture .container .grid .grid-item.first h2 {
+    font-size: 1.5em; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .section-fixture .container .grid .grid-item.first h2, .section-fixture .container .tabs .tabs__header .grid-item.first h2, .tabs .section-fixture .container .tabs__header .grid-item.first h2, .section-fixture .container .modal__grid .grid-item.first h2, .section-fixture .container #mast section .grid .grid-item.first h2, #mast section .section-fixture .container .grid .grid-item.first h2, .section-fixture #footend .container .grid .grid-item.first h2, #footend .section-fixture .container .grid .grid-item.first h2 {
+    font-size: 1.5em; } }
 
 .site-page #masthead .container .figure-logo {
   position: relative;

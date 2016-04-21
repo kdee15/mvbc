@@ -15,7 +15,7 @@
 
 					.wrapper {
 
-						padding: $baseline*2;
+						padding:0!important;
 
 					}
 				}
@@ -29,13 +29,53 @@
 
 // B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(feature) {}
+@include media-query(feature) {
+
+    .section-fixture {
+
+        .container {
+
+            .grid {
+
+                .grid-item {
+
+                    @extend .mobile--one-half;
+
+                    &.first {
+
+                        h2 { font-size: $large; }
+                    }
+                }
+            }
+        }
+    }
+}
 
 // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(mobile) {}
+@include media-query(mobile) {
+
+    .section-fixture {
+
+        .container {
+
+            .grid {
+
+                .grid-item {
+
+                    @extend .mobile--one-half;
+
+                    &.first {
+
+                        h2 { font-size: $large; }
+                    }
+                }
+            }
+        }
+    }
+}
 
 // C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

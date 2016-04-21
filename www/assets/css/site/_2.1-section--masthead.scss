@@ -74,7 +74,7 @@
             #nav {
 
                 @include clearfix();
-                background: $kd-cyan;
+                background: $kd-blueLight;
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -126,7 +126,7 @@
             .mobile-nav {
 
                 display: block;
-                background: $kd-cyan;
+                background: $kd-blueLight;
                 border: 1px solid $white;
                 padding: $baseline;
                 text-align: center;
@@ -149,7 +149,7 @@
             #nav {
 
                 @include clearfix();
-                background: $kd-cyan;
+                background: $kd-blueLight;
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -190,7 +190,7 @@
             .mobile-nav {
 
                 display: block;
-                background: $kd-cyan;
+                background: $kd-blueLight;
                 border: 1px solid $white;
                 padding: $baseline;
                 text-align: center;
