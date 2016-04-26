@@ -34,7 +34,6 @@ permalink: 	/contact/
 	</tr>
 </table>
 
-
 <br/><br/><br/>
 
 <h2>Monte Video Primary School</h2>

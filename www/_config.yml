@@ -19,6 +19,7 @@ permalink: pretty
 # Config
 gems:
     - jekyll-angular
+    - jekyll-sitemap
 
 exclude: [README.md, package.json, 'node_modules', '*.esproj', 'site', 'konstruct', 'config', 'components', 'scripts']
 
@@ -32,4 +33,3 @@ sitemap:
         - "/index.html"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
-    

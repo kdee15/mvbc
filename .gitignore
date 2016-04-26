@@ -10,3 +10,8 @@ _system/_bower.cache/*
 
 www/photos/*
 www/_site/*
+
+
+# Ignore Mac DS_Store files
+.DS_Store
+*.DS_Store
