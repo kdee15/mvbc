@@ -3,17 +3,36 @@
   <channel>
     <title>MVBC</title>
     <description>Montana Vikings Basketball Club</description>
-    <link>http://mvbc.co.za/</link>
-    <atom:link href="http://mvbc.co.za/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Apr 2016 12:06:50 +0200</pubDate>
-    <lastBuildDate>Thu, 21 Apr 2016 12:06:50 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 27 Apr 2016 01:13:52 +0200</pubDate>
+    <lastBuildDate>Wed, 27 Apr 2016 01:13:52 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>MVBC 24 Hour Basketball Marathon 2016!</title>
+        <description>&lt;h2&gt;24 Hour Basketball Marathon 2016&lt;/h2&gt;
+
+&lt;p&gt;The Montana Vikings Basketball Club (MVBC) 24 Hour Basketball Marathon is an event where all members of the club get together to participate in basketball themed activities continuously for 24 hours. The idea behind the event was to create an environment where the entire club could get together and do the thing we love most – play basketball. Throughout the course of the event members from across all age groups team up to compete for 20 minute periods, resulting in scenarios where under 12 girls end up sharing the court with players from our senior men’s teams. Due to the fact that this event focuses more on the fun aspect than the winning, these moments become quite special for our juniors who aspire to become great basketball players one day!&lt;/p&gt;
+
+&lt;p&gt;At MVBC, we use every club event to deliver a positive message, and impart valuable life skills to our juniors. These are in the form of social awareness sessions, talks from our seniors about their life experiences, and sessions from external community organisations.&lt;/p&gt;
+
+&lt;p&gt;The event has grown tremendously since its inception in 2000, and with a club membership of 120 active players, along with parents, friends and non-playing members, we have been able to generate hype around the event. In 2012 and 2013 &amp;amp; 2016 KFM covered the event, and in the past we’ve had Hectic99 presenters covering it as well.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/event/2016/04/22/24hour-2016/</link>
+        <guid isPermaLink="true">http://localhost:4000/event/2016/04/22/24hour-2016/</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
     
       <item>
         <title>24 Hour 2016</title>
         <description>&lt;h2&gt;24 Hour Basketball Marathon 2016&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://mvbc.co.za/assets/images/blog/pics/kfm.jpg&quot; alt=&quot;KFM Team&quot; class=&quot;fluid-c&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/blog/pics/kfm.jpg&quot; alt=&quot;KFM Team&quot; class=&quot;fluid-c&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;MVBC on the Ryan O&#39;Connor Show - KFM 21 April 2016&lt;/p&gt;
 
 &lt;p&gt;The Montana Vikings Basketball Club (MVBC) 24 Hour Basketball Marathon is an event where all members of the club get together to participate in basketball themed activities continuously for 24 hours. The idea behind the event was to create an environment where the entire club could get together and do the thing we love most – play basketball. Throughout the course of the event members from across all age groups team up to compete for 20 minute periods, resulting in scenarios where under 12 girls end up sharing the court with players from our senior men’s teams. Due to the fact that this event focuses more on the fun aspect than the winning, these moments become quite special for our juniors who aspire to become great basketball players one day!&lt;/p&gt;
@@ -29,8 +48,8 @@
 &lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/blog/2016/04/21/24hour/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/blog/2016/04/21/24hour/</guid>
+        <link>http://localhost:4000/blog/2016/04/21/24hour/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/04/21/24hour/</guid>
         
         
         <category>blog</category>
@@ -41,7 +60,7 @@
         <title>MVBC Camp 2015</title>
         <description>&lt;h2&gt;Junior MVBC Camp 2015&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://mvbc.co.za/assets/images/blog/pics/camp15-1.jpg&quot; alt=&quot;camp pic&quot; class=&quot;fluid-c&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/blog/pics/camp15-1.jpg&quot; alt=&quot;camp pic&quot; class=&quot;fluid-c&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This year&#39;s camp will take on a different spin - as being in December, it will have a bit of a Christmas theme. Also, we are being adventurous, and taking on a 4 - 5hr trip to get there!!!&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Koekenaap Cultural Centre&lt;/b&gt; is situated on the northern banks of the fertile Olifants River Valley between Vredendal and Lutzville. It was established in 1966 and is housed in a disused old farm school and is surrounded by vineyards close to the scenic environment of the flowers of Namakwaland. This facility is fully accessible for physically challenged people and caters mostly for the rural communities on the West Coast Region.&lt;/p&gt;
@@ -55,8 +74,8 @@
 &lt;/p&gt;
 </description>
         <pubDate>Fri, 04 Dec 2015 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/event/2015/12/04/camp-2015/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/event/2015/12/04/camp-2015/</guid>
+        <link>http://localhost:4000/event/2015/12/04/camp-2015/</link>
+        <guid isPermaLink="true">http://localhost:4000/event/2015/12/04/camp-2015/</guid>
         
         
         <category>event</category>
@@ -90,8 +109,8 @@
 &lt;/table&gt;
 </description>
         <pubDate>Sun, 26 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/fixture/2015/07/26/CTBA-fixture/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/fixture/2015/07/26/CTBA-fixture/</guid>
+        <link>http://localhost:4000/fixture/2015/07/26/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/26/CTBA-fixture/</guid>
         
         
         <category>fixture</category>
@@ -123,8 +142,8 @@
 &lt;/table&gt;
 </description>
         <pubDate>Sat, 25 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/fixture/2015/07/25/CTBA-fixture/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/fixture/2015/07/25/CTBA-fixture/</guid>
+        <link>http://localhost:4000/fixture/2015/07/25/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/25/CTBA-fixture/</guid>
         
         
         <category>fixture</category>
@@ -146,8 +165,8 @@
 &lt;/table&gt;
 </description>
         <pubDate>Fri, 24 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/fixture/2015/07/24/CTBA-fixture/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/fixture/2015/07/24/CTBA-fixture/</guid>
+        <link>http://localhost:4000/fixture/2015/07/24/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/24/CTBA-fixture/</guid>
         
         
         <category>fixture</category>
@@ -174,8 +193,8 @@
 &lt;/table&gt;
 </description>
         <pubDate>Sun, 19 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/fixture/2015/07/19/CTBA-fixture/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/fixture/2015/07/19/CTBA-fixture/</guid>
+        <link>http://localhost:4000/fixture/2015/07/19/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/19/CTBA-fixture/</guid>
         
         
         <category>fixture</category>
@@ -200,8 +219,8 @@
 &lt;/table&gt;
 </description>
         <pubDate>Sat, 18 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/fixture/2015/07/18/CTBA-fixture/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/fixture/2015/07/18/CTBA-fixture/</guid>
+        <link>http://localhost:4000/fixture/2015/07/18/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/18/CTBA-fixture/</guid>
         
         
         <category>fixture</category>
@@ -221,8 +240,8 @@
 &lt;/table&gt;
 </description>
         <pubDate>Fri, 17 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/fixture/2015/07/17/CTBA-fixture/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/fixture/2015/07/17/CTBA-fixture/</guid>
+        <link>http://localhost:4000/fixture/2015/07/17/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/17/CTBA-fixture/</guid>
         
         
         <category>fixture</category>
@@ -246,41 +265,8 @@
 &lt;/table&gt;
 </description>
         <pubDate>Sun, 12 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/fixture/2015/07/12/CTBA-fixture/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/fixture/2015/07/12/CTBA-fixture/</guid>
-        
-        
-        <category>fixture</category>
-        
-      </item>
-    
-      <item>
-        <title>CTBA Fixture:</title>
-        <description>&lt;header class=&quot;post-header&quot;&gt;
-	&lt;h1&gt;CTBA Fixture: 11 July&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;table&gt;
-&lt;tr class=&quot;mvbc&quot;&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;League&lt;/th&gt;&lt;th&gt;Team A&lt;/th&gt;&lt;th&gt;Team B&lt;/th&gt;&lt;th&gt;Time&lt;/th&gt;&lt;th&gt;Venue&lt;/th&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;182&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
- &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;183&lt;/td&gt;&lt;td&gt;12G&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;9:00 - 10:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;184&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
- &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;185&lt;/td&gt;&lt;td&gt;12B&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;10:15 - 11:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
- &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;186&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;187&lt;/td&gt;&lt;td&gt;14B&lt;/td&gt;&lt;td&gt;Heideveld &lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;11:30 - 12:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;188&lt;/td&gt;&lt;td&gt;14G&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Cape Waves&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;189&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;12:45 - 14:00&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;190&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Future Stars&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;191&lt;/td&gt;&lt;td&gt;16G&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;14:00 - 15:15&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
- &lt;tr class=&quot;mvbc&quot;&gt;&lt;td&gt;192&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Heideveld&lt;/td&gt;&lt;td&gt;Montana Vikings&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;193&lt;/td&gt;&lt;td&gt;16B&lt;/td&gt;&lt;td&gt;Eagles&lt;/td&gt;&lt;td&gt;Spartans&lt;/td&gt;&lt;td&gt;15:15 - 16:30&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;194&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Pinelands&lt;/td&gt;&lt;td&gt;Gugulethu Hustlers&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 1&lt;/td&gt;&lt;/tr&gt;
- &lt;tr&gt;&lt;td&gt;195&lt;/td&gt;&lt;td&gt;18B&lt;/td&gt;&lt;td&gt;Flames&lt;/td&gt;&lt;td&gt;Themba - Elihle&lt;/td&gt;&lt;td&gt;16:30 - 17:45&lt;/td&gt;&lt;td&gt;Cape Tech 2&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Sat, 11 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://mvbc.co.za/fixture/2015/07/11/CTBA-fixture/</link>
-        <guid isPermaLink="true">http://mvbc.co.za/fixture/2015/07/11/CTBA-fixture/</guid>
+        <link>http://localhost:4000/fixture/2015/07/12/CTBA-fixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/fixture/2015/07/12/CTBA-fixture/</guid>
         
         
         <category>fixture</category>

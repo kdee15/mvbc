@@ -1,39 +1,22 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-
-
 <head>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
     <title>Photos</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Montana Vikings Basketball Club">
-    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon-57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-touch-icon-72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114.png" />
-    <link rel="canonical" href="/photos/">
 
-	<!-- A. CSS ++++++++++++++++++++++++++++++++++++++ -->
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/Stylesheet.css" type="text/css">
-	
-	<!-- A. END ++++++++++++++++++++++++++++++++++++++ -->
-	
-	<!-- B. HEAD JS ++++++++++++++++++++++++++++++++++++++ -->
-
-	<script src="/assets/js/jquery/jquery-1.9.1.min.js"></script>
-	<script src="/assets/js/production.min.js"></script>
-	<script src="/assets/js/production.js"></script>
-	
-	<!-- B. END ++++++++++++++++++++++++++++++++++++++ -->
-
+    <link rel="stylesheet" href="/assets/css/stylesheet.css">
+    <link rel="canonical" href="http://localhost:4000/photos/">
+    <link rel="alternate" type="application/atom+xml" title="MVBC" href="http://localhost:4000/feed.xml" />
+    
+    <script src="/assets/js/components.js"></script>
+    <script src="/assets/js/app.js"></script>
+    
 </head>
 
-    <body class="page-gallery article-page">
+    <body class="page-gallery article" ng-controller="ctrlGlobal">
 
     <header id="masthead">
 
@@ -41,11 +24,11 @@
 	
 	<figure class="figure-logo">
 		<a href="/">
-			<img class="site-logo" src="/assets/images/svg/MVBCLogo.svg" alt="MVBC Logo"/>
+			<img class="site-logo" src="http://localhost:4000/assets/images/svg/MVBCLogo.svg" alt="MVBC Logo"/>
 		</a>
 	</figure>
 	  
-    <nav class="site-nav" id="nav">
+    <nav class="site-nav" id="nav" ng-class="{'target': divOn }">
 		
       <!--
 		<div class="trigger">
@@ -56,23 +39,27 @@
         	
           		<a class="page-link" href="/feed.xml"></a>
         	
-          		<a class="page-link" href="/events/">Events</a>
-        	
-          		<a class="page-link" href="/"></a>
-        	
-          		<a class="page-link" href="/fixtures/">Our Fixtures</a>
-        	
           		<a class="page-link" href="/blog/">Latest News</a>
         	
           		<a class="page-link" href="/profile/">Club Profile</a>
         	
-          		<a class="page-link" href="/photos/2006_24hr_Basketball_Marathon/">2006 24hr Basketball Marathon</a>
+          		<a class="page-link" href="/fixtures/">League Fixtures</a>
         	
-          		<a class="page-link" href="/photos/2007_24hr_Basketball_Marathon/">2007 24hr Basketball Marathon</a>
+          		<a class="page-link" href="/events/">Events</a>
         	
-          		<a class="page-link" href="/photos/2007_WPBA_Finals/">2007 Wpba Finals</a>
+          		<a class="page-link" href="/"></a>
         	
-          		<a class="page-link" href="/photos/2008_24hr_Basketball_Marathon/">2008 24hr Basketball Marathon</a>
+          		<a class="page-link" href="/photos/2006_24hr_Basketball_Marathon/">Photos: 2006 24hr Basketball Marathon</a>
+        	
+          		<a class="page-link" href="/photos/2007_24hr_Basketball_Marathon/">Photos: 2007 24hr Basketball Marathon</a>
+        	
+          		<a class="page-link" href="/photos/2007_WPBA_Finals/">Photos: 2007 Wpba Finals</a>
+        	
+          		<a class="page-link" href="/photos/2008_24hr_Basketball_Marathon/">Photos: 2008 24hr Basketball Marathon</a>
+        	
+          		<a class="page-link" href="/photos/2015_values_camp/">Photos: 2015 Values Camp</a>
+        	
+          		<a class="page-link" href="/photos/2016_24hr_Basketball_Marathon/">Photos: 2016 24hr Basketball Marathon</a>
         	
           		<a class="page-link" href="/photos/">Photos</a>
         	
@@ -80,132 +67,100 @@
 
 		-->
 		<ul>
-			<li><a href="/profile"><span>Club Profile</span></a></li>
-			<li><a href="/fixtures/"><span>Fixtures</span></a></li>
-			<li><a href="/blog/"><span>Latest News</span></a></li>
-			<li><a href="/events/"><span>Our Events</span></a></li>
-			<li><a href="/photos/"><span>Gallery</span></a></li>
-			<li><a href="/contact"><span>Contact Us</span></a></li>
-			<li><a href="/"><span>Home</span></a></li>
-			<li><a href="#" class="nav-close"><span>Close</span></a></li>
+			<li><a href="http://localhost:4000/profile"><span>Club Profile</span></a></li>
+			<li><a href="http://localhost:4000/fixtures/"><span>Fixtures</span></a></li>
+			<li><a href="http://localhost:4000/blog/"><span>Latest News</span></a></li>
+			<li><a href="http://localhost:4000/events/"><span>Our Events</span></a></li>
+			<li><a href="http://localhost:4000/photos/"><span>Our Gallery</span></a></li>
+			<li><a href="http://localhost:4000/contact"><span>Contact Us</span></a></li>
+			<li><a href="http://localhost:4000/"><span>Home</span></a></li>
+			<li><a href="#" class="nav-close" ng-click="upDown()"><span>Close</span></a></li>
 		</ul>
 		
     </nav>
 	  
-	<a href="#nav" class=" mobile-nav"><span>MENU</span></a>
+	<a href="#nav" class="mobile-nav" ng-class="{'target': divOn }" ng-click="upDown()"><span>MENU</span></a>
 
   </div>
 
 </header>
 		
 		<div id="mast">
-
-				<section class="section-widget section-gallery">
-
-		<div class="container">
-
-			<ul class="grid">
-
-				<li class="grid-item first">
-
-					<div class="wrapper first">
-
-						<figure class="figure-thumb">
-							<img src="/assets/images/site/bg-header-orange.png" alt="Latest Events" />
-						</figure>
-						<aside class="aside-details">
-							<h2>Gallery</h2>
-						</aside>
-
-					</div>
-
-				</li>
-
+			
+			<div class="container">
 				
+				<div class="wrapper">
+			
+					<style TYPE="text/css">
+.gallery-wrapper {
+  width: 35em;
+  text-align: center;
+  padding: 1em 0 4em 0;
+}
+.gallery-best-image{
+  max-height: 20em;
+  max-width: 20em;
+}
+</style>
 
-					<div class="grid-item">
+<div class="gallery-wrapper">
+    <a href="2016_24hr_Basketball_Marathon">
+        <img class="gallery-best-image" src="2016_24hr_Basketball_Marathon/thumbs/DSC_2659.JPG">
+    </a>
+    <h3><a href="2016_24hr_Basketball_Marathon">2016 24hr Basketball Marathon</a></h3>
+    3 images
+</div>
 
-						<div class="wrapper">
-							<a href="2006_24hr_Basketball_Marathon">
-								<figure class="figure-thumb">
-									<img src="2006_24hr_Basketball_Marathon/thumbs/P1020128.jpg" alt=" 2006 24hr Basketball Marathon " />
-								</figure>
-								<aside class="aside-details">
-                                    <h4>122 images</h4>
-									<h3>2006 24hr Basketball Marathon</h3>
-								</aside>
-							</a>
-						</div>
+<div class="gallery-wrapper">
+    <a href="2015_values_camp">
+        <img class="gallery-best-image" src="2015_values_camp/thumbs/DSC_2659.JPG">
+    </a>
+    <h3><a href="2015_values_camp">2015 Values Camp</a></h3>
+    6 images
+</div>
 
-					</div>
+<div class="gallery-wrapper">
+    <a href="2008_24hr_Basketball_Marathon">
+        <img class="gallery-best-image" src="2008_24hr_Basketball_Marathon/thumbs/Montana Vikings 24Hour 2008034.jpg">
+    </a>
+    <h3><a href="2008_24hr_Basketball_Marathon">2008 24hr Basketball Marathon</a></h3>
+    142 images
+</div>
 
-				
+<div class="gallery-wrapper">
+    <a href="2007_WPBA_Finals">
+        <img class="gallery-best-image" src="2007_WPBA_Finals/thumbs/P1050894.jpg">
+    </a>
+    <h3><a href="2007_WPBA_Finals">2007 Wpba Finals</a></h3>
+    293 images
+</div>
 
-					<div class="grid-item">
+<div class="gallery-wrapper">
+    <a href="2007_24hr_Basketball_Marathon">
+        <img class="gallery-best-image" src="2007_24hr_Basketball_Marathon/thumbs/GalleryThumb.jpg">
+    </a>
+    <h3><a href="2007_24hr_Basketball_Marathon">2007 24hr Basketball Marathon</a></h3>
+    260 images
+</div>
 
-						<div class="wrapper">
-							<a href="2007_24hr_Basketball_Marathon">
-								<figure class="figure-thumb">
-									<img src="2007_24hr_Basketball_Marathon/thumbs/GalleryThumb.jpg" alt=" 2007 24hr Basketball Marathon " />
-								</figure>
-								<aside class="aside-details">
-                                    <h4>260 images</h4>
-									<h3>2007 24hr Basketball Marathon</h3>
-								</aside>
-							</a>
-						</div>
+<div class="gallery-wrapper">
+    <a href="2006_24hr_Basketball_Marathon">
+        <img class="gallery-best-image" src="2006_24hr_Basketball_Marathon/thumbs/P1020128.jpg">
+    </a>
+    <h3><a href="2006_24hr_Basketball_Marathon">2006 24hr Basketball Marathon</a></h3>
+    122 images
+</div>
 
-					</div>
-
-				
-
-					<div class="grid-item">
-
-						<div class="wrapper">
-							<a href="2007_WPBA_Finals">
-								<figure class="figure-thumb">
-									<img src="2007_WPBA_Finals/thumbs/P1050894.jpg" alt=" 2007 Wpba Finals " />
-								</figure>
-								<aside class="aside-details">
-                                    <h4>293 images</h4>
-									<h3>2007 Wpba Finals</h3>
-								</aside>
-							</a>
-						</div>
-
-					</div>
-
-				
-
-					<div class="grid-item">
-
-						<div class="wrapper">
-							<a href="2008_24hr_Basketball_Marathon">
-								<figure class="figure-thumb">
-									<img src="2008_24hr_Basketball_Marathon/thumbs/Montana Vikings 24Hour 2008034.jpg" alt=" 2008 24hr Basketball Marathon " />
-								</figure>
-								<aside class="aside-details">
-                                    <h4>142 images</h4>
-									<h3>2008 24hr Basketball Marathon</h3>
-								</aside>
-							</a>
-						</div>
-
-					</div>
-
-				
-
-			</ul>
-
-		</div>
-
-	</section>
+					
+				</div>
+			
+			</div>
 
 		</div>
 		<!-- C.2. END -->
 			
-			<!-- C.3. FOOTEND -->
-			<footer id="footend">
+		<!-- C.3. FOOTEND -->
+		<footer id="footend">
 	<div class="container">
 		<div class="grid">
 		
@@ -259,7 +214,7 @@
 		</div>
 	</div>
 </footer>
-			<!-- C.3. END -->
+		<!-- C.3. END -->
 		
 		<!-- C. END ++++++++++++++++++++++++++++++++++++++ -->
 		
@@ -274,8 +229,7 @@
 </script>
 		
 			<!-- D.2. FOOTER JS -->
-	        <script src="/assets/js/scripts/konstruct.js"></script>
-		
+	        
 	        
         <!-- D. END ++++++++++++++++++++++++++++++++++++++ -->
         
