@@ -121,25 +121,42 @@ page-class: home
 
 					</li>
 
-					{% for post in site.categories['fixture'] limit:7 %}
+					{% for fixture in site.data.fixtures limit:10 %}
 
 						<div class="grid-item">
 
 							<div class="wrapper">
-								<a href="{{ post.url }}">
-									<figure class="figure-thumb">
-										<img src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.description }}" />
-									</figure>
-									<aside class="aside-details">
-										<h4>{{ post.title }}</h4>
-										<h3>{{ post.date | date: '%d %b' }}</h3>
-									</aside>
-								</a>
+                                <figure class="figure-thumb {{ fixture.mvbc }} ">
+                                    <img src="{{ site.url }}/assets/images/fixture/thumbs/{{ fixture.day }}.png" alt="{{ fixture.day }}" />
+                                </figure>
+                                <aside class="aside-details">
+                                    <h4>{{ fixture.date }}</h4>
+                                    <p>{{ fixture.venue }} at {{ fixture.time }}</p>
+                                    <h3>{{ fixture.team-a }} vs {{ fixture.team-b }}</h3> 
+                                    
+                                </aside>
 							</div>
 
 						</div>
 
 					{% endfor %}
+                    
+					
+					<li class="grid-item first">
+						
+						<div class="wrapper first">
+                            <a href="fixtures">
+							<figure class="figure-thumb">
+								<img src="{{ site.url }}/assets/images/site/bg-header-orange.png" alt="Latest Events" />
+							</figure>
+							<aside class="aside-details">
+								<h2>View<br>more</h2>
+							</aside>
+							</a>
+						</div>
+
+					</li>
+                    
 
 				</ul>
 

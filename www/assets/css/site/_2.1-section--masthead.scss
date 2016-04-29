@@ -58,10 +58,7 @@
 
         .container {
 
-            .figure-logo {
-
-                width: 80% !important;
-                margin: $baseline*2 auto;
+            .figure-logo { width: 80% !important; margin: 35px auto;
 
                 a {
 
@@ -212,6 +209,7 @@
     @include media-query(desk) { 
 
         .nav-close { display: none; }
+        .nav-close { span { display: none; }}
         .mobile-nav { display: none; }
 
     }
@@ -223,6 +221,7 @@
     @include media-query(desk-wide) { 
 
         .nav-close { display: none; }
+        .nav-close { span { display: none; }}
         .mobile-nav { display: none; }
 
     }

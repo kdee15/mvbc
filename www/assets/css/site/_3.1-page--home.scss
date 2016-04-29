@@ -17,6 +17,27 @@
             }
         }
     }
+    
+    .section-fixture {
+            
+        .grid {
+
+            .grid-item { 
+
+                @extend .feature--one-half;
+                @extend .mobile--one-half;
+            }
+
+        }
+    
+        h3 { font-size: $large!important; }
+        p { margin: 0; padding-top: 0!important; font-size: $small!important; font-style: italic; }
+        
+        .figure-thumb {
+        
+            &.mvbc { background: $kd-grey90!important; }
+        }
+    }
 }
 
 

@@ -4,23 +4,42 @@
 
 // A.1. STRUCTURE -----------------------------------------------------------------------------------------------------
 
+.page-fixture {
 
-		.page-fixture {
-			
-			#mast {
-			
-				.container {
+    #mast {
 
-					background: rgba($white,0.9);
+        .container {
 
-					.wrapper {
-
-						padding:0!important;
-
-					}
-				}
-			}
-		}
+            .wrapper {
+                
+                .key { margin-top: $baseline-small; font-size: $small; 
+                    
+                    span { padding: $baseline-small; color: $black; }
+                }
+                
+                .mvbc { background: rgba($kd-grey80,0.8); td { color: $black; }}
+                .forfeit { background: rgba($kd-red,0.5); td { color: $white; }} 
+                
+                table {
+                    
+                    border: 0;
+                    
+                    tr {
+                        
+                        &.header { background: $kd-grey90;
+                        
+                            td { color: $white; }
+                        
+                        }
+                    
+                        td { border: 0; padding: $baseline-small; font-size: $small; color: $kd-grey80; }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 // A.1. END -----------------------------------------------------------------------------------------------------------
@@ -30,6 +49,24 @@
 // B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 @include media-query(feature) {
+    
+
+    .page-fixture {
+
+        #mast {
+
+            .container {
+
+                .wrapper { padding: $baseline 0;
+                
+                    table {
+
+                        tr { td { padding: $baseline-small 4px; font-size: $x-small; }}
+                    }
+                }
+            }
+        }
+    }
 
     .section-fixture {
 
@@ -38,8 +75,6 @@
             .grid {
 
                 .grid-item {
-
-                    @extend .mobile--one-half;
 
                     &.first {
 
@@ -56,6 +91,24 @@
 // C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 @include media-query(mobile) {
+    
+
+    .page-fixture {
+
+        #mast {
+
+            .container {
+
+                .wrapper { padding: $baseline 0;
+                
+                    table {
+
+                        tr { td { padding: $baseline-small 4px; font-size: $small; }}
+                    }
+                }
+            }
+        }
+    }
 
     .section-fixture {
 
@@ -65,11 +118,9 @@
 
                 .grid-item {
 
-                    @extend .mobile--one-half;
-
                     &.first {
 
-                        h2 { font-size: $large; }
+                        h2 { font-size: $medium; }
                     }
                 }
             }
@@ -81,18 +132,75 @@
 
 // D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(tablet) {}
+@include media-query(tablet) {
+
+    .page-fixture {
+
+        #mast {
+
+            .container {
+
+                .wrapper { padding: $baseline;
+                
+                    table {
+
+                        tr { td { padding: $baseline-small; font-size: $small; }}
+                    }
+                }
+            }
+        }
+    }
+    
+}
 
 // D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk) {}
+@include media-query(desk) {
+
+    .page-fixture {
+
+        #mast {
+
+            .container {
+
+                .wrapper { padding: $baseline*2;
+                
+                    table {
+
+                        tr { td { padding: $baseline-small; font-size: $small; }}
+                    }
+                }
+            }
+        }
+    }
+    
+}
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk-wide) {}
+@include media-query(desk-wide) {
+
+    .page-fixture {
+
+        #mast {
+
+            .container {
+
+                .wrapper { padding: $baseline*2;
+                
+                    table {
+
+                        tr { td { padding: $baseline-small; font-size: $small; }}
+                    }
+                }
+            }
+        }
+    }
+    
+}
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     

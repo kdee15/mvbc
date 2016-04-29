@@ -8,8 +8,6 @@
 
     section {
 
-        margin-bottom: $baseline;
-
         .grid {
 
             @extend .grid;
@@ -205,6 +203,7 @@
 
                 .grid-item {
 
+                    @extend .feature--one-half;
                     @extend .mobile--one-half;
                     @extend .desk--one-quarter;
 
@@ -226,6 +225,8 @@
 @include media-query(feature) {
 
     section {
+        
+        margin-bottom: 0;
 
         .grid {
 
@@ -253,6 +254,8 @@
 @include media-query(mobile) {
 
     section {
+        
+        margin-bottom: 0;
 
         .grid {
 
@@ -283,12 +286,18 @@
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk) {}
+@include media-query(desk) {
+
+    .section { margin-bottom: $baseline; }
+}
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk-wide) {}
+@include media-query(desk-wide) {
+
+    .section { margin-bottom: $baseline; }
+}
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     

@@ -4,46 +4,80 @@
 
 // A.1. STRUCTURE -----------------------------------------------------------------------------------------------------
 
+.page-gallery {
+    
+    &.gallery-list {
+    
+        // A.1.1. GALLERY INDEX
+        
+        .wrapper {
+            
+            @extend .grid;
+            margin: 0;
+            padding: 0;
+            background: $white;
+            
+            .gallery-wrapper {
 
-		.page-gallery {
+                width: 35em;
+                text-align: center;
+                padding: 1em 0 4em 0;
 
-			.play {
+            }
 
-				@include position(absolute, 0);
-				background: $white;
+            .gallery-best-image{
 
-				.section-area {
+                max-height: 20em;
+                max-width: 20em;
 
-					width: 100%;
-					height: 100%;
-					position: absolute;
-					perspective: 1000;
-					perspective-origin: 0% 0%;
+            }
 
-					.card {
+            // A.1.1. END
 
-						width: 100%;
-						height: 100%;
-						background: $white;
-						position: relative;
-						transform-style: preserve-3d; 
+        }
+    }
+    
+    // A.1.2. GALLERY PAGES
+    
+    .gallery-image-wrapper { 
+        
+        height: 300px;
+        width: 300px;
+        display: inline-block;
+        margin: 1em;
+        position: relative;
+        
+    }
+    
+    .gallery-image {
+        
+        margin: auto;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        max-height: 100%;
+        max-width: 100%;
+        
+    }
+    
+    // A.1.2. END
+    
+    .wrapper {
+        
 
-						.card-info {
+        
+        
+        
+        .wrapper-item {
+            
+            
+        }
+        
+        
+    }
 
-							position: absolute;
-							top: 0;
-							left: 0;
-							bottom: 0;
-							right: 0;
-							font-size: $xx-large;
-							line-height: normal;
-							background: $kd-cyan;
-							transform: rotatex(45deg) rotatey(20deg) rotatez(-10deg);
-						}
-					}
-				}
-			}
-		}
+
+}
 
 
 // A.1. END -----------------------------------------------------------------------------------------------------------
