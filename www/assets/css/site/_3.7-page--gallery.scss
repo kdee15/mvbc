@@ -12,24 +12,53 @@
         
         .wrapper {
             
-            @extend .grid;
             margin: 0;
             padding: 0;
-            background: $white;
             
             .gallery-wrapper {
 
                 width: 35em;
                 text-align: center;
-                padding: 1em 0 4em 0;
+                padding: 0;
+                
+                @extend .feature--one-half;
+                @extend .mobile--one-half;
+                
+                .wrapper {
+                
+                    a {
+                    
+                        .figure-thumb {
+                        
+                            img { width: auto!important; height: 100%; }
+                        }
+                    }
+                    
+                    .aside-details {
+                        
+                        transform: translateY(0%);
+                    
+                        h3 { line-height: normal; color: $kd-yellowMid; }
+                    }
+                    
+                    
+                    &:hover a figure img {
 
-            }
+                        opacity: 0.2;
+                        transform: scale(1.5);
+                        transition-delay: 0.2s;
+                        transition: 0.3s;
 
-            .gallery-best-image{
+                    }
+                    
+                    &:hover .aside-details {
 
-                max-height: 20em;
-                max-width: 20em;
+                        transform: translateY(15%);
+                        transition-delay: 0.2s;
+                        transition: 0.3s;
 
+                    }
+                }
             }
 
             // A.1.1. END
@@ -61,21 +90,6 @@
     }
     
     // A.1.2. END
-    
-    .wrapper {
-        
-
-        
-        
-        
-        .wrapper-item {
-            
-            
-        }
-        
-        
-    }
-
 
 }
 
@@ -98,7 +112,13 @@
 
 // D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(tablet) {}
+@include media-query(tablet) {
+
+    .gallery-list {
+        #mast { padding: 0; }
+    }
+
+}
 
 // D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

@@ -4,12 +4,6 @@
 
 // A.1. STRUCTURE -----------------------------------------------------------------------------------------------------
 
-
-	.page-events {
-		
-		
-	}
-
 	.section-events {
 		
 		margin: $baseline 0;
@@ -63,6 +57,12 @@
 
 @include media-query(feature) {
 
+	.page-event {
+        
+        .wrapper { padding: $baseline $baseline-small;}
+		
+	}
+    
     .section-eventList {
 
         .container {
@@ -86,6 +86,12 @@
 
 @include media-query(mobile) {
 
+	.page-event {
+        
+        .wrapper { padding: $baseline $baseline-small;}
+		
+	}
+    
     .section-eventList {
 
         .container {
@@ -107,18 +113,41 @@
 
 // D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(tablet) {}
+@include media-query(tablet) {
+
+	.page-event {
+        
+        .wrapper { padding: $baseline;}
+		
+	}
+}
 
 // D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk) {}
+@include media-query(desk) {
+
+	.page-event {
+        
+        .wrapper { padding: $baseline-medium;}
+		
+	}
+}
+
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk-wide) {}
+@include media-query(desk-wide) {
+
+	.page-event {
+        
+        .wrapper { padding: $baseline-medium;}
+		
+	}
+}
+
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     

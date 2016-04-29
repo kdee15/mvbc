@@ -28,8 +28,6 @@
 				
 				.wrapper {
 					
-					@include clearfix();
-					
 					.blogpic-l {
 						
 						max-width: 25%;
@@ -63,7 +61,7 @@
 }
 
 
-// 3.2. content landing page styling +++++++++++++++++++++++++++++++++++++++++++
+// 3.2. content landing page styling ----------------------------------------------------------------------------------
 
 .article-page {
 
@@ -92,7 +90,12 @@
     }
 }
 
-// 3.2. END +++++++++++++++++++++++++++++++++++++++++++
+// 3.2. END -----------------------------------------------------------------------------------------------------------
+
+// 3.3. BLOG PAGE -----------------------------------------------------------------------------------------------------
+
+
+// 3.3. END -----------------------------------------------------------------------------------------------------------
 
 
 
@@ -103,7 +106,6 @@
 // B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 @include media-query(feature) {
-
 	
 	.article {
 		
@@ -112,8 +114,6 @@
 			.container {
 				
 				.wrapper {
-					
-					padding: $baseline/6;
 					
 					.blogpic-l {
 						
@@ -144,6 +144,11 @@
 		}
 	}
 
+    .page-blog {
+
+        .wrapper { padding: $baseline-small; }
+
+    }
 
 }
 
@@ -152,7 +157,6 @@
 // C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 @include media-query(mobile) {
-
 	
 	.article {
 		
@@ -161,8 +165,6 @@
 			.container {
 				
 				.wrapper {
-					
-					padding: $baseline/6;
 					
 					.blogpic-l {
 						
@@ -193,6 +195,11 @@
 		}
 	}
 
+    .page-blog {
+
+        .wrapper { padding: $baseline-small; }
+
+    }
 
 }
 
@@ -203,8 +210,12 @@
 @include media-query(tablet) {
 
     #mast { padding-top: 60px; }
-    
-    .project { flex-direction: column; }
+
+    .page-blog {
+
+        .wrapper { padding: $baseline; }
+
+    }
 
 }
 
@@ -215,14 +226,11 @@
 @include media-query(desk) {
 
     #mast { padding-top: 0; }
-    
-    .project {
-        
-        flex-direction: row;
-        
-        .column-1 { width: 25%; }
-        .column-2 { width: 75%; }
-        .row-1 { .mobi { width: 50% }}
+
+    .page-blog {
+
+        .wrapper { padding: $baseline $baseline-medium; }
+
     }
 
 }
@@ -234,15 +242,13 @@
 @include media-query(desk-wide) {
 
     #mast { padding-top: 0; }
-    
-    .project {
-        
-        flex-direction: row;
-        
-        .column-1 { width: 33.33%; }
-        .column-2 { width: 66.66%; }
-        .row-1 { .mobi { width: 33.33% }}
+
+    .page-blog {
+
+        .wrapper { padding: $baseline $baseline-medium; }
+
     }
+    
 }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -57,7 +57,7 @@
 
             .container {
 
-                .wrapper { padding: $baseline 0;
+                .wrapper { padding: $baseline $baseline-small;
                 
                     table {
 
@@ -99,7 +99,7 @@
 
             .container {
 
-                .wrapper { padding: $baseline 0;
+                .wrapper { padding: $baseline $baseline-small ;
                 
                     table {
 
