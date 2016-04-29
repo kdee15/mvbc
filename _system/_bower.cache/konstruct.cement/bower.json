@@ -1,0 +1,24 @@
+{
+  "name": "konstruct.cement",
+  "version": "2.4.2",
+  "homepage": "https://github.com/konstruct/konstruct.cement",
+  "authors": [
+    "Adrian Kirsten"
+  ],
+  "description": "**konstruct.cement** are a set of useful mixins to help you with building your site. They are completely optional, but handy if you want them.",
+  "main": "mixins/",
+  "keywords": [
+    "sass",
+    "konstruct",
+    "mixin",
+    "css"
+  ],
+  "license": "Apache License, Version 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

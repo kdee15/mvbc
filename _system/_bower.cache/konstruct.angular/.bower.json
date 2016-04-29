@@ -1,0 +1,31 @@
+{
+  "name": "konstruct.angular",
+  "version": "1.0.1",
+  "homepage": "https://github.com/konstruct/konstruct.angular",
+  "authors": [
+    "Adrian Kirsten"
+  ],
+  "description": "**konstruct.angular** are a set of premixed files that get's you up and running quickly with boilerplate.angular.",
+  "main": "mixins/",
+  "keywords": [
+    "angular",
+    "konstruct"
+  ],
+  "license": "Apache License, Version 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "43a03bc9b8c1d9d20d57ee9ee3e6af6735161b9f"
+  },
+  "_source": "git://github.com/konstruct/konstruct.angular.git",
+  "_target": "~1.0.0",
+  "_originalSource": "konstruct.angular"
+}
