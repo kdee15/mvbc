@@ -1,0 +1,102 @@
+# Site settings
+title: MVBC
+email: kirk@mvbc.co.za
+description: "Montana Vikings Basketball Club"
+
+# FOR LIVE PUBLISHING
+url: "http://mvbc.co.za" # the base hostname & protocol for your site
+
+# FOR TESTING
+#url: "http://localhost:4000" # the base hostname & protocol for your site
+
+permalink: /:categories/:title
+version: 1.0
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Config
+gems:
+    - jekyll-angular
+    - jekyll-sitemap
+
+exclude: [README.md, package.json, 'node_modules', '*.esproj', 'site', 'konstruct', 'config', 'components', 'scripts']
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+    
+    
+gallery:
+  # path to the gallery
+  dir: photos
+  # title for gallery index
+  title: "Photos"
+  # title prefix for gallery page. title=title_prefix+gallery_name
+  title_prefix: "Photos: "
+  # field to control sorting of galleries for the index page
+  # (possible values are: title, date_time, best_image)
+  sort_field: "date_time"
+  # sizes for thumbnails
+  thumbnail_size:
+    x: 400
+    y: 400
+  # custom configuration for individual gallery
+  # best_image is image for the index page (defaults to last image)
+  galleries:
+    2006_24hr_basketball_marathon:
+      best_image: cover.jpg
+    2007_24hr_basketball_marathon:
+      best_image: cover.jpg
+    2007_wpba_finals:
+      best_image: cover.jpg
+    2008_24hr_basketball_marathon:
+      best_image: cover.jpg
+    2008_prize_giving:
+      best_image: cover.jpg
+    2008_values_camp:
+      best_image: cover.jpg
+    2009_24hr_basketball_marathon:
+      best_image: cover.jpg
+    2009_fun_day:
+      best_image: cover.jpg
+    2009_ipt:
+      best_image: cover.jpg
+    2010_24hr_basketball_marathon:
+      best_image: cover.jpg
+    2010_junior_3on3:
+      best_image: cover.jpg
+    2010_playoffs:
+      best_image: cover.jpg
+    2010_prize_giving:
+      best_image: cover.jpg
+    2010_senior_lunch:
+      best_image: cover.jpg
+    2011_prize_giving:
+      best_image: cover.jpg
+    2011_summer_league:
+      best_image: cover.jpg
+    2011_values_camp:
+      best_image: cover.jpg
+    2011_wpba_finals:
+      best_image: cover.jpg
+    2012_24hr_basketball_marathon:
+      best_image: cover.jpg
+    2012_sl_final:
+      best_image: cover.jpg
+    2012_values_camp:
+      best_image: cover.jpg
+    2014_24hr_basketball_marathon:
+      best_image: cover.jpg
+    2015_values_camp:
+      best_image: cover.jpg
+    2016_24hr_basketball_marathon:
+      best_image: cover.jpg

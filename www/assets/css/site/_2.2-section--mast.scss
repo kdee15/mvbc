@@ -1,0 +1,307 @@
+// 2. SECTION [ 2.2. MAST ]  ##########################################################################################
+
+// A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// A.1. MAST ----------------------------------------------------------------------------------------------------------
+
+#mast {
+
+    section {
+
+        .grid {
+
+            @extend .grid;
+            margin-left: 0 !important;
+
+            .grid-item {
+
+                @extend .grid__item;
+                @extend .one-whole;
+                @extend .tablet--one-third;
+                @extend .desk--one-third;
+                padding-left: 0 !important;
+
+                .wrapper {
+
+                    position: relative;
+                    width: 100%;
+                    overflow: hidden;
+
+                    &:before {
+
+                        content: "";
+                        display: block;
+                        padding-top: 100%;
+
+                    }
+
+                    &.first {
+
+                        figure {
+
+                            background: none;
+                            margin: 0;
+
+                            img {
+
+                                opacity: 0.8;	
+
+                            }
+                        }
+
+                        h2 {
+
+                            font-size: $xx-large;
+                            padding: $baseline*2;
+                            text-transform: uppercase;
+                            line-height: normal;
+                        }
+                    }
+
+                    a {
+
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+
+                        &:hover figure img {
+
+                            opacity: 0.2;
+                            transform: scale(1.5);
+                            transition-delay: 0.2s;
+                            transition: 0.3s;
+
+                        }
+
+                        &:hover aside {
+
+                            transform: translateY(15%);
+                            transition-delay: 0.2s;
+                            transition: 0.3s;
+
+                        }
+                    }
+
+                    figure {
+
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: auto;
+                        background: $black;
+                        margin: 0;
+
+                        img {
+
+                            display: block;
+                            opacity: 0.4;
+                            transition-delay: 0.3s;
+                            transition: 0.5s;
+                        }
+                    }
+
+                    aside {
+
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        transform: translateY(0%);
+                        transition-delay: 0.2s;
+                        transition: 0.3s;
+
+                    }
+
+                    img {
+
+                        width: 100%;	
+
+                    }
+
+                    h3 {
+
+                        color: $white;
+                        font-size: $x-large;
+                        padding: $baseline;
+                        line-height: normal;
+                        margin: 0;
+
+                    }
+
+                    h4 {
+
+                        color: $yellow;
+                        font-size: $large;
+                        padding: 0 $baseline;
+                        margin-bottom: 0;
+                        line-height: normal;
+
+                    }
+
+                    p {
+
+                        color: $white;
+                        font-size: $medium;
+                        padding: $baseline;
+                        line-height: normal;
+
+                    }
+
+                    ul {
+
+                        padding: $baseline/3;
+                        list-style-type: none;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .section-blog {
+
+        .container {
+
+            .grid {
+
+                .grid-item {
+
+                    @extend .mobile--one-half;
+
+                }
+            }
+        }
+    }
+
+    .section-eventList {
+
+        .container {
+
+            .grid {
+
+                .grid-item {
+
+                    &.first {
+
+                        float: right;
+
+                    }	
+                }
+            }
+        }
+    }
+
+    .section-fixture {
+
+        .container {
+
+            .grid {
+
+                .grid-item {
+
+                    @extend .feature--one-half;
+                    @extend .mobile--one-half;
+                    @extend .desk--one-quarter;
+
+                    &.first {
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+// A.1. END -----------------------------------------------------------------------------------------------------------
+
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(feature) {
+
+    section {
+        
+        margin-bottom: 0;
+
+        .grid {
+
+            .grid-item {
+
+                .wrapper {
+
+                    &.first { h2 { font-size: $xx-large; padding: $baseline; } }
+
+                    h3 { font-size: $large; padding: $baseline/2; }
+                    h4 { font-size: $medium; padding: 0 $baseline/2; }
+                    p { font-size: $normal; padding: $baseline/2; }
+
+                }
+            }
+        }
+    }
+
+}
+
+// B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(mobile) {
+
+    section {
+        
+        margin-bottom: 0;
+
+        .grid {
+
+            .grid-item {
+
+                .wrapper {
+
+                    &.first { h2 { font-size: $xx-large; padding: $baseline; } }
+
+                    h3 { font-size: $large; padding: $baseline/2; }
+                    h4 { font-size: $medium; padding: 0 $baseline/2; }
+                    p { font-size: $normal; padding: $baseline/2; }
+
+                }
+            }
+        }
+    }
+
+}
+
+// C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(tablet) {
+
+    #mast { padding-top: 0; }
+}
+
+// D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(desk) {
+
+    .section { margin-bottom: $baseline; }
+}
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(desk-wide) {
+
+    .section { margin-bottom: $baseline; }
+}
+
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
+// END OF FILE ########################################################################################################

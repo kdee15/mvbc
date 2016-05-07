@@ -1,0 +1,2519 @@
+@import url(konstruct/vendor/aos.css);
+@import url(konstruct/vendor/normalize.css);
+html, body {
+  margin: 0; }
+
+.container {
+  max-width: 100%; }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .container {
+    padding: 0 10px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .container {
+    padding: 0 baseline; } }
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 940px;
+    margin: 0 auto; } }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto; } }
+
+.grid, .tabs .tabs__header, #mast section .grid, #footend .container .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.grid__item, .grid .one-whole, .tabs .tabs__header .one-whole, #mast section .grid .one-whole, #footend .container .grid .one-whole, #mast section .tabs .tabs__header .grid-item, .tabs #mast section .tabs__header .grid-item, #mast section .grid .grid-item, .grid .two-quarters, .tabs .tabs__header .two-quarters, #mast section .grid .two-quarters, #footend .container .grid .two-quarters, .grid .three-sixths, .tabs .tabs__header .three-sixths, #mast section .grid .three-sixths, #footend .container .grid .three-sixths, .grid .four-eighths, .tabs .tabs__header .four-eighths, #mast section .grid .four-eighths, #footend .container .grid .four-eighths, .grid .five-tenths, .tabs .tabs__header .five-tenths, #mast section .grid .five-tenths, #footend .container .grid .five-tenths, .grid .six-twelfths, .tabs .tabs__header .six-twelfths, #mast section .grid .six-twelfths, #footend .container .grid .six-twelfths, .grid .one-half, .tabs .tabs__header .one-half, #mast section .grid .one-half, #footend .container .grid .one-half, .tabs .tabs__header li, #mast section .grid .tabs .tabs__header li, .tabs .tabs__header #mast section .grid li, #footend .container .grid .tabs .tabs__header li, .tabs .tabs__header #footend .container .grid li, .grid .two-sixths, .tabs .tabs__header .two-sixths, #mast section .grid .two-sixths, #footend .container .grid .two-sixths, .grid .four-twelfths, .tabs .tabs__header .four-twelfths, #mast section .grid .four-twelfths, #footend .container .grid .four-twelfths, .grid .one-third, .tabs .tabs__header .one-third, #mast section .grid .one-third, #footend .container .grid .one-third, #footend .container .tabs .tabs__header .grid-item, .tabs #footend .container .tabs__header .grid-item, #footend .container .grid .grid-item, .grid .two-eighths, .tabs .tabs__header .two-eighths, #mast section .grid .two-eighths, #footend .container .grid .two-eighths, .grid .three-twelfths, .tabs .tabs__header .three-twelfths, #mast section .grid .three-twelfths, #footend .container .grid .three-twelfths, .grid .one-quarter, .tabs .tabs__header .one-quarter, #mast section .grid .one-quarter, #footend .container .grid .one-quarter {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.3s;
+          transition: 0.3s; }
+
+.grid__gutter {
+  margin-left: -20px; }
+  .grid__gutter .grid__item, .grid__gutter .grid .one-whole, .grid .grid__gutter .one-whole, .grid__gutter .tabs .tabs__header .one-whole, .tabs .tabs__header .grid__gutter .one-whole, .grid__gutter #mast section .grid .one-whole, #mast section .grid .grid__gutter .one-whole, .grid__gutter #footend .container .grid .one-whole, #footend .container .grid .grid__gutter .one-whole, .grid__gutter #mast section .tabs .tabs__header .grid-item, #mast section .tabs .tabs__header .grid__gutter .grid-item, .grid__gutter .tabs #mast section .tabs__header .grid-item, .tabs #mast section .tabs__header .grid__gutter .grid-item, .grid__gutter #mast section .grid .grid-item, #mast section .grid .grid__gutter .grid-item, .grid__gutter .grid .two-quarters, .grid .grid__gutter .two-quarters, .grid__gutter .tabs .tabs__header .two-quarters, .tabs .tabs__header .grid__gutter .two-quarters, .grid__gutter #mast section .grid .two-quarters, #mast section .grid .grid__gutter .two-quarters, .grid__gutter #footend .container .grid .two-quarters, #footend .container .grid .grid__gutter .two-quarters, .grid__gutter .grid .three-sixths, .grid .grid__gutter .three-sixths, .grid__gutter .tabs .tabs__header .three-sixths, .tabs .tabs__header .grid__gutter .three-sixths, .grid__gutter #mast section .grid .three-sixths, #mast section .grid .grid__gutter .three-sixths, .grid__gutter #footend .container .grid .three-sixths, #footend .container .grid .grid__gutter .three-sixths, .grid__gutter .grid .four-eighths, .grid .grid__gutter .four-eighths, .grid__gutter .tabs .tabs__header .four-eighths, .tabs .tabs__header .grid__gutter .four-eighths, .grid__gutter #mast section .grid .four-eighths, #mast section .grid .grid__gutter .four-eighths, .grid__gutter #footend .container .grid .four-eighths, #footend .container .grid .grid__gutter .four-eighths, .grid__gutter .grid .five-tenths, .grid .grid__gutter .five-tenths, .grid__gutter .tabs .tabs__header .five-tenths, .tabs .tabs__header .grid__gutter .five-tenths, .grid__gutter #mast section .grid .five-tenths, #mast section .grid .grid__gutter .five-tenths, .grid__gutter #footend .container .grid .five-tenths, #footend .container .grid .grid__gutter .five-tenths, .grid__gutter .grid .six-twelfths, .grid .grid__gutter .six-twelfths, .grid__gutter .tabs .tabs__header .six-twelfths, .tabs .tabs__header .grid__gutter .six-twelfths, .grid__gutter #mast section .grid .six-twelfths, #mast section .grid .grid__gutter .six-twelfths, .grid__gutter #footend .container .grid .six-twelfths, #footend .container .grid .grid__gutter .six-twelfths, .grid__gutter .grid .one-half, .grid .grid__gutter .one-half, .grid__gutter .tabs .tabs__header .one-half, .tabs .tabs__header .grid__gutter .one-half, .grid__gutter #mast section .grid .one-half, #mast section .grid .grid__gutter .one-half, .grid__gutter #footend .container .grid .one-half, #footend .container .grid .grid__gutter .one-half, .grid__gutter .tabs .tabs__header li, .tabs .tabs__header .grid__gutter li, .grid__gutter #mast section .grid .tabs .tabs__header li, #mast section .grid .tabs .tabs__header .grid__gutter li, .grid__gutter .tabs .tabs__header #mast section .grid li, .tabs .tabs__header #mast section .grid .grid__gutter li, .grid__gutter #footend .container .grid .tabs .tabs__header li, #footend .container .grid .tabs .tabs__header .grid__gutter li, .grid__gutter .tabs .tabs__header #footend .container .grid li, .tabs .tabs__header #footend .container .grid .grid__gutter li, .grid__gutter .grid .two-sixths, .grid .grid__gutter .two-sixths, .grid__gutter .tabs .tabs__header .two-sixths, .tabs .tabs__header .grid__gutter .two-sixths, .grid__gutter #mast section .grid .two-sixths, #mast section .grid .grid__gutter .two-sixths, .grid__gutter #footend .container .grid .two-sixths, #footend .container .grid .grid__gutter .two-sixths, .grid__gutter .grid .four-twelfths, .grid .grid__gutter .four-twelfths, .grid__gutter .tabs .tabs__header .four-twelfths, .tabs .tabs__header .grid__gutter .four-twelfths, .grid__gutter #mast section .grid .four-twelfths, #mast section .grid .grid__gutter .four-twelfths, .grid__gutter #footend .container .grid .four-twelfths, #footend .container .grid .grid__gutter .four-twelfths, .grid__gutter .grid .one-third, .grid .grid__gutter .one-third, .grid__gutter .tabs .tabs__header .one-third, .tabs .tabs__header .grid__gutter .one-third, .grid__gutter #mast section .grid .one-third, #mast section .grid .grid__gutter .one-third, .grid__gutter #footend .container .grid .one-third, #footend .container .grid .grid__gutter .one-third, .grid__gutter #footend .container .tabs .tabs__header .grid-item, #footend .container .tabs .tabs__header .grid__gutter .grid-item, .grid__gutter .tabs #footend .container .tabs__header .grid-item, .tabs #footend .container .tabs__header .grid__gutter .grid-item, .grid__gutter #footend .container .grid .grid-item, #footend .container .grid .grid__gutter .grid-item, .grid__gutter .grid .two-eighths, .grid .grid__gutter .two-eighths, .grid__gutter .tabs .tabs__header .two-eighths, .tabs .tabs__header .grid__gutter .two-eighths, .grid__gutter #mast section .grid .two-eighths, #mast section .grid .grid__gutter .two-eighths, .grid__gutter #footend .container .grid .two-eighths, #footend .container .grid .grid__gutter .two-eighths, .grid__gutter .grid .three-twelfths, .grid .grid__gutter .three-twelfths, .grid__gutter .tabs .tabs__header .three-twelfths, .tabs .tabs__header .grid__gutter .three-twelfths, .grid__gutter #mast section .grid .three-twelfths, #mast section .grid .grid__gutter .three-twelfths, .grid__gutter #footend .container .grid .three-twelfths, #footend .container .grid .grid__gutter .three-twelfths, .grid__gutter .grid .one-quarter, .grid .grid__gutter .one-quarter, .grid__gutter .tabs .tabs__header .one-quarter, .tabs .tabs__header .grid__gutter .one-quarter, .grid__gutter #mast section .grid .one-quarter, #mast section .grid .grid__gutter .one-quarter, .grid__gutter #footend .container .grid .one-quarter, #footend .container .grid .grid__gutter .one-quarter {
+    padding-left: 20px; }
+
+.grid__gutter-large {
+  margin-left: -40px; }
+  .grid__gutter-large .grid__item, .grid__gutter-large .grid .one-whole, .grid .grid__gutter-large .one-whole, .grid__gutter-large .tabs .tabs__header .one-whole, .tabs .tabs__header .grid__gutter-large .one-whole, .grid__gutter-large #mast section .grid .one-whole, #mast section .grid .grid__gutter-large .one-whole, .grid__gutter-large #footend .container .grid .one-whole, #footend .container .grid .grid__gutter-large .one-whole, .grid__gutter-large #mast section .tabs .tabs__header .grid-item, #mast section .tabs .tabs__header .grid__gutter-large .grid-item, .grid__gutter-large .tabs #mast section .tabs__header .grid-item, .tabs #mast section .tabs__header .grid__gutter-large .grid-item, .grid__gutter-large #mast section .grid .grid-item, #mast section .grid .grid__gutter-large .grid-item, .grid__gutter-large .grid .two-quarters, .grid .grid__gutter-large .two-quarters, .grid__gutter-large .tabs .tabs__header .two-quarters, .tabs .tabs__header .grid__gutter-large .two-quarters, .grid__gutter-large #mast section .grid .two-quarters, #mast section .grid .grid__gutter-large .two-quarters, .grid__gutter-large #footend .container .grid .two-quarters, #footend .container .grid .grid__gutter-large .two-quarters, .grid__gutter-large .grid .three-sixths, .grid .grid__gutter-large .three-sixths, .grid__gutter-large .tabs .tabs__header .three-sixths, .tabs .tabs__header .grid__gutter-large .three-sixths, .grid__gutter-large #mast section .grid .three-sixths, #mast section .grid .grid__gutter-large .three-sixths, .grid__gutter-large #footend .container .grid .three-sixths, #footend .container .grid .grid__gutter-large .three-sixths, .grid__gutter-large .grid .four-eighths, .grid .grid__gutter-large .four-eighths, .grid__gutter-large .tabs .tabs__header .four-eighths, .tabs .tabs__header .grid__gutter-large .four-eighths, .grid__gutter-large #mast section .grid .four-eighths, #mast section .grid .grid__gutter-large .four-eighths, .grid__gutter-large #footend .container .grid .four-eighths, #footend .container .grid .grid__gutter-large .four-eighths, .grid__gutter-large .grid .five-tenths, .grid .grid__gutter-large .five-tenths, .grid__gutter-large .tabs .tabs__header .five-tenths, .tabs .tabs__header .grid__gutter-large .five-tenths, .grid__gutter-large #mast section .grid .five-tenths, #mast section .grid .grid__gutter-large .five-tenths, .grid__gutter-large #footend .container .grid .five-tenths, #footend .container .grid .grid__gutter-large .five-tenths, .grid__gutter-large .grid .six-twelfths, .grid .grid__gutter-large .six-twelfths, .grid__gutter-large .tabs .tabs__header .six-twelfths, .tabs .tabs__header .grid__gutter-large .six-twelfths, .grid__gutter-large #mast section .grid .six-twelfths, #mast section .grid .grid__gutter-large .six-twelfths, .grid__gutter-large #footend .container .grid .six-twelfths, #footend .container .grid .grid__gutter-large .six-twelfths, .grid__gutter-large .grid .one-half, .grid .grid__gutter-large .one-half, .grid__gutter-large .tabs .tabs__header .one-half, .tabs .tabs__header .grid__gutter-large .one-half, .grid__gutter-large #mast section .grid .one-half, #mast section .grid .grid__gutter-large .one-half, .grid__gutter-large #footend .container .grid .one-half, #footend .container .grid .grid__gutter-large .one-half, .grid__gutter-large .tabs .tabs__header li, .tabs .tabs__header .grid__gutter-large li, .grid__gutter-large #mast section .grid .tabs .tabs__header li, #mast section .grid .tabs .tabs__header .grid__gutter-large li, .grid__gutter-large .tabs .tabs__header #mast section .grid li, .tabs .tabs__header #mast section .grid .grid__gutter-large li, .grid__gutter-large #footend .container .grid .tabs .tabs__header li, #footend .container .grid .tabs .tabs__header .grid__gutter-large li, .grid__gutter-large .tabs .tabs__header #footend .container .grid li, .tabs .tabs__header #footend .container .grid .grid__gutter-large li, .grid__gutter-large .grid .two-sixths, .grid .grid__gutter-large .two-sixths, .grid__gutter-large .tabs .tabs__header .two-sixths, .tabs .tabs__header .grid__gutter-large .two-sixths, .grid__gutter-large #mast section .grid .two-sixths, #mast section .grid .grid__gutter-large .two-sixths, .grid__gutter-large #footend .container .grid .two-sixths, #footend .container .grid .grid__gutter-large .two-sixths, .grid__gutter-large .grid .four-twelfths, .grid .grid__gutter-large .four-twelfths, .grid__gutter-large .tabs .tabs__header .four-twelfths, .tabs .tabs__header .grid__gutter-large .four-twelfths, .grid__gutter-large #mast section .grid .four-twelfths, #mast section .grid .grid__gutter-large .four-twelfths, .grid__gutter-large #footend .container .grid .four-twelfths, #footend .container .grid .grid__gutter-large .four-twelfths, .grid__gutter-large .grid .one-third, .grid .grid__gutter-large .one-third, .grid__gutter-large .tabs .tabs__header .one-third, .tabs .tabs__header .grid__gutter-large .one-third, .grid__gutter-large #mast section .grid .one-third, #mast section .grid .grid__gutter-large .one-third, .grid__gutter-large #footend .container .grid .one-third, #footend .container .grid .grid__gutter-large .one-third, .grid__gutter-large #footend .container .tabs .tabs__header .grid-item, #footend .container .tabs .tabs__header .grid__gutter-large .grid-item, .grid__gutter-large .tabs #footend .container .tabs__header .grid-item, .tabs #footend .container .tabs__header .grid__gutter-large .grid-item, .grid__gutter-large #footend .container .grid .grid-item, #footend .container .grid .grid__gutter-large .grid-item, .grid__gutter-large .grid .two-eighths, .grid .grid__gutter-large .two-eighths, .grid__gutter-large .tabs .tabs__header .two-eighths, .tabs .tabs__header .grid__gutter-large .two-eighths, .grid__gutter-large #mast section .grid .two-eighths, #mast section .grid .grid__gutter-large .two-eighths, .grid__gutter-large #footend .container .grid .two-eighths, #footend .container .grid .grid__gutter-large .two-eighths, .grid__gutter-large .grid .three-twelfths, .grid .grid__gutter-large .three-twelfths, .grid__gutter-large .tabs .tabs__header .three-twelfths, .tabs .tabs__header .grid__gutter-large .three-twelfths, .grid__gutter-large #mast section .grid .three-twelfths, #mast section .grid .grid__gutter-large .three-twelfths, .grid__gutter-large #footend .container .grid .three-twelfths, #footend .container .grid .grid__gutter-large .three-twelfths, .grid__gutter-large .grid .one-quarter, .grid .grid__gutter-large .one-quarter, .grid__gutter-large .tabs .tabs__header .one-quarter, .tabs .tabs__header .grid__gutter-large .one-quarter, .grid__gutter-large #mast section .grid .one-quarter, #mast section .grid .grid__gutter-large .one-quarter, .grid__gutter-large #footend .container .grid .one-quarter, #footend .container .grid .grid__gutter-large .one-quarter {
+    padding-left: 40px; }
+
+.grid__gutter-small {
+  margin-left: -10px; }
+  .grid__gutter-small .grid__item, .grid__gutter-small .grid .one-whole, .grid .grid__gutter-small .one-whole, .grid__gutter-small .tabs .tabs__header .one-whole, .tabs .tabs__header .grid__gutter-small .one-whole, .grid__gutter-small #mast section .grid .one-whole, #mast section .grid .grid__gutter-small .one-whole, .grid__gutter-small #footend .container .grid .one-whole, #footend .container .grid .grid__gutter-small .one-whole, .grid__gutter-small #mast section .tabs .tabs__header .grid-item, #mast section .tabs .tabs__header .grid__gutter-small .grid-item, .grid__gutter-small .tabs #mast section .tabs__header .grid-item, .tabs #mast section .tabs__header .grid__gutter-small .grid-item, .grid__gutter-small #mast section .grid .grid-item, #mast section .grid .grid__gutter-small .grid-item, .grid__gutter-small .grid .two-quarters, .grid .grid__gutter-small .two-quarters, .grid__gutter-small .tabs .tabs__header .two-quarters, .tabs .tabs__header .grid__gutter-small .two-quarters, .grid__gutter-small #mast section .grid .two-quarters, #mast section .grid .grid__gutter-small .two-quarters, .grid__gutter-small #footend .container .grid .two-quarters, #footend .container .grid .grid__gutter-small .two-quarters, .grid__gutter-small .grid .three-sixths, .grid .grid__gutter-small .three-sixths, .grid__gutter-small .tabs .tabs__header .three-sixths, .tabs .tabs__header .grid__gutter-small .three-sixths, .grid__gutter-small #mast section .grid .three-sixths, #mast section .grid .grid__gutter-small .three-sixths, .grid__gutter-small #footend .container .grid .three-sixths, #footend .container .grid .grid__gutter-small .three-sixths, .grid__gutter-small .grid .four-eighths, .grid .grid__gutter-small .four-eighths, .grid__gutter-small .tabs .tabs__header .four-eighths, .tabs .tabs__header .grid__gutter-small .four-eighths, .grid__gutter-small #mast section .grid .four-eighths, #mast section .grid .grid__gutter-small .four-eighths, .grid__gutter-small #footend .container .grid .four-eighths, #footend .container .grid .grid__gutter-small .four-eighths, .grid__gutter-small .grid .five-tenths, .grid .grid__gutter-small .five-tenths, .grid__gutter-small .tabs .tabs__header .five-tenths, .tabs .tabs__header .grid__gutter-small .five-tenths, .grid__gutter-small #mast section .grid .five-tenths, #mast section .grid .grid__gutter-small .five-tenths, .grid__gutter-small #footend .container .grid .five-tenths, #footend .container .grid .grid__gutter-small .five-tenths, .grid__gutter-small .grid .six-twelfths, .grid .grid__gutter-small .six-twelfths, .grid__gutter-small .tabs .tabs__header .six-twelfths, .tabs .tabs__header .grid__gutter-small .six-twelfths, .grid__gutter-small #mast section .grid .six-twelfths, #mast section .grid .grid__gutter-small .six-twelfths, .grid__gutter-small #footend .container .grid .six-twelfths, #footend .container .grid .grid__gutter-small .six-twelfths, .grid__gutter-small .grid .one-half, .grid .grid__gutter-small .one-half, .grid__gutter-small .tabs .tabs__header .one-half, .tabs .tabs__header .grid__gutter-small .one-half, .grid__gutter-small #mast section .grid .one-half, #mast section .grid .grid__gutter-small .one-half, .grid__gutter-small #footend .container .grid .one-half, #footend .container .grid .grid__gutter-small .one-half, .grid__gutter-small .tabs .tabs__header li, .tabs .tabs__header .grid__gutter-small li, .grid__gutter-small #mast section .grid .tabs .tabs__header li, #mast section .grid .tabs .tabs__header .grid__gutter-small li, .grid__gutter-small .tabs .tabs__header #mast section .grid li, .tabs .tabs__header #mast section .grid .grid__gutter-small li, .grid__gutter-small #footend .container .grid .tabs .tabs__header li, #footend .container .grid .tabs .tabs__header .grid__gutter-small li, .grid__gutter-small .tabs .tabs__header #footend .container .grid li, .tabs .tabs__header #footend .container .grid .grid__gutter-small li, .grid__gutter-small .grid .two-sixths, .grid .grid__gutter-small .two-sixths, .grid__gutter-small .tabs .tabs__header .two-sixths, .tabs .tabs__header .grid__gutter-small .two-sixths, .grid__gutter-small #mast section .grid .two-sixths, #mast section .grid .grid__gutter-small .two-sixths, .grid__gutter-small #footend .container .grid .two-sixths, #footend .container .grid .grid__gutter-small .two-sixths, .grid__gutter-small .grid .four-twelfths, .grid .grid__gutter-small .four-twelfths, .grid__gutter-small .tabs .tabs__header .four-twelfths, .tabs .tabs__header .grid__gutter-small .four-twelfths, .grid__gutter-small #mast section .grid .four-twelfths, #mast section .grid .grid__gutter-small .four-twelfths, .grid__gutter-small #footend .container .grid .four-twelfths, #footend .container .grid .grid__gutter-small .four-twelfths, .grid__gutter-small .grid .one-third, .grid .grid__gutter-small .one-third, .grid__gutter-small .tabs .tabs__header .one-third, .tabs .tabs__header .grid__gutter-small .one-third, .grid__gutter-small #mast section .grid .one-third, #mast section .grid .grid__gutter-small .one-third, .grid__gutter-small #footend .container .grid .one-third, #footend .container .grid .grid__gutter-small .one-third, .grid__gutter-small #footend .container .tabs .tabs__header .grid-item, #footend .container .tabs .tabs__header .grid__gutter-small .grid-item, .grid__gutter-small .tabs #footend .container .tabs__header .grid-item, .tabs #footend .container .tabs__header .grid__gutter-small .grid-item, .grid__gutter-small #footend .container .grid .grid-item, #footend .container .grid .grid__gutter-small .grid-item, .grid__gutter-small .grid .two-eighths, .grid .grid__gutter-small .two-eighths, .grid__gutter-small .tabs .tabs__header .two-eighths, .tabs .tabs__header .grid__gutter-small .two-eighths, .grid__gutter-small #mast section .grid .two-eighths, #mast section .grid .grid__gutter-small .two-eighths, .grid__gutter-small #footend .container .grid .two-eighths, #footend .container .grid .grid__gutter-small .two-eighths, .grid__gutter-small .grid .three-twelfths, .grid .grid__gutter-small .three-twelfths, .grid__gutter-small .tabs .tabs__header .three-twelfths, .tabs .tabs__header .grid__gutter-small .three-twelfths, .grid__gutter-small #mast section .grid .three-twelfths, #mast section .grid .grid__gutter-small .three-twelfths, .grid__gutter-small #footend .container .grid .three-twelfths, #footend .container .grid .grid__gutter-small .three-twelfths, .grid__gutter-small .grid .one-quarter, .grid .grid__gutter-small .one-quarter, .grid__gutter-small .tabs .tabs__header .one-quarter, .tabs .tabs__header .grid__gutter-small .one-quarter, .grid__gutter-small #mast section .grid .one-quarter, #mast section .grid .grid__gutter-small .one-quarter, .grid__gutter-small #footend .container .grid .one-quarter, #footend .container .grid .grid__gutter-small .one-quarter {
+    padding-left: 10px; }
+
+.one-whole, .grid .one-whole, .tabs .tabs__header .one-whole, #mast section .grid .one-whole, #footend .container .grid .one-whole, #mast section .tabs .tabs__header .grid-item, .tabs #mast section .tabs__header .grid-item, #mast section .grid .grid-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%; }
+
+.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths, .grid .one-half, .tabs .tabs__header .one-half, #mast section .grid .one-half, #footend .container .grid .one-half, .tabs .tabs__header li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%; }
+
+.one-third, .two-sixths, .four-twelfths, .grid .one-third, .tabs .tabs__header .one-third, #mast section .grid .one-third, #footend .container .grid .one-third, #footend .container .tabs .tabs__header .grid-item, .tabs #footend .container .tabs__header .grid-item, #footend .container .grid .grid-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%; }
+
+.two-thirds, .four-sixths, .eight-twelfths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 66.666%;
+          flex: 0 0 66.666%; }
+
+.one-quarter, .two-eighths, .three-twelfths, .grid .one-quarter, .tabs .tabs__header .one-quarter, #mast section .grid .one-quarter, #footend .container .grid .one-quarter {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%; }
+
+.three-quarters, .six-eighths, .nine-twelfths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%; }
+
+.one-fifth, .two-tenths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%; }
+
+.two-fifths, .four-tenths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%; }
+
+.three-fifths, .six-tenths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%; }
+
+.four-fifths, .eight-tenths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%; }
+
+.one-sixth, .two-twelfths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 16.666%;
+          flex: 0 0 16.666%; }
+
+.five-sixths, .ten-twelfths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 83.333%;
+          flex: 0 0 83.333%; }
+
+.one-eighth {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 12.5%;
+          flex: 0 0 12.5%; }
+
+.three-eighths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 37.5%;
+          flex: 0 0 37.5%; }
+
+.five-eighths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 62.5%;
+          flex: 0 0 62.5%; }
+
+.seven-eighths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 87.5%;
+          flex: 0 0 87.5%; }
+
+.one-tenth {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10%;
+          flex: 0 0 10%; }
+
+.three-tenths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%; }
+
+.seven-tenths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 70%;
+          flex: 0 0 70%; }
+
+.one-twelfth {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 8.333%;
+          flex: 0 0 8.333%; }
+
+.five-twelfths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 41.666%;
+          flex: 0 0 41.666%; }
+
+.seven-twelfths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 58.333%;
+          flex: 0 0 58.333%; }
+
+.eleven-twelfths {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 91.666%;
+          flex: 0 0 91.666%; }
+
+@media only screen and (max-width: 320px) {
+  .feature--one-whole, .grid .mobi.two-quarters, .tabs .tabs__header .mobi.two-quarters, #mast section .grid .mobi.two-quarters, #footend .container .grid .mobi.two-quarters, .grid .mobi.three-sixths, .tabs .tabs__header .mobi.three-sixths, #mast section .grid .mobi.three-sixths, #footend .container .grid .mobi.three-sixths, .grid .mobi.four-eighths, .tabs .tabs__header .mobi.four-eighths, #mast section .grid .mobi.four-eighths, #footend .container .grid .mobi.four-eighths, .grid .mobi.five-tenths, .tabs .tabs__header .mobi.five-tenths, #mast section .grid .mobi.five-tenths, #footend .container .grid .mobi.five-tenths, .grid .mobi.six-twelfths, .tabs .tabs__header .mobi.six-twelfths, #mast section .grid .mobi.six-twelfths, #footend .container .grid .mobi.six-twelfths, .grid .mobi.one-half, .tabs .tabs__header .mobi.one-half, #mast section .grid .mobi.one-half, #footend .container .grid .mobi.one-half, .tabs .tabs__header li.mobi, #mast section .grid .tabs .tabs__header li.mobi, .tabs .tabs__header #mast section .grid li.mobi, #footend .container .grid .tabs .tabs__header li.mobi, .tabs .tabs__header #footend .container .grid li.mobi, .grid .mobi.two-sixths, .tabs .tabs__header .mobi.two-sixths, #mast section .grid .mobi.two-sixths, #footend .container .grid .mobi.two-sixths, .grid .mobi.four-twelfths, .tabs .tabs__header .mobi.four-twelfths, #mast section .grid .mobi.four-twelfths, #footend .container .grid .mobi.four-twelfths, .grid .mobi.one-third, .tabs .tabs__header .mobi.one-third, #mast section .grid .mobi.one-third, #footend .container .grid .mobi.one-third, .grid .mobi.two-eighths, .tabs .tabs__header .mobi.two-eighths, #mast section .grid .mobi.two-eighths, #footend .container .grid .mobi.two-eighths, .grid .mobi.three-twelfths, .tabs .tabs__header .mobi.three-twelfths, #mast section .grid .mobi.three-twelfths, #footend .container .grid .mobi.three-twelfths, .grid .mobi.one-quarter, .tabs .tabs__header .mobi.one-quarter, #mast section .grid .mobi.one-quarter, #footend .container .grid .mobi.one-quarter, #footend .container .tabs .tabs__header .grid-item, .tabs #footend .container .tabs__header .grid-item, #footend .container .grid .grid-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
+  .feature--one-half, .feature--two-quarters, .feature--three-sixths, .feature--four-eighths, .feature--five-tenths, .feature--six-twelfths, #mast .section-fixture .container .grid .grid-item, #mast .section-fixture .container .tabs .tabs__header .grid-item, .tabs #mast .section-fixture .container .tabs__header .grid-item, .home .section-fixture .grid .grid-item, .home .section-fixture .tabs .tabs__header .grid-item, .tabs .home .section-fixture .tabs__header .grid-item, .home .section-fixture #mast section .grid .grid-item, #mast section .home .section-fixture .grid .grid-item, .home .section-fixture #footend .container .grid .grid-item, #footend .container .home .section-fixture .grid .grid-item, .page-gallery.gallery-list .wrapper .gallery-wrapper {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%; }
+  .feature--one-third, .feature--two-sixths, .feature--four-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%; }
+  .feature--two-thirds, .feature--four-sixths, .feature--eight-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666%;
+            flex: 0 0 66.666%; }
+  .feature--one-quarter, .feature--two-eighths, .feature--three-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%; }
+  .feature--three-quarters, .feature--six-eighths, .feature--nine-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%; }
+  .feature--one-fifth, .feature--two-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%; }
+  .feature--two-fifths, .feature--four-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%; }
+  .feature--three-fifths, .feature--six-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%; }
+  .feature--four-fifths, .feature--eight-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%; }
+  .feature--one-sixth, .feature--two-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666%;
+            flex: 0 0 16.666%; }
+  .feature--five-sixths, .feature--ten-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 83.333%;
+            flex: 0 0 83.333%; }
+  .feature--one-eighth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 12.5%;
+            flex: 0 0 12.5%; }
+  .feature--three-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 37.5%;
+            flex: 0 0 37.5%; }
+  .feature--five-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 62.5%;
+            flex: 0 0 62.5%; }
+  .feature--seven-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 87.5%;
+            flex: 0 0 87.5%; }
+  .feature--one-tenth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10%;
+            flex: 0 0 10%; }
+  .feature--three-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%; }
+  .feature--seven-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%; }
+  .feature--one-twelfth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.333%;
+            flex: 0 0 8.333%; }
+  .feature--five-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666%;
+            flex: 0 0 41.666%; }
+  .feature--seven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333%;
+            flex: 0 0 58.333%; }
+  .feature--eleven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 91.666%;
+            flex: 0 0 91.666%; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .mobile--one-whole, .grid .mobi.two-quarters, .tabs .tabs__header .mobi.two-quarters, #mast section .grid .mobi.two-quarters, #footend .container .grid .mobi.two-quarters, .grid .mobi.three-sixths, .tabs .tabs__header .mobi.three-sixths, #mast section .grid .mobi.three-sixths, #footend .container .grid .mobi.three-sixths, .grid .mobi.four-eighths, .tabs .tabs__header .mobi.four-eighths, #mast section .grid .mobi.four-eighths, #footend .container .grid .mobi.four-eighths, .grid .mobi.five-tenths, .tabs .tabs__header .mobi.five-tenths, #mast section .grid .mobi.five-tenths, #footend .container .grid .mobi.five-tenths, .grid .mobi.six-twelfths, .tabs .tabs__header .mobi.six-twelfths, #mast section .grid .mobi.six-twelfths, #footend .container .grid .mobi.six-twelfths, .grid .mobi.one-half, .tabs .tabs__header .mobi.one-half, #mast section .grid .mobi.one-half, #footend .container .grid .mobi.one-half, .tabs .tabs__header li.mobi, #mast section .grid .tabs .tabs__header li.mobi, .tabs .tabs__header #mast section .grid li.mobi, #footend .container .grid .tabs .tabs__header li.mobi, .tabs .tabs__header #footend .container .grid li.mobi, .grid .mobi.two-sixths, .tabs .tabs__header .mobi.two-sixths, #mast section .grid .mobi.two-sixths, #footend .container .grid .mobi.two-sixths, .grid .mobi.four-twelfths, .tabs .tabs__header .mobi.four-twelfths, #mast section .grid .mobi.four-twelfths, #footend .container .grid .mobi.four-twelfths, .grid .mobi.one-third, .tabs .tabs__header .mobi.one-third, #mast section .grid .mobi.one-third, #footend .container .grid .mobi.one-third, .grid .mobi.two-eighths, .tabs .tabs__header .mobi.two-eighths, #mast section .grid .mobi.two-eighths, #footend .container .grid .mobi.two-eighths, .grid .mobi.three-twelfths, .tabs .tabs__header .mobi.three-twelfths, #mast section .grid .mobi.three-twelfths, #footend .container .grid .mobi.three-twelfths, .grid .mobi.one-quarter, .tabs .tabs__header .mobi.one-quarter, #mast section .grid .mobi.one-quarter, #footend .container .grid .mobi.one-quarter, #footend .container .tabs .tabs__header .grid-item, .tabs #footend .container .tabs__header .grid-item, #footend .container .grid .grid-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
+  .mobile--one-half, .mobile--two-quarters, .mobile--three-sixths, .mobile--four-eighths, .mobile--five-tenths, .mobile--six-twelfths, #mast .section-blog .container .grid .grid-item, #mast .section-blog .container .tabs .tabs__header .grid-item, .tabs #mast .section-blog .container .tabs__header .grid-item, #mast .section-fixture .container .grid .grid-item, #mast .section-fixture .container .tabs .tabs__header .grid-item, .tabs #mast .section-fixture .container .tabs__header .grid-item, .home .section-fixture .grid .grid-item, .home .section-fixture .tabs .tabs__header .grid-item, .tabs .home .section-fixture .tabs__header .grid-item, .home .section-fixture #mast section .grid .grid-item, #mast section .home .section-fixture .grid .grid-item, .home .section-fixture #footend .container .grid .grid-item, #footend .container .home .section-fixture .grid .grid-item, .page-gallery.gallery-list .wrapper .gallery-wrapper {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%; }
+  .mobile--one-third, .mobile--two-sixths, .mobile--four-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%; }
+  .mobile--two-thirds, .mobile--four-sixths, .mobile--eight-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666%;
+            flex: 0 0 66.666%; }
+  .mobile--one-quarter, .mobile--two-eighths, .mobile--three-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%; }
+  .mobile--three-quarters, .mobile--six-eighths, .mobile--nine-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%; }
+  .mobile--one-fifth, .mobile--two-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%; }
+  .mobile--two-fifths, .mobile--four-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%; }
+  .mobile--three-fifths, .mobile--six-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%; }
+  .mobile--four-fifths, .mobile--eight-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%; }
+  .mobile--one-sixth, .mobile--two-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666%;
+            flex: 0 0 16.666%; }
+  .mobile--five-sixths, .mobile--ten-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 83.333%;
+            flex: 0 0 83.333%; }
+  .mobile--one-eighth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 12.5%;
+            flex: 0 0 12.5%; }
+  .mobile--three-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 37.5%;
+            flex: 0 0 37.5%; }
+  .mobile--five-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 62.5%;
+            flex: 0 0 62.5%; }
+  .mobile--seven-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 87.5%;
+            flex: 0 0 87.5%; }
+  .mobile--one-tenth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10%;
+            flex: 0 0 10%; }
+  .mobile--three-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%; }
+  .mobile--seven-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%; }
+  .mobile--one-twelfth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.333%;
+            flex: 0 0 8.333%; }
+  .mobile--five-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666%;
+            flex: 0 0 41.666%; }
+  .mobile--seven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333%;
+            flex: 0 0 58.333%; }
+  .mobile--eleven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 91.666%;
+            flex: 0 0 91.666%; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .tablet--one-whole {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
+  .tablet--one-half, .tablet--two-quarters, .tablet--three-sixths, .tablet--four-eighths, .tablet--five-tenths, .tablet--six-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%; }
+  .tablet--one-third, .tablet--two-sixths, .tablet--four-twelfths, #mast section .tabs .tabs__header .grid-item, .tabs #mast section .tabs__header .grid-item, #mast section .grid .grid-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%; }
+  .tablet--two-thirds, .tablet--four-sixths, .tablet--eight-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666%;
+            flex: 0 0 66.666%; }
+  .tablet--one-quarter, .tablet--two-eighths, .tablet--three-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%; }
+  .tablet--three-quarters, .tablet--six-eighths, .tablet--nine-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%; }
+  .tablet--one-fifth, .tablet--two-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%; }
+  .tablet--two-fifths, .tablet--four-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%; }
+  .tablet--three-fifths, .tablet--six-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%; }
+  .tablet--four-fifths, .tablet--eight-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%; }
+  .tablet--one-sixth, .tablet--two-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666%;
+            flex: 0 0 16.666%; }
+  .tablet--five-sixths, .tablet--ten-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 83.333%;
+            flex: 0 0 83.333%; }
+  .tablet--one-eighth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 12.5%;
+            flex: 0 0 12.5%; }
+  .tablet--three-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 37.5%;
+            flex: 0 0 37.5%; }
+  .tablet--five-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 62.5%;
+            flex: 0 0 62.5%; }
+  .tablet--seven-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 87.5%;
+            flex: 0 0 87.5%; }
+  .tablet--one-tenth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10%;
+            flex: 0 0 10%; }
+  .tablet--three-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%; }
+  .tablet--seven-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%; }
+  .tablet--one-twelfth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.333%;
+            flex: 0 0 8.333%; }
+  .tablet--five-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666%;
+            flex: 0 0 41.666%; }
+  .tablet--seven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333%;
+            flex: 0 0 58.333%; }
+  .tablet--eleven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 91.666%;
+            flex: 0 0 91.666%; } }
+
+@media only screen and (min-width: 1024px) {
+  .desk--one-whole {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
+  .desk--one-half, .desk--two-quarters, .desk--three-sixths, .desk--four-eighths, .desk--five-tenths, .desk--six-twelfths, .grid .mobi.two-eighths, .tabs .tabs__header .mobi.two-eighths, #mast section .grid .mobi.two-eighths, #footend .container .grid .mobi.two-eighths, .grid .mobi.three-twelfths, .tabs .tabs__header .mobi.three-twelfths, #mast section .grid .mobi.three-twelfths, #footend .container .grid .mobi.three-twelfths, .grid .mobi.one-quarter, .tabs .tabs__header .mobi.one-quarter, #mast section .grid .mobi.one-quarter, #footend .container .grid .mobi.one-quarter {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%; }
+  .desk--one-third, .desk--two-sixths, .desk--four-twelfths, #mast section .tabs .tabs__header .grid-item, .tabs #mast section .tabs__header .grid-item, #mast section .grid .grid-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%; }
+  .desk--two-thirds, .desk--four-sixths, .desk--eight-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666%;
+            flex: 0 0 66.666%; }
+  .desk--one-quarter, .desk--two-eighths, .desk--three-twelfths, #mast .section-fixture .container .grid .grid-item, #mast .section-fixture .container .tabs .tabs__header .grid-item, .tabs #mast .section-fixture .container .tabs__header .grid-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%; }
+  .desk--three-quarters, .desk--six-eighths, .desk--nine-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%; }
+  .desk--one-fifth, .desk--two-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%; }
+  .desk--two-fifths, .desk--four-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%; }
+  .desk--three-fifths, .desk--six-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%; }
+  .desk--four-fifths, .desk--eight-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%; }
+  .desk--one-sixth, .desk--two-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666%;
+            flex: 0 0 16.666%; }
+  .desk--five-sixths, .desk--ten-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 83.333%;
+            flex: 0 0 83.333%; }
+  .desk--one-eighth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 12.5%;
+            flex: 0 0 12.5%; }
+  .desk--three-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 37.5%;
+            flex: 0 0 37.5%; }
+  .desk--five-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 62.5%;
+            flex: 0 0 62.5%; }
+  .desk--seven-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 87.5%;
+            flex: 0 0 87.5%; }
+  .desk--one-tenth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10%;
+            flex: 0 0 10%; }
+  .desk--three-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%; }
+  .desk--seven-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%; }
+  .desk--one-twelfth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.333%;
+            flex: 0 0 8.333%; }
+  .desk--five-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666%;
+            flex: 0 0 41.666%; }
+  .desk--seven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333%;
+            flex: 0 0 58.333%; }
+  .desk--eleven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 91.666%;
+            flex: 0 0 91.666%; } }
+
+@media only screen and (min-width: 1200px) {
+  .desk-wide--one-whole {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
+  .desk-wide--one-half, .desk-wide--two-quarters, .desk-wide--three-sixths, .desk-wide--four-eighths, .desk-wide--five-tenths, .desk-wide--six-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%; }
+  .desk-wide--one-third, .desk-wide--two-sixths, .desk-wide--four-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%; }
+  .desk-wide--two-thirds, .desk-wide--four-sixths, .desk-wide--eight-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666%;
+            flex: 0 0 66.666%; }
+  .desk-wide--one-quarter, .desk-wide--two-eighths, .desk-wide--three-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%; }
+  .desk-wide--three-quarters, .desk-wide--six-eighths, .desk-wide--nine-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%; }
+  .desk-wide--one-fifth, .desk-wide--two-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%; }
+  .desk-wide--two-fifths, .desk-wide--four-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%; }
+  .desk-wide--three-fifths, .desk-wide--six-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%; }
+  .desk-wide--four-fifths, .desk-wide--eight-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%; }
+  .desk-wide--one-sixth, .desk-wide--two-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666%;
+            flex: 0 0 16.666%; }
+  .desk-wide--five-sixths, .desk-wide--ten-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 83.333%;
+            flex: 0 0 83.333%; }
+  .desk-wide--one-eighth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 12.5%;
+            flex: 0 0 12.5%; }
+  .desk-wide--three-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 37.5%;
+            flex: 0 0 37.5%; }
+  .desk-wide--five-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 62.5%;
+            flex: 0 0 62.5%; }
+  .desk-wide--seven-eighths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 87.5%;
+            flex: 0 0 87.5%; }
+  .desk-wide--one-tenth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10%;
+            flex: 0 0 10%; }
+  .desk-wide--three-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%; }
+  .desk-wide--seven-tenths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%; }
+  .desk-wide--one-twelfth {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.333%;
+            flex: 0 0 8.333%; }
+  .desk-wide--five-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666%;
+            flex: 0 0 41.666%; }
+  .desk-wide--seven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333%;
+            flex: 0 0 58.333%; }
+  .desk-wide--eleven-twelfths {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 91.666%;
+            flex: 0 0 91.666%; } }
+
+body {
+  font-size: 75%; }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  body {
+    font-size: 87.5%; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  body {
+    font-size: 100%; } }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 100%; } }
+
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 100%; } }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; }
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 40px; }
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px; }
+
+h3 {
+  font-size: 1.125em;
+  margin-top: 20px;
+  margin-bottom: 0; }
+
+h4 {
+  font-size: 1em;
+  margin-bottom: 20px; }
+
+h5 {
+  font-size: 0.75em;
+  margin-bottom: 20px; }
+
+h6 {
+  font-size: 0.625em; }
+
+body,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  margin: 0 0 20px 0;
+  color: #333; }
+
+strong,
+b {
+  font-weight: bold; }
+
+code {
+  line-height: 20px;
+  margin: 0; }
+
+pre {
+  margin: 0 0 20px 0; }
+
+a {
+  color: #00BFFF;
+  text-decoration: none; }
+  a:hover {
+    color: #0064cd;
+    text-decoration: none; }
+
+hr {
+  margin: 19px 0;
+  border: 0;
+  border-bottom: 1px solid #555;
+  line-height: 20px; }
+
+ol, ul {
+  margin: 0 0 20px 0;
+  padding-left: 20px; }
+  ol ol, ol ul, ul ol, ul ul {
+    margin: 0;
+    padding-left: 20px; }
+  ol li, ul li {
+    line-height: 20px;
+    margin: 0;
+    padding: 0; }
+
+dl {
+  line-height: 20px;
+  margin: 0 0 20px 0; }
+  dl dt {
+    font-weight: bold; }
+  dl dd {
+    margin: 0 0 0 20px; }
+
+table {
+  width: 100%;
+  margin: 2px 0 20px 0;
+  padding: 0;
+  border: solid 1px #555; }
+  table tr {
+    line-height: 20px;
+    height: auto; }
+  table td, table th {
+    line-height: 20px;
+    margin: 0;
+    border-right: solid 1px #555; }
+  table th {
+    font-weight: normal;
+    text-align: left; }
+  table thead {
+    line-height: 20px; }
+  table tbody {
+    line-height: 20px; }
+
+img {
+  display: block; }
+
+form label {
+  width: 95%;
+  line-height: 20px;
+  display: block; }
+
+form input[type="text"],
+form input[type="password"],
+form input[type="select"],
+form input[type="search"] {
+  width: 90%;
+  margin-bottom: 0px;
+  display: block;
+  padding: 10px; }
+
+form textarea {
+  padding: 10px;
+  width: 90%;
+  height: 200px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  display: block;
+  clear: left;
+  overflow: auto; }
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  margin: 0px 6.66667px 0px 10px;
+  display: inline-block; }
+
+form input[type="file"] {
+  margin: 0px 6px 3px 6px; }
+
+form input[type="submit"],
+form input[type="reset"],
+form input[type="button"] {
+  position: relative;
+  top: 5px;
+  margin-bottom: 24px; }
+
+form legend {
+  padding-bottom: 24px; }
+
+form {
+  margin-bottom: 20px; }
+  form .radio,
+  form .checkbox {
+    padding: 0 0 0 0 !important; }
+    form .radio ul,
+    form .checkbox ul {
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      margin-bottom: -1px !important; }
+      form .radio ul li,
+      form .checkbox ul li {
+        margin: 0;
+        list-style: none;
+        display: block; }
+        form .radio ul li a,
+        form .checkbox ul li a {
+          padding: 0 5px;
+          display: block; }
+  form .field-item {
+    margin-bottom: 20px;
+    padding: 0 0 2px 0; }
+  form input {
+    border: solid 1px #999; }
+  form .textarea {
+    margin-bottom: 19px; }
+
+form.stacked label {
+  display: block; }
+
+form.stacked .radio label, form.stacked .checkbox label {
+  display: inline-block; }
+
+form.inline label {
+  display: inline-block;
+  width: 150px;
+  line-height: 20px; }
+
+.button {
+  display: inline-block; }
+  .button:hover {
+    text-decoration: none; }
+  .button.small {
+    padding: 3.33333px 5px;
+    font-size: 0.75em; }
+  .button.medium {
+    padding: 5px 10px;
+    font-size: 1em; }
+  .button.large {
+    padding: 10px 20px;
+    font-size: 1.125em; }
+  .button.small {
+    padding: 3.33333px 5px;
+    font-size: 0.75em; }
+  .button.medium {
+    padding: 5px 10px;
+    font-size: 1em; }
+  .button.large {
+    padding: 10px 20px;
+    font-size: 1.125em; }
+
+.message {
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px; }
+  .message h4, .message p {
+    margin: 0; }
+  .message.info {
+    background: #ccf2ff; }
+    .message.info h4, .message.info p {
+      color: #0099cc; }
+  .message.warning {
+    background: #fee9cc; }
+    .message.warning h4, .message.warning p {
+      color: #c67605; }
+  .message.error {
+    background: #eca09a; }
+    .message.error h4, .message.error p {
+      color: #721c15; }
+
+.highlight {
+  background: #fff; }
+  .highlight .c {
+    color: #998;
+    font-style: italic; }
+  .highlight .err {
+    color: #a61717;
+    background-color: #e3d2d2; }
+  .highlight .k {
+    font-weight: bold; }
+  .highlight .o {
+    font-weight: bold; }
+  .highlight .cm {
+    color: #998;
+    font-style: italic; }
+  .highlight .cp {
+    color: #999;
+    font-weight: bold; }
+  .highlight .c1 {
+    color: #998;
+    font-style: italic; }
+  .highlight .cs {
+    color: #999;
+    font-weight: bold;
+    font-style: italic; }
+  .highlight .gd {
+    color: #000;
+    background-color: #fdd; }
+  .highlight .gd .x {
+    color: #000;
+    background-color: #faa; }
+  .highlight .ge {
+    font-style: italic; }
+  .highlight .gr {
+    color: #a00; }
+  .highlight .gh {
+    color: #999; }
+  .highlight .gi {
+    color: #000;
+    background-color: #dfd; }
+  .highlight .gi .x {
+    color: #000;
+    background-color: #afa; }
+  .highlight .go {
+    color: #888; }
+  .highlight .gp {
+    color: #555; }
+  .highlight .gs {
+    font-weight: bold; }
+  .highlight .gu {
+    color: #aaa; }
+  .highlight .gt {
+    color: #a00; }
+  .highlight .kc {
+    font-weight: bold; }
+  .highlight .kd {
+    font-weight: bold; }
+  .highlight .kp {
+    font-weight: bold; }
+  .highlight .kr {
+    font-weight: bold; }
+  .highlight .kt {
+    color: #458;
+    font-weight: bold; }
+  .highlight .m {
+    color: #099; }
+  .highlight .s {
+    color: #d14; }
+  .highlight .na {
+    color: #008080; }
+  .highlight .nb {
+    color: #0086B3; }
+  .highlight .nc {
+    color: #458;
+    font-weight: bold; }
+  .highlight .no {
+    color: #008080; }
+  .highlight .ni {
+    color: #800080; }
+  .highlight .ne {
+    color: #900;
+    font-weight: bold; }
+  .highlight .nf {
+    color: #900;
+    font-weight: bold; }
+  .highlight .nn {
+    color: #555; }
+  .highlight .nt {
+    color: #000080; }
+  .highlight .nv {
+    color: #008080; }
+  .highlight .ow {
+    font-weight: bold; }
+  .highlight .w {
+    color: #bbb; }
+  .highlight .mf {
+    color: #099; }
+  .highlight .mh {
+    color: #099; }
+  .highlight .mi {
+    color: #099; }
+  .highlight .mo {
+    color: #099; }
+  .highlight .sb {
+    color: #d14; }
+  .highlight .sc {
+    color: #d14; }
+  .highlight .sd {
+    color: #d14; }
+  .highlight .s2 {
+    color: #d14; }
+  .highlight .se {
+    color: #d14; }
+  .highlight .sh {
+    color: #d14; }
+  .highlight .si {
+    color: #d14; }
+  .highlight .sx {
+    color: #d14; }
+  .highlight .sr {
+    color: #009926; }
+  .highlight .s1 {
+    color: #d14; }
+  .highlight .ss {
+    color: #990073; }
+  .highlight .bp {
+    color: #999; }
+  .highlight .vc {
+    color: #008080; }
+  .highlight .vg {
+    color: #008080; }
+  .highlight .vi {
+    color: #008080; }
+  .highlight .il {
+    color: #099; }
+
+@media only screen and (max-width: 320px) {
+  .grid.half li:first-child a, .tabs .half.tabs__header li:first-child a, #mast section .half.grid li:first-child a, #footend .container .half.grid li:first-child a {
+    margin-right: 5px; }
+  .grid.half li:last-child a, .tabs .half.tabs__header li:last-child a, #mast section .half.grid li:last-child a, #footend .container .half.grid li:last-child a {
+    margin-left: 5px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .grid.half li:first-child a, .tabs .half.tabs__header li:first-child a, #mast section .half.grid li:first-child a, #footend .container .half.grid li:first-child a {
+    margin-right: 10px; }
+  .grid.half li:last-child a, .tabs .half.tabs__header li:last-child a, #mast section .half.grid li:last-child a, #footend .container .half.grid li:last-child a {
+    margin-left: 10px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .half li:first-child a {
+    margin-right: 10px; }
+  .half li:last-child a {
+    margin-left: 10px; } }
+
+@media only screen and (min-width: 1024px) {
+  .half li:first-child a {
+    margin-left: 10px; }
+  .half li:last-child a {
+    margin-right: 10px; } }
+
+@media only screen and (min-width: 1200px) {
+  .half li:first-child a {
+    margin-left: 10px; }
+  .half li:last-child a {
+    margin-right: 10px; } }
+
+html {
+  font-weight: 300; }
+
+h4, h6, ul, li, p {
+  font-family: source-serif-pro, arial, sans-serif; }
+
+h1, h2 {
+  font-family: averia-libre, arial, sans-serif;
+  line-height: normal; }
+
+h3.big-title {
+  text-transform: uppercase; }
+
+p {
+  font-size: 1.125em; }
+
+body {
+  background-size: 100% auto;
+  background-color: rgba 0, 0, 0, 0.2;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0; }
+  body #mast:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; }
+
+a {
+  color: #333333; }
+  a:hover {
+    color: #fff; }
+
+.hidden {
+  display: none; }
+
+.active {
+  display: block; }
+
+.not-active {
+  display: none; }
+
+.mvbc {
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff; }
+
+.figure-logo {
+  margin: 10px auto;
+  position: relative;
+  width: 60%; }
+  .figure-logo:before {
+    content: "";
+    display: block;
+    padding-top: 55%; }
+  .figure-logo a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+    .figure-logo a .site-logo {
+      width: 100%;
+      height: 100%; }
+
+section .grid .grid-item h3, section .tabs .tabs__header .grid-item h3, .tabs section .tabs__header .grid-item h3, #mast section .grid .grid-item h3, section #footend .container .grid .grid-item h3, #footend .container section .grid .grid-item h3 {
+  margin: 20px 5px; }
+
+section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs section .tabs__header .grid-item ul, #mast section .grid .grid-item ul, section #footend .container .grid .grid-item ul, #footend .container section .grid .grid-item ul {
+  margin: 0 5px; }
+
+@media only screen and (max-width: 320px) {
+  .no-mobile, .no-mobile-inline {
+    display: none; }
+  h1, h2 {
+    font-size: 33px;
+    line-height: normal; }
+  h1 {
+    margin: 0 0 0 0; }
+  .fluid-c {
+    max-width: 90%;
+    margin: 5px auto; }
+  .fluid-l,
+  .fluid-r {
+    max-width: 90%;
+    float: none;
+    margin: 5px auto; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .container {
+    padding: 0; }
+  .no-mobile, .no-mobile-inline {
+    display: none; }
+  h1, h2 {
+    font-size: 33px;
+    line-height: normal; }
+  h1 {
+    margin: 0 0 0 0; }
+  .fluid-c {
+    max-width: 90%;
+    margin: 5px auto; }
+  .fluid-l,
+  .fluid-r {
+    max-width: 90%;
+    float: none;
+    margin: 5px auto; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .no-mobile {
+    display: block; }
+  .no-mobile-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  h1, h2 {
+    font-size: 45px; }
+  .fluid-c {
+    max-width: 80%;
+    margin: 5px auto; }
+  .fluid-l,
+  .fluid-r {
+    max-width: 90%;
+    float: none;
+    margin: 5px auto; } }
+
+@media only screen and (min-width: 1024px) {
+  .no-mobile {
+    display: block; }
+  .no-mobile-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  h1, h2 {
+    font-size: 45px; }
+  .fluid-c {
+    max-width: 60%;
+    margin: 5px auto; }
+  .fluid-l {
+    max-width: 25%;
+    float: left;
+    margin-right: 10px; }
+  .fluid-r {
+    max-width: 25%;
+    float: right;
+    margin-right: 10px; } }
+
+@media only screen and (min-width: 1200px) {
+  .no-mobile {
+    display: block; }
+  .no-mobile-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  h1, h2 {
+    font-size: 45px; }
+  .fluid-c {
+    max-width: 60%;
+    margin: 5px auto; }
+  .fluid-l {
+    max-width: 25%;
+    float: left;
+    margin-right: 10px; }
+  .fluid-r {
+    max-width: 25%;
+    float: right;
+    margin-right: 10px; } }
+
+/**
+ * Toggle Switch Globals
+ *
+ * All switches should take on the class `c-hamburger` as well as their
+ * variant that will give them unique properties. This class is an overview
+ * class that acts as a reset for all versions of the icon.
+ */
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+  float: right; }
+
+.c-hamburger:focus {
+  outline: none; }
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 28px;
+  left: 15px;
+  right: 15px;
+  height: 4px;
+  background: white; }
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  content: ""; }
+
+.c-hamburger span::before {
+  top: -12px; }
+
+.c-hamburger span::after {
+  bottom: -12px; }
+
+/**
+ * Style 1
+ *
+ * Rotating hamburger icon (rot), that simply rotates 90 degrees when activated.
+ * Nothing too fancy, simple transition.
+ */
+.c-hamburger--rot span {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s; }
+
+/* active state, i.e. menu open */
+.c-hamburger--rot.is-active span {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+/**
+ * Style 2
+ * 
+ * Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+ * down to center and transform into an "x".
+ */
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  -webkit-transition-duration: 0.3s, 0.3s;
+          transition-duration: 0.3s, 0.3s;
+  -webkit-transition-delay: 0.3s, 0s;
+          transition-delay: 0.3s, 0s; }
+
+.c-hamburger--htx span::before {
+  -webkit-transition-property: top, -webkit-transform;
+          transition-property: top, transform; }
+
+.c-hamburger--htx span::after {
+  -webkit-transition-property: bottom, -webkit-transform;
+          transition-property: bottom, transform; }
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active span {
+  background: none; }
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  -webkit-transition-delay: 0s, 0.3s;
+          transition-delay: 0s, 0.3s; }
+
+/**
+ * Style 3
+ *
+ * Hamburger to left-arrow (htla). Hamburger menu transforms to a left-pointing
+ * arrow. Usually indicates an off canvas menu sliding in from left that
+ * will be close on re-click of the icon.
+ */
+.c-hamburger--htla {
+  background-color: #32dc64; }
+
+.c-hamburger--htla span {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s; }
+
+.c-hamburger--htla span::before {
+  -webkit-transform-origin: top right;
+      -ms-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, top 0.3s;
+          transition: transform 0.3s, width 0.3s, top 0.3s; }
+
+.c-hamburger--htla span::after {
+  -webkit-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, bottom 0.3s;
+          transition: transform 0.3s, width 0.3s, bottom 0.3s; }
+
+/* active state, i.e. menu open */
+.c-hamburger--htla.is-active {
+  background-color: #19903c; }
+
+.c-hamburger--htla.is-active span {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.c-hamburger--htla.is-active span::before,
+.c-hamburger--htla.is-active span::after {
+  width: 50%; }
+
+.c-hamburger--htla.is-active span::before {
+  top: 0;
+  -webkit-transform: translateX(19px) translateY(2px) rotate(45deg);
+      -ms-transform: translateX(19px) translateY(2px) rotate(45deg);
+          transform: translateX(19px) translateY(2px) rotate(45deg); }
+
+.c-hamburger--htla.is-active span::after {
+  bottom: 0;
+  -webkit-transform: translateX(19px) translateY(-2px) rotate(-45deg);
+      -ms-transform: translateX(19px) translateY(-2px) rotate(-45deg);
+          transform: translateX(19px) translateY(-2px) rotate(-45deg); }
+
+/**
+ * Style 4
+ *
+ * Hamburger to right-arrow (htra). Hamburger menu transforms to a
+ * right-pointing arrow. Usually indicates an off canvas menu sliding in from 
+ * right that will be close on re-click of the icon.
+ */
+.c-hamburger--htra {
+  background-color: #ff9650; }
+
+.c-hamburger--htra span {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s; }
+
+.c-hamburger--htra span::before {
+  -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, top 0.3s;
+          transition: transform 0.3s, width 0.3s, top 0.3s; }
+
+.c-hamburger--htra span::after {
+  -webkit-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, bottom 0.3s;
+          transition: transform 0.3s, width 0.3s, bottom 0.3s; }
+
+/* active state, i.e. menu open */
+.c-hamburger--htra.is-active {
+  background-color: #e95d00; }
+
+.c-hamburger--htra.is-active span {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.c-hamburger--htra.is-active span::before,
+.c-hamburger--htra.is-active span::after {
+  width: 50%; }
+
+.c-hamburger--htra.is-active span::before {
+  top: 0;
+  -webkit-transform: translateX(-4px) translateY(2px) rotate(-45deg);
+      -ms-transform: translateX(-4px) translateY(2px) rotate(-45deg);
+          transform: translateX(-4px) translateY(2px) rotate(-45deg); }
+
+.c-hamburger--htra.is-active span::after {
+  bottom: 0;
+  -webkit-transform: translateX(-4px) translateY(-2px) rotate(45deg);
+      -ms-transform: translateX(-4px) translateY(-2px) rotate(45deg);
+          transform: translateX(-4px) translateY(-2px) rotate(45deg); }
+
+.social-media {
+  list-style-type: none;
+  text-align: left; }
+  .social-media li {
+    list-style-type: none;
+    display: inline-block; }
+    .social-media li a {
+      display: block; }
+      .social-media li a .icon {
+        margin: 0;
+        padding: 0;
+        background: #4A90E2; }
+        .social-media li a .icon svg {
+          width: 50px;
+          height: 50px; }
+          .social-media li a .icon svg polygon,
+          .social-media li a .icon svg circle,
+          .social-media li a .icon svg rect,
+          .social-media li a .icon svg path {
+            fill: #EEEEEE; }
+      .social-media li a:hover .icon {
+        background: #3A5181; }
+
+.icon {
+  margin: 0;
+  padding: 0; }
+  .icon svg {
+    width: auto;
+    height: 100%; }
+    .icon svg polygon,
+    .icon svg circle,
+    .icon svg rect,
+    .icon svg path {
+      fill: #CCCCCC; }
+
+.icon__bg-none {
+  fill: none; }
+
+.icon-left {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle; }
+  .icon-left svg {
+    width: 100%;
+    height: 100%; }
+    .icon-left svg polygon,
+    .icon-left svg circle,
+    .icon-left svg rect,
+    .icon-left svg path {
+      fill: #fff; }
+
+.icon-right {
+  margin: 0;
+  padding: 0;
+  float: right; }
+  .icon-right svg {
+    width: 100%;
+    height: 100%; }
+    .icon-right svg polygon,
+    .icon-right svg circle,
+    .icon-right svg rect,
+    .icon-right svg path {
+      fill: #fff; }
+
+.icon-thumb {
+  text-align: center;
+  display: block;
+  margin: 0; }
+  .icon-thumb span {
+    color: #AAAAAA; }
+  .icon-thumb .icon {
+    margin: 0;
+    padding: 0; }
+    .icon-thumb .icon svg {
+      width: 100%;
+      height: 100%; }
+      .icon-thumb .icon svg polygon,
+      .icon-thumb .icon svg circle,
+      .icon-thumb .icon svg rect,
+      .icon-thumb .icon svg path {
+        fill: #AAAAAA; }
+
+.photo {
+  margin: 0 auto;
+  display: block; }
+  .photo.image {
+    overflow: hidden;
+    width: 100px;
+    height: 100px; }
+    .photo.image img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      border-radius: 100%; }
+
+.fb {
+  background: #fff;
+  border-radius: 100%; }
+  .fb .icon {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -3px; }
+    .fb .icon svg {
+      width: 40px;
+      height: 40px; }
+      .fb .icon svg polygon,
+      .fb .icon svg circle,
+      .fb .icon svg rect,
+      .fb .icon svg path {
+        fill: #0064cd; }
+
+.google {
+  background: #fff;
+  border-radius: 100%; }
+  .google .icon {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -3px; }
+    .google .icon svg {
+      width: 40px;
+      height: 40px; }
+      .google .icon svg polygon,
+      .google .icon svg circle,
+      .google .icon svg rect,
+      .google .icon svg path {
+        fill: #9d261d; }
+
+.tabs .tabs__header a {
+  display: block !important;
+  background: #fff;
+  padding: 10px !important;
+  text-align: center;
+  border-bottom: solid 6px #fff;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s; }
+  .tabs .tabs__header a.active {
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s; }
+
+.tabs .tabs__content {
+  margin: 10px; }
+  .tabs .tabs__content ul {
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+    .tabs .tabs__content ul li {
+      margin: 0;
+      list-style: none;
+      display: block; }
+      .tabs .tabs__content ul li a {
+        padding: 0 5px;
+        display: block; }
+  .tabs .tabs__content .list-link {
+    padding: 20px 10px !important; }
+    .tabs .tabs__content .list-link .icon {
+      margin: 0 10px 0 0;
+      display: inline-block;
+      vertical-align: middle; }
+      .tabs .tabs__content .list-link .icon svg {
+        width: 32px;
+        height: 32px; }
+
+@media only screen and (max-width: 320px) {
+  .photo.image {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin-right: 20px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .photo.image {
+    position: relative;
+    width: 35%;
+    margin: 20px auto;
+    height: auto; }
+    .photo.image:before {
+      content: "";
+      display: block;
+      padding-top: 100%; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .photo.image {
+    position: relative;
+    width: 35%;
+    margin: 20px auto;
+    height: auto; }
+    .photo.image:before {
+      content: "";
+      display: block;
+      padding-top: 100%; } }
+
+@media only screen and (min-width: 1024px) {
+  .photo.image {
+    position: relative;
+    width: 15%;
+    margin: 20px auto;
+    height: auto; }
+    .photo.image:before {
+      content: "";
+      display: block;
+      padding-top: 100%; } }
+
+#masthead .container #nav {
+  background: rgba(74, 144, 226, 0.9);
+  margin-bottom: 20px; }
+  #masthead .container #nav:before, #masthead .container #nav:after {
+    content: "";
+    display: table; }
+  #masthead .container #nav:after {
+    clear: both; }
+  #masthead .container #nav ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden; }
+    #masthead .container #nav ul li {
+      list-style-type: none;
+      display: inline-block; }
+      #masthead .container #nav ul li a {
+        display: inline-block;
+        padding: 20px;
+        color: #fff;
+        text-decoration: none; }
+        #masthead .container #nav ul li a:hover {
+          background: rgba(255, 255, 255, 0.6);
+          color: #000;
+          -webkit-transition: 0.3s 0.1s;
+                  transition: 0.3s 0.1s; }
+
+@media only screen and (max-width: 320px) {
+  #masthead .container .figure-logo {
+    width: 80% !important;
+    margin: 35px auto; }
+  #masthead .container #nav {
+    background: #4A90E2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    -webkit-transform: translateY(-300%);
+        -ms-transform: translateY(-300%);
+            transform: translateY(-300%);
+    -webkit-transition: 0.3s;
+            transition: 0.3s;
+    -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s;
+    margin-bottom: 0; }
+    #masthead .container #nav:before, #masthead .container #nav:after {
+      content: "";
+      display: table; }
+    #masthead .container #nav:after {
+      clear: both; }
+    #masthead .container #nav.target {
+      -webkit-transform: translateY(0%);
+          -ms-transform: translateY(0%);
+              transform: translateY(0%);
+      -webkit-transition: 0.3s;
+              transition: 0.3s;
+      -webkit-transition-delay: 0.2s;
+              transition-delay: 0.2s; }
+    #masthead .container #nav .close-nav {
+      -webkit-transform: translateY(-300%);
+          -ms-transform: translateY(-300%);
+              transform: translateY(-300%); }
+      #masthead .container #nav .close-nav.target {
+        -webkit-transform: translateY(0%);
+            -ms-transform: translateY(0%);
+                transform: translateY(0%); }
+    #masthead .container #nav ul li {
+      list-style-type: none;
+      display: block;
+      text-align: center; }
+      #masthead .container #nav ul li a {
+        display: inline-block;
+        padding: 20px;
+        font-size: 1.5em; }
+  #masthead .container .mobile-nav {
+    display: block;
+    background: #4A90E2;
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: center; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  #masthead .container .figure-logo {
+    width: 80% !important;
+    margin: 40px auto; }
+  #masthead .container #nav {
+    background: #4A90E2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    -webkit-transform: translateY(-300%);
+        -ms-transform: translateY(-300%);
+            transform: translateY(-300%);
+    -webkit-transition: 0.3s;
+            transition: 0.3s;
+    -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s;
+    margin-bottom: 0; }
+    #masthead .container #nav:before, #masthead .container #nav:after {
+      content: "";
+      display: table; }
+    #masthead .container #nav:after {
+      clear: both; }
+    #masthead .container #nav.target {
+      -webkit-transform: translateY(0%);
+          -ms-transform: translateY(0%);
+              transform: translateY(0%);
+      -webkit-transition: 0.3s;
+              transition: 0.3s;
+      -webkit-transition-delay: 0.2s;
+              transition-delay: 0.2s; }
+    #masthead .container #nav .close-nav {
+      -webkit-transform: translateY(-300%);
+          -ms-transform: translateY(-300%);
+              transform: translateY(-300%); }
+      #masthead .container #nav .close-nav.target {
+        -webkit-transform: translateY(0%);
+            -ms-transform: translateY(0%);
+                transform: translateY(0%); }
+    #masthead .container #nav ul li {
+      list-style-type: none;
+      display: block;
+      text-align: center; }
+      #masthead .container #nav ul li a {
+        display: inline-block;
+        padding: 20px;
+        font-size: 1.5em; }
+  #masthead .container .mobile-nav {
+    display: block;
+    background: #4A90E2;
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: center; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  #masthead .container .figure-logo {
+    width: 80% !important;
+    margin: 40px auto; }
+  #masthead .container #nav {
+    background: #4A90E2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    -webkit-transform: translateY(-300%);
+        -ms-transform: translateY(-300%);
+            transform: translateY(-300%);
+    -webkit-transition: 0.3s;
+            transition: 0.3s;
+    -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s;
+    margin-bottom: 0; }
+    #masthead .container #nav:before, #masthead .container #nav:after {
+      content: "";
+      display: table; }
+    #masthead .container #nav:after {
+      clear: both; }
+    #masthead .container #nav.target {
+      -webkit-transform: translateY(0%);
+          -ms-transform: translateY(0%);
+              transform: translateY(0%);
+      -webkit-transition: 0.3s;
+              transition: 0.3s;
+      -webkit-transition-delay: 0.2s;
+              transition-delay: 0.2s; }
+    #masthead .container #nav .close-nav {
+      -webkit-transform: translateY(-300%);
+          -ms-transform: translateY(-300%);
+              transform: translateY(-300%); }
+      #masthead .container #nav .close-nav.target {
+        -webkit-transform: translateY(0%);
+            -ms-transform: translateY(0%);
+                transform: translateY(0%); }
+    #masthead .container #nav ul li {
+      list-style-type: none;
+      display: block;
+      text-align: center; }
+      #masthead .container #nav ul li a {
+        display: inline-block;
+        padding: 20px;
+        font-size: 1.5em; }
+  #masthead .container .mobile-nav {
+    display: block;
+    background: #4A90E2;
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: center; } }
+
+@media only screen and (min-width: 1024px) {
+  #masthead .nav-close {
+    display: none; }
+  #masthead .nav-close span {
+    display: none; }
+  #masthead .mobile-nav {
+    display: none; } }
+
+@media only screen and (min-width: 1200px) {
+  #masthead .nav-close {
+    display: none; }
+  #masthead .nav-close span {
+    display: none; }
+  #masthead .mobile-nav {
+    display: none; } }
+
+#mast section .tabs .tabs__header, .tabs #mast section .tabs__header, #mast section .grid, #mast section #footend .container .grid, #footend .container #mast section .grid {
+  margin-left: 0 !important; }
+  #mast section .tabs .tabs__header .grid-item, .tabs #mast section .tabs__header .grid-item, #mast section .grid .grid-item {
+    padding-left: 0 !important; }
+    #mast section .tabs .tabs__header .grid-item .wrapper, .tabs #mast section .tabs__header .grid-item .wrapper, #mast section .grid .grid-item .wrapper {
+      position: relative;
+      width: 100%;
+      overflow: hidden; }
+      #mast section .tabs .tabs__header .grid-item .wrapper:before, .tabs #mast section .tabs__header .grid-item .wrapper:before, #mast section .grid .grid-item .wrapper:before {
+        content: "";
+        display: block;
+        padding-top: 100%; }
+      #mast section .tabs .tabs__header .grid-item .wrapper.first figure, .tabs #mast section .tabs__header .grid-item .wrapper.first figure, #mast section .grid .grid-item .wrapper.first figure {
+        background: none;
+        margin: 0; }
+        #mast section .tabs .tabs__header .grid-item .wrapper.first figure img, .tabs #mast section .tabs__header .grid-item .wrapper.first figure img, #mast section .grid .grid-item .wrapper.first figure img {
+          opacity: 0.8; }
+      #mast section .tabs .tabs__header .grid-item .wrapper.first h2, .tabs #mast section .tabs__header .grid-item .wrapper.first h2, #mast section .grid .grid-item .wrapper.first h2 {
+        font-size: 2em;
+        padding: 40px;
+        text-transform: uppercase;
+        line-height: normal; }
+      #mast section .tabs .tabs__header .grid-item .wrapper a, .tabs #mast section .tabs__header .grid-item .wrapper a, #mast section .grid .grid-item .wrapper a {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0; }
+        #mast section .tabs .tabs__header .grid-item .wrapper a:hover figure img, .tabs #mast section .tabs__header .grid-item .wrapper a:hover figure img, #mast section .grid .grid-item .wrapper a:hover figure img {
+          opacity: 0.2;
+          -webkit-transform: scale(1.5);
+              -ms-transform: scale(1.5);
+                  transform: scale(1.5);
+          -webkit-transition-delay: 0.2s;
+                  transition-delay: 0.2s;
+          -webkit-transition: 0.3s;
+                  transition: 0.3s; }
+        #mast section .tabs .tabs__header .grid-item .wrapper a:hover aside, .tabs #mast section .tabs__header .grid-item .wrapper a:hover aside, #mast section .grid .grid-item .wrapper a:hover aside {
+          -webkit-transform: translateY(15%);
+              -ms-transform: translateY(15%);
+                  transform: translateY(15%);
+          -webkit-transition-delay: 0.2s;
+                  transition-delay: 0.2s;
+          -webkit-transition: 0.3s;
+                  transition: 0.3s; }
+      #mast section .tabs .tabs__header .grid-item .wrapper figure, .tabs #mast section .tabs__header .grid-item .wrapper figure, #mast section .grid .grid-item .wrapper figure {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background: #000;
+        margin: 0; }
+        #mast section .tabs .tabs__header .grid-item .wrapper figure img, .tabs #mast section .tabs__header .grid-item .wrapper figure img, #mast section .grid .grid-item .wrapper figure img {
+          display: block;
+          opacity: 0.4;
+          -webkit-transition-delay: 0.3s;
+                  transition-delay: 0.3s;
+          -webkit-transition: 0.5s;
+                  transition: 0.5s; }
+      #mast section .tabs .tabs__header .grid-item .wrapper aside, .tabs #mast section .tabs__header .grid-item .wrapper aside, #mast section .grid .grid-item .wrapper aside {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-transform: translateY(0%);
+            -ms-transform: translateY(0%);
+                transform: translateY(0%);
+        -webkit-transition-delay: 0.2s;
+                transition-delay: 0.2s;
+        -webkit-transition: 0.3s;
+                transition: 0.3s; }
+      #mast section .tabs .tabs__header .grid-item .wrapper img, .tabs #mast section .tabs__header .grid-item .wrapper img, #mast section .grid .grid-item .wrapper img {
+        width: 100%; }
+      #mast section .tabs .tabs__header .grid-item .wrapper h3, .tabs #mast section .tabs__header .grid-item .wrapper h3, #mast section .grid .grid-item .wrapper h3 {
+        color: #fff;
+        font-size: 1.7em;
+        padding: 20px;
+        line-height: normal;
+        margin: 0; }
+      #mast section .tabs .tabs__header .grid-item .wrapper h4, .tabs #mast section .tabs__header .grid-item .wrapper h4, #mast section .grid .grid-item .wrapper h4 {
+        color: #ffc40d;
+        font-size: 1.5em;
+        padding: 0 20px;
+        margin-bottom: 0;
+        line-height: normal; }
+      #mast section .tabs .tabs__header .grid-item .wrapper p, .tabs #mast section .tabs__header .grid-item .wrapper p, #mast section .grid .grid-item .wrapper p {
+        color: #fff;
+        font-size: 1.125em;
+        padding: 20px;
+        line-height: normal; }
+      #mast section .tabs .tabs__header .grid-item .wrapper ul, .tabs #mast section .tabs__header .grid-item .wrapper ul, #mast section .grid .grid-item .wrapper ul {
+        padding: 6.66667px;
+        list-style-type: none; }
+
+#mast .section-eventList .container .grid .grid-item.first, #mast .section-eventList .container .tabs .tabs__header .grid-item.first, .tabs #mast .section-eventList .container .tabs__header .grid-item.first {
+  float: right; }
+
+@media only screen and (max-width: 320px) {
+  section {
+    margin-bottom: 0; }
+    section .grid .grid-item .wrapper.first h2, section .tabs .tabs__header .grid-item .wrapper.first h2, .tabs section .tabs__header .grid-item .wrapper.first h2, #mast section .grid .grid-item .wrapper.first h2, section #footend .container .grid .grid-item .wrapper.first h2, #footend .container section .grid .grid-item .wrapper.first h2 {
+      font-size: 2em;
+      padding: 20px; }
+    section .grid .grid-item .wrapper h3, section .tabs .tabs__header .grid-item .wrapper h3, .tabs section .tabs__header .grid-item .wrapper h3, #mast section .grid .grid-item .wrapper h3, section #footend .container .grid .grid-item .wrapper h3, #footend .container section .grid .grid-item .wrapper h3 {
+      font-size: 1.5em;
+      padding: 10px; }
+    section .grid .grid-item .wrapper h4, section .tabs .tabs__header .grid-item .wrapper h4, .tabs section .tabs__header .grid-item .wrapper h4, #mast section .grid .grid-item .wrapper h4, section #footend .container .grid .grid-item .wrapper h4, #footend .container section .grid .grid-item .wrapper h4 {
+      font-size: 1.125em;
+      padding: 0 10px; }
+    section .grid .grid-item .wrapper p, section .tabs .tabs__header .grid-item .wrapper p, .tabs section .tabs__header .grid-item .wrapper p, #mast section .grid .grid-item .wrapper p, section #footend .container .grid .grid-item .wrapper p, #footend .container section .grid .grid-item .wrapper p {
+      font-size: 1em;
+      padding: 10px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  section {
+    margin-bottom: 0; }
+    section .grid .grid-item .wrapper.first h2, section .tabs .tabs__header .grid-item .wrapper.first h2, .tabs section .tabs__header .grid-item .wrapper.first h2, #mast section .grid .grid-item .wrapper.first h2, section #footend .container .grid .grid-item .wrapper.first h2, #footend .container section .grid .grid-item .wrapper.first h2 {
+      font-size: 2em;
+      padding: 20px; }
+    section .grid .grid-item .wrapper h3, section .tabs .tabs__header .grid-item .wrapper h3, .tabs section .tabs__header .grid-item .wrapper h3, #mast section .grid .grid-item .wrapper h3, section #footend .container .grid .grid-item .wrapper h3, #footend .container section .grid .grid-item .wrapper h3 {
+      font-size: 1.5em;
+      padding: 10px; }
+    section .grid .grid-item .wrapper h4, section .tabs .tabs__header .grid-item .wrapper h4, .tabs section .tabs__header .grid-item .wrapper h4, #mast section .grid .grid-item .wrapper h4, section #footend .container .grid .grid-item .wrapper h4, #footend .container section .grid .grid-item .wrapper h4 {
+      font-size: 1.125em;
+      padding: 0 10px; }
+    section .grid .grid-item .wrapper p, section .tabs .tabs__header .grid-item .wrapper p, .tabs section .tabs__header .grid-item .wrapper p, #mast section .grid .grid-item .wrapper p, section #footend .container .grid .grid-item .wrapper p, #footend .container section .grid .grid-item .wrapper p {
+      font-size: 1em;
+      padding: 10px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  #mast {
+    padding-top: 0; } }
+
+@media only screen and (min-width: 1024px) {
+  .section {
+    margin-bottom: 20px; } }
+
+@media only screen and (min-width: 1200px) {
+  .section {
+    margin-bottom: 20px; } }
+
+#footend {
+  background: rgba(51, 51, 51, 0.9);
+  padding: 20px 0;
+  font-size: 0.75em;
+  color: #999; }
+  #footend .container .tabs .tabs__header, .tabs #footend .container .tabs__header, #footend .container .grid {
+    margin-left: 0 !important; }
+    #footend .container .tabs .tabs__header .grid-item, .tabs #footend .container .tabs__header .grid-item, #footend .container .grid .grid-item {
+      padding-left: 0 !important; }
+      #footend .container .tabs .tabs__header .grid-item .social-media, .tabs #footend .container .tabs__header .grid-item .social-media, #footend .container .grid .grid-item .social-media {
+        list-style-type: none;
+        margin: 0;
+        padding: 0; }
+        #footend .container .tabs .tabs__header .grid-item .social-media li, .tabs #footend .container .tabs__header .grid-item .social-media li, #footend .container .grid .grid-item .social-media li {
+          list-style-type: none;
+          display: inline-block;
+          width: auto; }
+          #footend .container .tabs .tabs__header .grid-item .social-media li a, .tabs #footend .container .tabs__header .grid-item .social-media li a, #footend .container .grid .grid-item .social-media li a {
+            display: inline-block; }
+            #footend .container .tabs .tabs__header .grid-item .social-media li a .custom-icon, .tabs #footend .container .tabs__header .grid-item .social-media li a .custom-icon, #footend .container .grid .grid-item .social-media li a .custom-icon {
+              width: 30px;
+              height: 30px; }
+      #footend .container .tabs .tabs__header .grid-item p, .tabs #footend .container .tabs__header .grid-item p, #footend .container .grid .grid-item p {
+        color: #999; }
+      #footend .container .tabs .tabs__header .grid-item h2, .tabs #footend .container .tabs__header .grid-item h2, #footend .container .grid .grid-item h2 {
+        font-size: 1.7em; }
+  @media only screen and (max-width: 320px) {
+    #footend {
+      padding: 60px 0; }
+      #footend .grid-item h2, #footend .grid-item p, #footend .grid-item ul {
+        margin-left: 20px; }
+      #footend .grid-item .social-media {
+        margin-left: 20px !important; } }
+  @media only screen and (min-width: 321px) and (max-width: 480px) {
+    #footend {
+      padding: 60px 0; }
+      #footend .grid-item h2, #footend .grid-item p, #footend .grid-item ul {
+        margin-left: 20px; }
+      #footend .grid-item .social-media {
+        margin-left: 20px !important; } }
+  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+    #footend .grid-item h2, #footend .grid-item p, #footend .grid-item ul {
+      margin-left: 20px; }
+    #footend .grid-item .social-media {
+      margin-left: 20px !important; } }
+
+.section-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .section-home .wrap-content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  .section-home .figure-logo {
+    margin: 0; }
+  .section-home .section-header h1, .section-home .section-header h2 {
+    line-height: normal; }
+  .section-home .social-media {
+    margin-top: 20px; }
+  @media only screen and (max-width: 320px) {
+    .section-home .section-home .wrap-content {
+      top: 40%;
+      text-align: center; }
+      .section-home .section-home .wrap-content .social-media {
+        text-align: center;
+        padding: 0; }
+    .section-home .section-home h1 {
+      line-height: normal;
+      font-size: 1.125em; }
+    .section-home .section-home .section-header {
+      padding: 0; }
+      .section-home .section-home .section-header .section-header {
+        text-align: center; }
+    .section-home .section-home .figure-logo {
+      margin: 0;
+      padding: 0; }
+      .section-home .section-home .figure-logo svg {
+        width: 150px;
+        height: 100px; }
+        .section-home .section-home .figure-logo svg polygon,
+        .section-home .section-home .figure-logo svg circle,
+        .section-home .section-home .figure-logo svg rect,
+        .section-home .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
+  @media only screen and (min-width: 321px) and (max-width: 480px) {
+    .section-home .wrap-content {
+      top: 40%;
+      text-align: center; }
+      .section-home .wrap-content .social-media {
+        text-align: center;
+        padding: 0; }
+    .section-home h1 {
+      line-height: normal;
+      font-size: 1.7em;
+      margin-bottom: 80px; }
+    .section-home h2 {
+      margin-bottom: 0; }
+    .section-home .section-header {
+      padding: 0; }
+      .section-home .section-header .section-header {
+        text-align: center; }
+    .section-home .figure-logo {
+      margin: 0;
+      padding: 0; }
+      .section-home .figure-logo svg {
+        width: 150px;
+        height: 100px; }
+        .section-home .figure-logo svg polygon,
+        .section-home .figure-logo svg circle,
+        .section-home .figure-logo svg rect,
+        .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
+  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+    .section-home .wrap-content {
+      text-align: left; }
+      .section-home .wrap-content .section-header {
+        text-align: left;
+        margin-left: 20px; }
+    .section-home .figure-logo {
+      margin: 0;
+      padding: 0;
+      padding-left: 20px; }
+      .section-home .figure-logo svg {
+        width: 300px;
+        height: 230px; }
+        .section-home .figure-logo svg polygon,
+        .section-home .figure-logo svg circle,
+        .section-home .figure-logo svg rect,
+        .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
+  @media only screen and (min-width: 1024px) {
+    .section-home .wrap-content {
+      text-align: left; }
+      .section-home .wrap-content .section-header {
+        text-align: left;
+        margin-left: 20px; }
+    .section-home .figure-logo {
+      margin: 0;
+      padding: 0;
+      padding-left: 20px; }
+      .section-home .figure-logo svg {
+        width: 300px;
+        height: 230px; }
+        .section-home .figure-logo svg polygon,
+        .section-home .figure-logo svg circle,
+        .section-home .figure-logo svg rect,
+        .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
+  @media only screen and (min-width: 1200px) {
+    .section-home .wrap-content {
+      text-align: left; }
+      .section-home .wrap-content .section-header {
+        text-align: left;
+        margin-left: 20px; }
+    .section-home .figure-logo {
+      margin: 0;
+      padding: 0;
+      padding-left: 20px; }
+      .section-home .figure-logo svg {
+        width: 300px;
+        height: 230px; }
+        .section-home .figure-logo svg polygon,
+        .section-home .figure-logo svg circle,
+        .section-home .figure-logo svg rect,
+        .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
+
+.home #masthead .comtainer .figure-logo {
+  position: relative;
+  width: 60%; }
+  .home #masthead .comtainer .figure-logo:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; }
+
+.home .section-fixture h3 {
+  font-size: 1.5em !important; }
+
+.home .section-fixture p {
+  margin: 0;
+  padding-top: 0 !important;
+  font-size: 0.75em !important;
+  font-style: italic; }
+
+.home .section-fixture .figure-thumb.mvbc {
+  background: #333333 !important; }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .container {
+    padding: 0; } }
+
+.article #masthead .container .figure-logo {
+  position: relative;
+  width: 40%; }
+  .article #masthead .container .figure-logo:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; }
+
+.article #mast .container {
+  background: rgba(255, 255, 255, 0.9); }
+  .article #mast .container .wrapper .blogpic-l {
+    max-width: 25%;
+    float: left;
+    margin-right: 20px; }
+  .article #mast .container .wrapper .blogpic-c {
+    max-width: 60%;
+    margin: 10px auto; }
+
+.article #mast table td, .article #mast table th {
+  padding: 10px;
+  border: 1px solid #000;
+  font-size: 0.75em; }
+
+.article-page #masthead .container .figure-logo {
+  position: relative;
+  width: 40%; }
+  .article-page #masthead .container .figure-logo:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; }
+
+.article-page #mast .container .wrapper {
+  padding: 0; }
+
+@media only screen and (max-width: 320px) {
+  .article #mast .container .wrapper .blogpic-l {
+    max-width: 25%;
+    float: left;
+    margin-right: 20px; }
+  .article #mast .container .wrapper .blogpic-c {
+    max-width: 60%;
+    margin: 10px auto; }
+  .article #mast table td, .article #mast table th {
+    padding: 3.33333px;
+    font-size: 1em; }
+  .page-blog .wrapper {
+    padding: 10px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .article #mast .container .wrapper .blogpic-l {
+    max-width: 25%;
+    float: left;
+    margin-right: 20px; }
+  .article #mast .container .wrapper .blogpic-c {
+    max-width: 60%;
+    margin: 10px auto; }
+  .article #mast table td, .article #mast table th {
+    padding: 3.33333px;
+    font-size: 1em; }
+  .page-blog .wrapper {
+    padding: 10px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  #mast {
+    padding-top: 60px; }
+  .page-blog .wrapper {
+    padding: 20px; } }
+
+@media only screen and (min-width: 1024px) {
+  #mast {
+    padding-top: 0; }
+  .page-blog .wrapper {
+    padding: 20px 40px; } }
+
+@media only screen and (min-width: 1200px) {
+  #mast {
+    padding-top: 0; }
+  .page-blog .wrapper {
+    padding: 20px 40px; } }
+
+.section-events {
+  margin: 20px 0; }
+  .section-events .container .grid .grid-item .wrapper, .section-events .container .tabs .tabs__header .grid-item .wrapper, .tabs .section-events .container .tabs__header .grid-item .wrapper, .section-events .container #mast section .grid .grid-item .wrapper, #mast section .section-events .container .grid .grid-item .wrapper, .section-events #footend .container .grid .grid-item .wrapper, #footend .section-events .container .grid .grid-item .wrapper {
+    position: relative; }
+    .section-events .container .grid .grid-item .wrapper a figure img, .section-events .container .tabs .tabs__header .grid-item .wrapper a figure img, .tabs .section-events .container .tabs__header .grid-item .wrapper a figure img, .section-events .container #mast section .grid .grid-item .wrapper a figure img, #mast section .section-events .container .grid .grid-item .wrapper a figure img, .section-events #footend .container .grid .grid-item .wrapper a figure img, #footend .section-events .container .grid .grid-item .wrapper a figure img {
+      width: 100%;
+      opacity: 0.4; }
+    .section-events .container .grid .grid-item .wrapper a aside, .section-events .container .tabs .tabs__header .grid-item .wrapper a aside, .tabs .section-events .container .tabs__header .grid-item .wrapper a aside, .section-events .container #mast section .grid .grid-item .wrapper a aside, #mast section .section-events .container .grid .grid-item .wrapper a aside, .section-events #footend .container .grid .grid-item .wrapper a aside, #footend .section-events .container .grid .grid-item .wrapper a aside {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; }
+      .section-events .container .grid .grid-item .wrapper a aside h3, .section-events .container .tabs .tabs__header .grid-item .wrapper a aside h3, .tabs .section-events .container .tabs__header .grid-item .wrapper a aside h3, .section-events .container #mast section .grid .grid-item .wrapper a aside h3, #mast section .section-events .container .grid .grid-item .wrapper a aside h3, .section-events #footend .container .grid .grid-item .wrapper a aside h3, #footend .section-events .container .grid .grid-item .wrapper a aside h3 {
+        margin: 0 !important; }
+
+@media only screen and (max-width: 320px) {
+  .page-event .wrapper {
+    padding: 20px 10px; }
+  .section-eventList .container .grid .grid-item h3, .section-eventList .container .tabs .tabs__header .grid-item h3, .tabs .section-eventList .container .tabs__header .grid-item h3, .section-eventList .container #mast section .grid .grid-item h3, #mast section .section-eventList .container .grid .grid-item h3, .section-eventList #footend .container .grid .grid-item h3, #footend .section-eventList .container .grid .grid-item h3 {
+    font-size: 1.7em;
+    padding: 20px; }
+  .section-eventList .container .grid .grid-item h4, .section-eventList .container .tabs .tabs__header .grid-item h4, .tabs .section-eventList .container .tabs__header .grid-item h4, .section-eventList .container #mast section .grid .grid-item h4, #mast section .section-eventList .container .grid .grid-item h4, .section-eventList #footend .container .grid .grid-item h4, #footend .section-eventList .container .grid .grid-item h4 {
+    font-size: 1.5em;
+    padding: 0 20px; }
+  .section-eventList .container .grid .grid-item p, .section-eventList .container .tabs .tabs__header .grid-item p, .tabs .section-eventList .container .tabs__header .grid-item p, .section-eventList .container #mast section .grid .grid-item p, #mast section .section-eventList .container .grid .grid-item p, .section-eventList #footend .container .grid .grid-item p, #footend .section-eventList .container .grid .grid-item p {
+    font-size: 1.125em;
+    padding: 20px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .page-event .wrapper {
+    padding: 20px 10px; }
+  .section-eventList .container .grid .grid-item h3, .section-eventList .container .tabs .tabs__header .grid-item h3, .tabs .section-eventList .container .tabs__header .grid-item h3, .section-eventList .container #mast section .grid .grid-item h3, #mast section .section-eventList .container .grid .grid-item h3, .section-eventList #footend .container .grid .grid-item h3, #footend .section-eventList .container .grid .grid-item h3 {
+    font-size: 1.7em;
+    padding: 20px; }
+  .section-eventList .container .grid .grid-item h4, .section-eventList .container .tabs .tabs__header .grid-item h4, .tabs .section-eventList .container .tabs__header .grid-item h4, .section-eventList .container #mast section .grid .grid-item h4, #mast section .section-eventList .container .grid .grid-item h4, .section-eventList #footend .container .grid .grid-item h4, #footend .section-eventList .container .grid .grid-item h4 {
+    font-size: 1.5em;
+    padding: 0 20px; }
+  .section-eventList .container .grid .grid-item p, .section-eventList .container .tabs .tabs__header .grid-item p, .tabs .section-eventList .container .tabs__header .grid-item p, .section-eventList .container #mast section .grid .grid-item p, #mast section .section-eventList .container .grid .grid-item p, .section-eventList #footend .container .grid .grid-item p, #footend .section-eventList .container .grid .grid-item p {
+    font-size: 1.125em;
+    padding: 20px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .page-event .wrapper {
+    padding: 20px; } }
+
+@media only screen and (min-width: 1024px) {
+  .page-event .wrapper {
+    padding: 40px; } }
+
+@media only screen and (min-width: 1200px) {
+  .page-event .wrapper {
+    padding: 40px; } }
+
+.page-fixture #mast .container .wrapper .key {
+  margin-top: 10px;
+  font-size: 0.75em; }
+  .page-fixture #mast .container .wrapper .key span {
+    padding: 10px;
+    color: #000; }
+
+.page-fixture #mast .container .wrapper .mvbc {
+  background: rgba(85, 85, 85, 0.8); }
+  .page-fixture #mast .container .wrapper .mvbc td {
+    color: #000; }
+
+.page-fixture #mast .container .wrapper .forfeit {
+  background: rgba(255, 98, 95, 0.5); }
+  .page-fixture #mast .container .wrapper .forfeit td {
+    color: #fff; }
+
+.page-fixture #mast .container .wrapper table {
+  border: 0; }
+  .page-fixture #mast .container .wrapper table tr.header {
+    background: #333333; }
+    .page-fixture #mast .container .wrapper table tr.header td {
+      color: #fff; }
+  .page-fixture #mast .container .wrapper table tr td {
+    border: 0;
+    padding: 10px;
+    font-size: 0.75em;
+    color: #555555; }
+
+@media only screen and (max-width: 320px) {
+  .page-fixture #mast .container .wrapper {
+    padding: 20px 10px; }
+    .page-fixture #mast .container .wrapper table tr td {
+      padding: 10px 4px;
+      font-size: 0.625em; }
+  .section-fixture .container .grid .grid-item.first h2, .section-fixture .container .tabs .tabs__header .grid-item.first h2, .tabs .section-fixture .container .tabs__header .grid-item.first h2, .section-fixture .container #mast section .grid .grid-item.first h2, #mast section .section-fixture .container .grid .grid-item.first h2, .section-fixture #footend .container .grid .grid-item.first h2, #footend .section-fixture .container .grid .grid-item.first h2 {
+    font-size: 1.5em; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .page-fixture #mast .container .wrapper {
+    padding: 20px 10px; }
+    .page-fixture #mast .container .wrapper table tr td {
+      padding: 10px 4px;
+      font-size: 0.75em; }
+  .section-fixture .container .grid .grid-item.first h2, .section-fixture .container .tabs .tabs__header .grid-item.first h2, .tabs .section-fixture .container .tabs__header .grid-item.first h2, .section-fixture .container #mast section .grid .grid-item.first h2, #mast section .section-fixture .container .grid .grid-item.first h2, .section-fixture #footend .container .grid .grid-item.first h2, #footend .section-fixture .container .grid .grid-item.first h2 {
+    font-size: 1.125em; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .page-fixture #mast .container .wrapper {
+    padding: 20px; }
+    .page-fixture #mast .container .wrapper table tr td {
+      padding: 10px;
+      font-size: 0.75em; } }
+
+@media only screen and (min-width: 1024px) {
+  .page-fixture #mast .container .wrapper {
+    padding: 40px; }
+    .page-fixture #mast .container .wrapper table tr td {
+      padding: 10px;
+      font-size: 0.75em; } }
+
+@media only screen and (min-width: 1200px) {
+  .page-fixture #mast .container .wrapper {
+    padding: 40px; }
+    .page-fixture #mast .container .wrapper table tr td {
+      padding: 10px;
+      font-size: 0.75em; } }
+
+.site-page #masthead .container .figure-logo {
+  position: relative;
+  width: 40%; }
+  .site-page #masthead .container .figure-logo:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; }
+
+.site-page #mast .container {
+  background: rgba(255, 255, 255, 0.9); }
+
+@media only screen and (max-width: 320px) {
+  .site-page .wrapper {
+    padding: 10px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .site-page .wrapper {
+    padding: 10px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .site-page .wrapper {
+    padding: 20px; } }
+
+@media only screen and (min-width: 1024px) {
+  .site-page .wrapper {
+    padding: 40px 80px; } }
+
+@media only screen and (min-width: 1200px) {
+  .site-page .wrapper {
+    padding: 40px 40px; } }
+
+.page-contact #mast .container {
+  background: rgba(255, 255, 255, 0.9); }
+  .page-contact #mast .container .wrapper .google-map {
+    position: relative;
+    width: 100%; }
+    .page-contact #mast .container .wrapper .google-map:before {
+      content: "";
+      display: block;
+      padding-top: 56.25%; }
+    .page-contact #mast .container .wrapper .google-map .content {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; }
+
+@media only screen and (max-width: 320px) {
+  .page-contact .wrapper {
+    padding: 10px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .page-contact .wrapper {
+    padding: 10px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .page-contact .wrapper {
+    padding: 20px; } }
+
+@media only screen and (min-width: 1024px) {
+  .page-contact .wrapper {
+    padding: 20px 40px; } }
+
+@media only screen and (min-width: 1200px) {
+  .page-contact .wrapper {
+    padding: 20px 40px; } }
+
+.page-gallery.gallery-list .wrapper {
+  margin: 0;
+  padding: 0; }
+  .page-gallery.gallery-list .wrapper .gallery-wrapper {
+    width: 35em;
+    text-align: center;
+    padding: 0; }
+    .page-gallery.gallery-list .wrapper .gallery-wrapper .wrapper a .figure-thumb img {
+      width: auto !important;
+      height: 100%; }
+    .page-gallery.gallery-list .wrapper .gallery-wrapper .wrapper .aside-details {
+      -webkit-transform: translateY(0%);
+          -ms-transform: translateY(0%);
+              transform: translateY(0%); }
+      .page-gallery.gallery-list .wrapper .gallery-wrapper .wrapper .aside-details h3 {
+        line-height: normal;
+        color: #F9BC45; }
+    .page-gallery.gallery-list .wrapper .gallery-wrapper .wrapper:hover a figure img {
+      opacity: 0.2;
+      -webkit-transform: scale(1.5);
+          -ms-transform: scale(1.5);
+              transform: scale(1.5);
+      -webkit-transition-delay: 0.2s;
+              transition-delay: 0.2s;
+      -webkit-transition: 0.3s;
+              transition: 0.3s; }
+    .page-gallery.gallery-list .wrapper .gallery-wrapper .wrapper:hover .aside-details {
+      -webkit-transform: translateY(15%);
+          -ms-transform: translateY(15%);
+              transform: translateY(15%);
+      -webkit-transition-delay: 0.2s;
+              transition-delay: 0.2s;
+      -webkit-transition: 0.3s;
+              transition: 0.3s; }
+
+.page-gallery .gallery-image-wrapper {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin: 1em;
+  position: relative; }
+
+.page-gallery .gallery-image {
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  max-height: 100%;
+  max-width: 100%; }
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .gallery-list #mast {
+    padding: 0; } }

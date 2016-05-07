@@ -1,0 +1,47 @@
+date,status,no,league,team-a,team-b,time,venue,mvbc,day
+30 Apr,,27,12G,Heideveld,Islamia College,09h00,UCT 1,,sat
+30 Apr,,28,12B,MVBC,Langa Kings,09h00,UCT 2,mvbc,sat
+30 Apr,,29,12B,Houtbay Snipers,Islamia College,09h00,UCT 3,,sat
+30 Apr,forfeit,30,14G,MVBC,WCSS,10h15,UCT 1,mvbc,sat
+30 Apr,,31,14G,Islamia College,Gugulethu Hustlers,10h15,UCT 2,,sat
+30 Apr,,32,14B,Houtbay Snipers,Heideveld,10h15,UCT 3,,sat
+30 Apr,,33,14B,Sigcawu Primary,MVBC,11h30,UCT 1,mvbc,sat
+30 Apr,,34,14B,Spartans,Islamia College,11h30,UCT 2,,sat
+30 Apr,,35,16G,MVBC,Heideveld,11h30,UCT 3,mvbc,sat
+30 Apr,,36,16B,Eagles,Islamia College,12h45,UCT 1,,sat
+30 Apr,,37,16B,MVBC,Gugulethu Hustlers,12h45,UCT 2,mvbc,sat
+30 Apr,forfeit,38,18G,MVBC,WCSS,14h00,UCT 1,mvbc,sat
+30 Apr,,39,18B,Eagles,Spartans,14h00,UCT 2,,sat
+30 Apr,,40,18B,Pinelands,MVBC,15h15,UCT 1,mvbc,sat
+30 Apr,,41,L1,UCT,Panthers,15h15,UCT 2,,sat
+30 Apr,,42,M1,Dragons,Langa Kings,16h30,UCT 1,,sat
+30 Apr,,43,L1,Eagles,MVBC,16h30,UCT 2,mvbc,sat
+1 May,,44,M1,Gugulethu Hustlers,UCT,13h00,UCT 1,,sun
+1 May,,45,SLL,MVBC,Lethal Ladies,13h00,UCT 2,mvbc,sun
+1 May,,46,SL,CPUT Alumni,Gugulethu Hustlers,14h30,UCT 1,,sun
+1 May,,47,M1,MVBC,Mannenberg,14h30,UCT 2,mvbc,sun
+1 May,,48,SL,MVBC,Maties,16h00,UCT 1,mvbc,sun
+1 May,,49,SLL,UCT,Gugulethu Hustlers,16h00,UCT 2,,sun
+7 May,,50,12G,MVBC,Islamia College,09h00,UCT 1,mvbc,sat
+7 May,,51,12B,Heideveld,Langa Kings,09h00,UCT 2,,sat
+7 May,,52,14B,Eagles,Hout Bay Snipers,09h00,UCT 3,,sat
+7 May,,53,12B,MVBC,Islamia College,10h15,UCT 1,mvbc,sat
+7 May,,54,14G,MVBC,Heideveld,10h15,UCT 2,mvbc,sat
+7 May,,55,14B,Spartans,Sigcawu Primary,10h15,UCT 3,,sat
+7 May,,56,14B,MVBC,Heideveld,11h30,UCT 1,mvbc,sat
+7 May,,57,16B,Gugulethu Hustlers,Spartans,11h30,UCT 2,,sat
+7 May,,58,14G,WCSS,Islamia College,11h30,UCT 3,,sat
+7 May,,59,16G,Gugulethu Hustlers,Heideveld,12h45,UCT 1,,sat
+7 May,,60,16G,WCSS,MVBC,12h45,UCT 2,mvbc,sat
+7 May,,61,16B,WCSS,Heideveld,14h00,UCT 1,,sat
+7 May,,62,16B,Islamia College,MVBC,14h00,UCT 2,mvbc,sat
+7 May,,63,18B,Heideveld,MVBC,15h15,UCT 1,mvbc,sat
+7 May,,64,18B,Pinelands,Eagles,15h15,UCT 2,,sat
+7 May,,65,18B,WCSS,Spartans,16h30,UCT 1,,sat
+7 May,,66,L1,MVBC,Heideveld,16h30,UCT 2,mvbc,sat
+8 May,,67,SL,Heideveld,Hellas,13h00,UCT 1,,sun
+8 May,,68,SLL,MVBC,Maties,13h00,UCT 2,mvbc,sun
+8 May,,69,SL,Eagles,Maties,14h30,UCT 1,,sun
+8 May,,70,SLL,UCT,Lethal Ladies,14h30,UCT 2,,sun
+8 May,,71,SL,CPUT Cats,MVBC,16h00,UCT 1,mvbc,sun
+8 May,,72,M1,Eagles,Maties,16h00,UCT 2,,sun

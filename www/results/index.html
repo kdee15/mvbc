@@ -1,0 +1,34 @@
+---
+layout: 	default-post
+page-class: page-fixture site-page
+title: 		League Results
+permalink: 	/results/
+---
+
+<h1>Latest CTBA Results</h1>
+
+<table>
+    
+  <tr class="header">
+    <td>Date</td>
+    <td class="no-mobile">Game No.</td>
+    <td>Div</td>
+    <td>Team A</td>
+    <td>Score</td>
+    <td>Score</td>
+    <td>Team B</td>
+  </tr>
+    
+{% for result in site.data.results %}
+  <tr class="{{result.status}} {{result.mvbc}}">
+    <td>{{result.day}}, {{ result.date }}</td>
+    <td class="no-mobile">{{ result.no }}</td>
+    <td>{{ result.league }}</td>
+    <td>{{ result.team-a }}</td>
+    <td>{{ result.score-a }}</td>
+    <td>{{ result.score-b }}</td>
+    <td>{{ result.team-b }}</td>
+  </tr>
+{% endfor %}
+    
+</table>

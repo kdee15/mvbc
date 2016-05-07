@@ -1,0 +1,137 @@
+// 2. SECTION [ 2.8. FRONT ]  #########################################################################################
+
+// A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// A.1. HOME -----------------------------------------------------------------------------------------------------
+
+.section-home {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    .wrap-content { @include vertical-align(relative); }
+
+    // A.1. Components
+
+    //A.1.1. page logo
+
+    .figure-logo { margin: 0; }
+
+    //A.1.2. page header
+
+    .section-header {
+        
+        h1, h2 { line-height: normal; }
+
+    }
+    
+    .social-media { margin-top: $baseline;}
+
+    // A.1. End
+
+ 
+
+// A.1. END -----------------------------------------------------------------------------------------------------------
+
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(feature) { 
+
+    	.section-home {
+    	
+    	    .wrap-content { top: 40%; text-align: center;
+            
+                .social-media { text-align: center; padding: 0; }
+            
+            }
+    	    
+    	    h1 { line-height: normal; font-size: $medium; }
+    		
+    		// A.1. Components
+
+            //A.1.1. page header
+
+            .section-header { padding: 0; .section-header { text-align: center; }}
+
+            //A.1.4. logo
+
+            .figure-logo { @include icon (150px, 100px, $kd-blueLight); }
+            
+    		// A.1. End
+    		
+    	}  
+
+}
+
+// B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(mobile) { 
+
+    .wrap-content { top: 40%; text-align: center;
+
+        .social-media { text-align: center; padding: 0; }
+
+    }
+
+    h1 { line-height: normal; font-size: $x-large; margin-bottom: $baseline-large; }
+    h2 { margin-bottom: 0; }
+
+    // A.1. Components
+
+    //A.1.1. page header
+
+    .section-header { padding: 0; .section-header { text-align: center; }}
+
+    //A.1.4. logo
+
+    .figure-logo { @include icon (150px, 100px, $kd-blueLight); }
+
+    // A.1. End
+
+}
+
+// C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(tablet) {
+
+    .wrap-content { text-align: left; .section-header { text-align: left; margin-left: $baseline; }}
+    .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
+        
+}
+
+// D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(desk) {
+    	
+    .wrap-content { text-align: left; .section-header { text-align: left; margin-left: $baseline; }}
+    .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
+        
+}
+
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(desk-wide) {
+    	
+    .wrap-content { text-align: left; .section-header { text-align: left; margin-left: $baseline; }}
+    .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
+        
+}
+
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
+}
+
+// END OF FILE ########################################################################################################

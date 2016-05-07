@@ -1,0 +1,260 @@
+// 1. OBJECT [ 1.0. GENERAL ]  ########################################################################################
+
+// A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// A.1. STRUCTURE -----------------------------------------------------------------------------------------------------
+
+html { font-weight: 300; }
+
+// A.2. TYPOGRAPHY SETUP
+
+h4, h6, ul, li, p { @include source-light(); }
+h1, h2 { @include libre-header(); line-height: normal;}
+h3.big-title { text-transform: uppercase; }
+p { font-size: $medium; }
+
+// A.2. END
+
+// A.3. LINKS
+
+body {
+
+    background-size: 100% auto;
+    background-color: rgba (0,0,0,0.2);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+    #mast {
+
+    &:before { 
+
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            //background: url('../images/svg/overlay.svg') top left;
+            z-index: -1;
+        }
+    }
+}
+
+a {
+
+    color: $kd-grey90;
+
+    &:hover { color: $white; }
+}
+
+.hidden { display: none; }
+
+.active { display: block; }
+
+.not-active { display: none; }
+
+.mvbc {
+
+    background: rgba($black,0.4);
+    color: $white;
+
+}
+
+.figure-logo {
+
+    margin: $baseline/2 auto;
+    @include aspect-ratio (60%, 55%);
+
+    a {
+
+        @include position(absolute, 0);
+
+        .site-logo {
+
+            width: 100%;
+            height: 100%; 
+
+        }
+    }
+}
+
+section {
+
+    .grid {
+
+        .grid-item {
+
+
+            h3 {
+
+                margin: $baseline $baseline/4;	
+
+            }
+
+            ul {
+
+                margin: 0 $baseline/4;	
+
+            }
+        }
+    }
+}
+
+
+// A.3. END
+
+
+// A.1. END -----------------------------------------------------------------------------------------------------------
+
+// A.2. CONTENT -------------------------------------------------------------------------------------------------------
+
+// A.2. END -----------------------------------------------------------------------------------------------------------
+
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(feature) {
+
+    // A.1.5. HIDE ON PHONES
+
+    .no-mobile, .no-mobile-inline { display: none; }
+
+    // A.1.5. END
+    
+    // A.1.6. HEADERS
+
+    h1, h2 { font-size: 33px; line-height: normal;}
+
+    h1 { margin: 0 0 0 0; }
+    
+    // A.1.6. END
+    
+    // A.1.7. images
+	
+    .fluid-c { max-width: 90%; margin: $baseline/4 auto; }
+
+    .fluid-l,
+    .fluid-r { max-width: 90%; float: none; margin: $baseline/4 auto; }
+    
+}
+
+// B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(mobile) {
+
+    .container {
+        
+        padding: 0;
+        
+    }
+
+    // A.1.5. HIDE ON PHONES
+
+    .no-mobile, .no-mobile-inline { display: none; }
+
+    // A.1.5. END
+    
+    // A.1.6. HEADERS
+
+    h1, h2 { font-size: 33px; line-height: normal;}
+
+    h1 { margin: 0 0 0 0; }
+    
+    // A.1.6. END
+    
+    // A.1.7. images
+	
+    .fluid-c { max-width: 90%; margin: $baseline/4 auto; }
+
+    .fluid-l,
+    .fluid-r { max-width: 90%; float: none; margin: $baseline/4 auto; }
+    
+}
+
+// C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(tablet) {
+
+    // A.1.5. HIDE ON PHONES
+
+    .no-mobile { display: block; }
+    .no-mobile-inline { display: flex; }
+
+    // A.1.5. END
+    
+    // A.1.6. HEADERS
+
+    h1, h2 { font-size: 45px; }
+    
+    // A.1.6. END
+    
+    // A.1.7. images
+    
+    .fluid-c { max-width: 80%; margin: $baseline/4 auto; }
+
+    .fluid-l,
+    .fluid-r { max-width: 90%; float: none; margin: $baseline/4 auto; }
+    
+}
+
+// D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(desk) {
+
+    // A.1.5. HIDE ON PHONES
+
+    .no-mobile { display: block; }
+    .no-mobile-inline { display: flex; }
+
+    // A.1.5. END
+    
+    // A.1.6. HEADERS
+
+    h1, h2 { font-size: 45px; }
+    
+    // A.1.6. END
+    
+    .fluid-c { max-width: 60%; margin: $baseline/4 auto; }
+    .fluid-l { max-width: 25%; float: left;  margin-right: $baseline/2; }
+    .fluid-r { max-width: 25%; float: right; margin-right: $baseline/2; }
+    
+}
+
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(desk-wide) {
+
+    // A.1.5. HIDE ON PHONES
+
+    .no-mobile { display: block; }
+    .no-mobile-inline { display: flex; }
+
+    // A.1.5. END
+    
+    // A.1.6. HEADERS
+
+    h1, h2 { font-size: 45px; }
+    
+    // A.1.6. END
+    
+    .fluid-c { max-width: 60%; margin: $baseline/4 auto; }
+    .fluid-l { max-width: 25%; float: left;  margin-right: $baseline/2; }
+    .fluid-r { max-width: 25%; float: right; margin-right: $baseline/2; }
+    
+}
+
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// END OF FILE ########################################################################################################
