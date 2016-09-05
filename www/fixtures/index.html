@@ -26,7 +26,7 @@ permalink: 	/fixtures/
     
 {% for fixture in site.data.fixtures %}
   <tr class="{{fixture.status}} {{fixture.mvbc}}">
-    <td>{{fixture.day}}, {{ fixture.date }}</td>
+    <td class="date">{{fixture.day}}, {{ fixture.date }}</td>
     <td class="no-mobile">{{ fixture.no }}</td>
     <td>{{ fixture.league }}</td>
     <td>{{ fixture.team-a }}</td>

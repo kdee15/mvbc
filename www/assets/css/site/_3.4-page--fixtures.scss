@@ -32,7 +32,9 @@
                         
                         }
                     
-                        td { border: 0; padding: $baseline-small; font-size: $small; color: $kd-grey80; }
+                        td { border: 0; padding: $baseline-small; font-size: $small; color: $kd-grey80; 
+                            &.date { text-transform: capitalize; }
+                        }
                         
                     }
                 }
