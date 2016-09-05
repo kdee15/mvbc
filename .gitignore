@@ -3,35 +3,17 @@
 node_modules/*
 .sass-cache/*
 
-<<<<<<< HEAD
 _site/
 _site/*
 
 .DS_Store
 ._*
 
-=======
->>>>>>> develop
-_system/node_modules/*
-_system/.sass-cache/*
-_system/_bower.cache/*
-
-<<<<<<< HEAD
 _system/node_modules/
 _system/.sass-cache/
 _system/_bower.cache/
 
-www/photos/*
-ww/photos
-=======
 #CONTENT
-
 www/photos/*
 www/_site/*
 www/_site/
-
-
-# Ignore Mac DS_Store files
-.DS_Store
-*.DS_Store
->>>>>>> develop
