@@ -2356,6 +2356,11 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
     padding: 10px;
     font-size: 0.75em;
     color: #555555; }
+<<<<<<< HEAD
+=======
+    .page-fixture #mast .container .wrapper table tr td.date {
+      text-transform: capitalize; }
+>>>>>>> develop
 
 @media only screen and (max-width: 320px) {
   .page-fixture #mast .container .wrapper {
