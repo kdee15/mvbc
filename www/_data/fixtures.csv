@@ -1,189 +1,58 @@
-<<<<<<< HEAD
-date,status,no,league,team-a,team-b,time,venue,mvbc,day
-30 Apr,,27,12G,Heideveld,Islamia College,09h00,UCT 1,,sat
-30 Apr,,28,12B,MVBC,Langa Kings,09h00,UCT 2,mvbc,sat
-30 Apr,,29,12B,Houtbay Snipers,Islamia College,09h00,UCT 3,,sat
-30 Apr,forfeit,30,14G,MVBC,WCSS,10h15,UCT 1,mvbc,sat
-30 Apr,,31,14G,Islamia College,Gugulethu Hustlers,10h15,UCT 2,,sat
-30 Apr,,32,14B,Houtbay Snipers,Heideveld,10h15,UCT 3,,sat
-30 Apr,,33,14B,Sigcawu Primary,MVBC,11h30,UCT 1,mvbc,sat
-30 Apr,,34,14B,Spartans,Islamia College,11h30,UCT 2,,sat
-30 Apr,,35,16G,MVBC,Heideveld,11h30,UCT 3,mvbc,sat
-30 Apr,,36,16B,Eagles,Islamia College,12h45,UCT 1,,sat
-30 Apr,,37,16B,MVBC,Gugulethu Hustlers,12h45,UCT 2,mvbc,sat
-30 Apr,forfeit,38,18G,MVBC,WCSS,14h00,UCT 1,mvbc,sat
-30 Apr,,39,18B,Eagles,Spartans,14h00,UCT 2,,sat
-30 Apr,,40,18B,Pinelands,MVBC,15h15,UCT 1,mvbc,sat
-30 Apr,,41,L1,UCT,Panthers,15h15,UCT 2,,sat
-30 Apr,,42,M1,Dragons,Langa Kings,16h30,UCT 1,,sat
-30 Apr,,43,L1,Eagles,MVBC,16h30,UCT 2,mvbc,sat
-1 May,,44,M1,Gugulethu Hustlers,UCT,13h00,UCT 1,,sun
-1 May,,45,SLL,MVBC,Lethal Ladies,13h00,UCT 2,mvbc,sun
-1 May,,46,SL,CPUT Alumni,Gugulethu Hustlers,14h30,UCT 1,,sun
-1 May,,47,M1,MVBC,Mannenberg,14h30,UCT 2,mvbc,sun
-1 May,,48,SL,MVBC,Maties,16h00,UCT 1,mvbc,sun
-1 May,,49,SLL,UCT,Gugulethu Hustlers,16h00,UCT 2,,sun
-7 May,,50,12G,MVBC,Islamia College,09h00,UCT 1,mvbc,sat
-7 May,,51,12B,Heideveld,Langa Kings,09h00,UCT 2,,sat
-7 May,,52,14B,Eagles,Hout Bay Snipers,09h00,UCT 3,,sat
-7 May,,53,12B,MVBC,Islamia College,10h15,UCT 1,mvbc,sat
-7 May,,54,14G,MVBC,Heideveld,10h15,UCT 2,mvbc,sat
-7 May,,55,14B,Spartans,Sigcawu Primary,10h15,UCT 3,,sat
-7 May,,56,14B,MVBC,Heideveld,11h30,UCT 1,mvbc,sat
-7 May,,57,16B,Gugulethu Hustlers,Spartans,11h30,UCT 2,,sat
-7 May,,58,14G,WCSS,Islamia College,11h30,UCT 3,,sat
-7 May,,59,16G,Gugulethu Hustlers,Heideveld,12h45,UCT 1,,sat
-7 May,,60,16G,WCSS,MVBC,12h45,UCT 2,mvbc,sat
-7 May,,61,16B,WCSS,Heideveld,14h00,UCT 1,,sat
-7 May,,62,16B,Islamia College,MVBC,14h00,UCT 2,mvbc,sat
-7 May,,63,18B,Heideveld,MVBC,15h15,UCT 1,mvbc,sat
-7 May,,64,18B,Pinelands,Eagles,15h15,UCT 2,,sat
-7 May,,65,18B,WCSS,Spartans,16h30,UCT 1,,sat
-7 May,,66,L1,MVBC,Heideveld,16h30,UCT 2,mvbc,sat
-8 May,,67,SL,Heideveld,Hellas,13h00,UCT 1,,sun
-8 May,,68,SLL,MVBC,Maties,13h00,UCT 2,mvbc,sun
-8 May,,69,SL,Eagles,Maties,14h30,UCT 1,,sun
-8 May,,70,SLL,UCT,Lethal Ladies,14h30,UCT 2,,sun
-8 May,,71,SL,CPUT Cats,MVBC,16h00,UCT 1,mvbc,sun
-8 May,,72,M1,Eagles,Maties,16h00,UCT 2,,sun
-=======
-date,no,league,team-a,team-b,time,venue,status,mvbc,day
-3 Sep,449,12B,Heideveld,Islamia College,09:00 - 10:15,Gugulethu Sports Complex,,,sat
-3 Sep,450,12B,Cape Waves,Delft Umoja,10:15 - 11:30,Gugulethu Sports Complex,,,sat
-3 Sep,451,14G,Heideveld,WCSS,11:30 - 12:45,Gugulethu Sports Complex,,,sat
-3 Sep,452,14G,MVBC,Gugulethu Hustlers,12:45 - 14:00,Gugulethu Sports Complex,,mvbc,sat
-3 Sep,453,14B,Cape Waves,Eagles,14:00 - 15:15,Gugulethu Sports Complex,,,sat
-3 Sep,454,14B,Houtbay Snipers,Islamia College,15:15 - 16:30,Gugulethu Sports Complex,,,sat
-3 Sep,455,16G,WCSS,CNP Thunder,16:30 - 17:45,Gugulethu Sports Complex,,,sat
-4 Sep,456,18B,Heideveld,WCSS,13:00 - 14:30,UCT 1,,,sun
-4 Sep,457,SLL,Maties,CPUT Cats 1,13:00 - 14:30,UCT 2,,,sun
-4 Sep,458,M1,Panthers,Mavericks,13:00 - 14:30,UCT 3,,,sun
-4 Sep,459,SL,Heideveld,Maties,14:30 - 16:00,UCT 1,,,sun
-4 Sep,460,SLL,UCT,CPUT Cats 2,14:30 - 16:00,UCT 2,,,sun
-4 Sep,461,M1,UCT,Dream Team (DTS),14:30 - 16:00,UCT 3,,,sun
-4 Sep,462,SL,CPUT Cats,CPUT Alumni,16:00 - 17:30,UCT 1,,,sun
-4 Sep,463,SLL,MVBC,Gugulethu Hustlers,16:00 - 17:30,UCT 2,,mvbc,sun
-4 Sep,464,M1,Maties,Langa Kings,16:00 - 17:30,UCT 3,,,sun
-9 Sep,465,SL,Cape Waves,Hellas,19:00 - 20:30,UCT 1,,,fri
-9 Sep,466,M1,Hurricanes,Heideveld,19:00 - 20:30,UCT 2,,,fri
-9 Sep,467,SL,Heideveld,CPUT Cats,20:30 - 22:00,UCT 1,,,fri
-9 Sep,468,M1,UCT,Warlords ,20:30 - 22:00,UCT 2,,,fri
-10 Sep,469,12G,Heideveld,CNP Thunder,09:00 - 10:15,Gugulethu Sports Complex,,,sat
-10 Sep,470,12B,Heideveld,Langa Kings,10:15 - 11:30,Gugulethu Sports Complex,,,sat
-10 Sep,471,14G,Heideveld,Gugulethu Hustlers,11:30 - 12:45,Gugulethu Sports Complex,,,sat
-10 Sep,472,14B,Heideveld,Cape Waves,12:45 - 14:00,Gugulethu Sports Complex,,,sat
-10 Sep,473,16G,Cape Waves,Gugulethu Hustlers,14:00 - 15:15,Gugulethu Sports Complex,,,sat
-10 Sep,474,16B,Heideveld,Gugulethu Hustlers,15:15 - 16:30,Gugulethu Sports Complex,,,sat
-10 Sep,475,12G,MVBC,Islamia College,09:00 - 10:15,Montevideo Primary,,mvbc,sat
-10 Sep,476,12B,Houtbay Snipers,Islamia College,10:15 - 11:30,Montevideo Primary,,,sat
-10 Sep,477,14G,MVBC,Delft Umoja,11:30 - 12:45,Montevideo Primary,,mvbc,sat
-10 Sep,478,14B,Houtbay Snipers,Eagles,12:45 - 14:00,Montevideo Primary,,,sat
-10 Sep,479,18G,WCSS,Spartans,14:00 - 15:15,Montevideo Primary,,,sat
-10 Sep,480,16B,Delft Umoja,Eagles,14:00 - 15:15,Montevideo Primary,,,sat
-10 Sep,399,16B,MVBC,CNP Thunder,16:30 - 17:45,Montevideo Primary,,mvbc,sat
-11 Sep,481,16G,MVBC,Gugulethu Hustlers,13:00 - 14:30,UCT 1,,mvbc,sun
-11 Sep,482,16B,WCSS,MVBC,13:00 - 14:30,UCT 2,,mvbc,sun
-11 Sep,483,16B,CNP Thunder,Islamia College,13:00 - 14:30,UCT 3,,,sun
-11 Sep,484,SL,Hellas,Gugulethu Hustlers,14:30 - 16:00,UCT 1,,,sun
-11 Sep,485,SLL,CPUT Cats 1,Maties,14:30 - 16:00,UCT 2,,,sun
-11 Sep,486,M1,Dream Team (DTS),Mavericks,14:30 - 16:00,UCT 3,,,sun
-11 Sep,487,SL,CPUT Alumni,Heideveld,16:00 - 17:30,UCT 1,,,sun
-11 Sep,488,SLL,UCT,Gugulethu Hustlers,16:00 - 17:30,UCT 2,,,sun
-11 Sep,489,M1,MVBC,Maties,16:00 - 17:30,UCT 3,,mvbc,sun
-14 Sep,411,SL,UCT ,MVBC,19:00 - 20:30,UCT 1,,mvbc,wed
-14-Sep,414,SL,Eagles,CPUT Cats,20:30 - 22:00,UCT 1,,,wed
-16 Sep,490,SL,Maties,Eagles,19:00 - 20:30,UCT 1,,,fri
-16 Sep,491,M1,Dream Team (DTS),Hurricanes,19:00 - 20:30,UCT 2,,,fri
-16 Sep,492,SL,UCT,Hellas,20:30 - 22:00,UCT 1,,,fri
-16 Sep,493,SLL,UCT,Maties,20:30 - 22:00,UCT 2,,,fri
-17 Sep,494,14G,Cape Waves,WCSS,09:00 - 10:15,Gugulethu Sports Complex,,,sat
-17 Sep,495,14G,Delft Umoja,Islamia College,10:15 - 11:30,Gugulethu Sports Complex,,,sat
-17 Sep,496,16G,MVBC,WCSS,11:30 - 12:45,Gugulethu Sports Complex,,mvbc,sat
-17 Sep,497,14B,Quarters 1,,12:45 - 14:00,Gugulethu Sports Complex,,,sat
-17 Sep,498,16G,CNP Thunder,Cape Waves,14:00 - 15:15,Gugulethu Sports Complex,,,sat
-17 Sep,499,16G,WCSS,Gugulethu Hustlers,15:15 - 16:30,Gugulethu Sports Complex,,,sat
-17 Sep,500,16B,Gugulethu Hustlers,Eagles,16:30 - 17:45,Gugulethu Sports Complex,,,sat
-18 Sep,501,SLL,Maties,Lethal Ladies,13:00 - 14:30,UCT 1,,,sun
-18 Sep,502,18B,MVBC,WCSS,13:00 - 14:30,UCT 2,,mvbc,sun
-18 Sep,503,M1,Mavericks,Warlords ,13:00 - 14:30,UCT 3,,,sun
-18 Sep,504,18G,MVBC,Spartans,14:30 - 16:00,UCT 1,,mvbc,sun
-18 Sep,505,18G,Heideveld,WCSS,14:30 - 16:00,UCT 2,,,sun
-18 Sep,506,18B,Spartans,Pinelands,14:30 - 16:00,UCT 3,,,sun
-18 Sep,507,L1,Eagles,UCT,16:00 - 17:30,UCT 1,,,sun
-18 Sep,508,L1,MVBC,Panthers,16:00 - 17:30,UCT 2,,mvbc,sun
-18 Sep,509,,,,16:00 - 17:30,UCT 3,,,sun
-23 Sep,510,SLL,MVBC,Maties,19:00 - 20:30,UCT 1,,mvbc,fri
-23 Sep,511,L1,Heideveld,UCT,19:00 - 20:30,UCT 2,,,fri
-23 Sep,512,SL,Quarters 1,,20:30 - 22:00,UCT 1,,,fri
-23 Sep,513,SLL,CPUT Cats 1,UCT,20:30 - 22:00,UCT 2,,,fri
-24 Sep,514,14B,Quarters 2,,09:00 - 10:15,Gugulethu Sports Complex,,,sat
-24 Sep,515,14B,Quarters 3,,10:15 - 11:30,Gugulethu Sports Complex,,,sat
-24 Sep,516,14B,Quarters 4,,11:30 - 12:45,Gugulethu Sports Complex,,,sat
-24 Sep,517,16B,Quarters 1,,12:45 - 14:00,Gugulethu Sports Complex,,,sat
-24 Sep,518,16B,Quarters 2,,14:00 - 15:15,Gugulethu Sports Complex,,,sat
-24 Sep,519,16B,Quarters 3,,15:15 - 16:30,Gugulethu Sports Complex,,,sat
-24 Sep,520,16B,Quarters 4,,16:30 - 17:45,Gugulethu Sports Complex,,,sat
-25 Sep,521,SL,Quarters 2,,13:00 - 14:30,UCT 1,,,sun
-25 Sep,522,SLL,Maties,Gugulethu Hustlers,13:00 - 14:30,UCT 2,,,sun
-25 Sep,523,M1,Quarters 1,,13:00 - 14:30,UCT 3,,,sun
-25 Sep,524,SL,Quarters 3,,14:30 - 16:00,UCT 1,,,sun
-25 Sep,525,SLL,UCT,CPUT Cats 2,14:30 - 16:00,UCT 2,,,sun
-25 Sep,526,M1,Quarters 2,,14:30 - 16:00,UCT 3,,,sun
-25 Sep,527,SL,Quarters 4,,16:00 - 17:30,UCT 1,,,sun
-25 Sep,528,M1,Quarters 3,,16:00 - 17:30,UCT 2,,,sun
-25 Sep,529,M1,Quarters 4,,16:00 - 17:30,UCT 3,,,sun
-30 Sep,530,M1,Semi Final,,19:00 - 20:30,UCT 1,,,fri
-30 Sep,531,L1,Semi Final,,19:00 - 20:30,UCT 2,,,fri
-30 Sep,532,M1,Semi Final,,20:30 - 22:00,UCT 1,,,fri
-30 Sep,533,L1,Semi Final,,20:30 - 22:00,UCT 2,,,fri
-1 Oct,534,12G,Semi Final,,9:00 - 10:15,UCT 1,,,sat
-1 Oct,535,12G,Semi Final,,9:00 - 10:15,UCT 2,,,sat
-1 Oct,536,12B,Semi Final,,10:15 - 11:30,UCT 1,,,sat
-1 Oct,537,12B,Semi Final,,10:15 - 11:30,UCT 2,,,sat
-1 Oct,538,14G,Semi Final,,11:30 - 12:45,UCT 1,,,sat
-1 Oct,539,14G,Semi Final,,11:30 - 12:45,UCT 2,,,sat
-1 Oct,540,14B,Semi Final,,12:45 - 14:00,UCT 1,,,sat
-1 Oct,541,14B,Semi Final,,12:45 - 14:00,UCT 2,,,sat
-1 Oct,542,16G,Semi Final,,14:00 - 15:15,UCT 1,,,sat
-1 Oct,543,16G,Semi Final,,14:00 - 15:15,UCT 2,,,sat
-1 Oct,544,16B,Semi Final,,15:15 - 16:30,UCT 1,,,sat
-1 Oct,545,16B,Semi Final,,15:15 - 16:30,UCT 2,,,sat
-1 Oct,546,18G,Semi Final,,16:30 - 18:00,UCT 1,,,sat
-1 Oct,547,18G,Semi Final,,16:30 - 18:00,UCT 2,,,sat
-2 Oct,548,18B,Semi Final,,13:00 - 14:30,UCT 1,,,sun
-2 Oct,549,18B,Semi Final,,13:00 - 14:30,UCT 2,,,sun
-2 Oct,550,SL,Semi Final,,14:30 - 16:00,UCT 1,,,sun
-2 Oct,551,SLL,Semi Final,,14:30 - 16:00,UCT 2,,,sun
-2 Oct,552,SL,Semi Final,,16:00 - 17:30,UCT 1,,,sun
-2 Oct,553,SLL,Semi Final,,16:00 - 17:30,UCT 2,,,sun
-7 Oct,554,SLL,Final Game 1,,19:00 - 20:30,UCT 1,,,fri
-7 Oct,,,,,19:00 - 20:30,UCT 2,,,fri
-7 Oct,556,SL,Final Game 1,,20:30 - 22:00,UCT 1,,,fri
-7 Oct,,,,,20:30 - 22:00,UCT 2,,,fri
-8 Oct,,,,,9:00 - 10:15,UCT 1,,,sat
-8 Oct,,,,,9:00 - 10:15,UCT 2,,,sat
-8 Oct,557,12B,Final,,10:15 - 11:30,UCT 1,,,sat
-8 Oct,558,12G,Final,,10:15 - 11:30,UCT 2,,,sat
-8 Oct,559,14B,Final,,11:30 - 12:45,UCT 1,,,sat
-8 Oct,560,14G,Final,,11:30 - 12:45,UCT 2,,,sat
-8 Oct,561,16B,Final,,12:45 - 14:00,UCT 1,,,sat
-8 Oct,562,16G,Final,,12:45 - 14:00,UCT 2,,,sat
-8 Oct,563,18G,Final,,14:00 - 15:15,UCT 1,,,sat
-8 Oct,,,,,14:00 - 15:15,UCT 2,,,sat
-8 Oct,564,18B,Final,,15:15 - 16:30,UCT 1,,,sat
-8 Oct,,,,,15:15 - 16:30,UCT 2,,,sat
-8 Oct,,,,,16:30 - 18:00,UCT 1,,,sat
-8 Oct,,,,,16:30 - 18:00,UCT 2,,,sat
-9 Oct,565,M1,Final,,13:00 - 14:30,UCT 1,,,sun
-9 Oct,566,L1,Final,,13:00 - 14:30,UCT 2,,,sun
-9 Oct,567,SLL,Final Game 2,,14:30 - 16:00,UCT 1,,,sun
-9 Oct,,,,,14:30 - 16:00,UCT 2,,,sun
-9 Oct,568,SL,Final Game 2,,16:00 - 17:30,UCT 1,,,sun
-9 Oct,,,,,16:00 - 17:30,UCT 2,,,sun
-16 Oct,,SLL,Final Game 3,,,Cape Tech 1,,,sun
-16 Oct,,,,,,Cape Tech 2,,,sun
-16 Oct,,SL,Final Game 3,,,Cape Tech 1,,,sun
-16 Oct,,,,,,Cape Tech 2,,,sun
-16 Oct,,,,,,Cape Tech 1,,,sun
-16 Oct,,,,,,Cape Tech 2,,,sun
->>>>>>> develop
+date;status;no;league;team-a;team-b;time;venue;mvbc;day
+20-May;;28;12G;MVBC;Delft Umoja;9:00 - 10:15;UCT 1;mvbc;sat
+20-May;;29;12G;Heideveld ;Cape Waves;9:00 - 10:15;UCT 2;;sat
+20-May;;30;12B;Cape Waves;Langa Kings;9:00 - 10:15;UCT 3;;sat
+20-May;;31;14G;MVBC;Spartans;10:15 - 11:30;UCT 1;mvbc;sat
+20-May;;32;12B;MVBC;Delft Umoja;10:15 - 11:30;UCT 2;mvbc;sat
+20-May;;33;14G;Cape Waves;WCSS;10:15 - 11:30;UCT 3;;sat
+20-May;;34;14B;WCSS;Hout Bay Snipers;11:30 - 12:45;UCT 1;;sat
+20-May;;35;14B;MVBC;Eagles;11:30 - 12:45;UCT 2;mvbc;sat
+20-May;;36;14B;Spartans ;Turfhall Primary;11:30 - 12:45;UCT 3;;sat
+20-May;;37;16G;MVBC;WCSS;12:45 - 14:00;UCT 1;mvbc;sat
+20-May;;38;16B;MVBC;Eagles;12:45 - 14:00;UCT 2;mvbc;sat
+20-May;;39;16G;Eagles;Mavericks;12:45 - 14:00;UCT 3;;sat
+20-May;;40;18B;Eagles 1;Pinelands;14:00 - 15:15;UCT 1;;sat
+20-May;;41;16G;Spartans ;Cape Waves;14:00 - 15:15;UCT 2;;sat
+20-May;;42;16B;Cape Waves ;WCSS;14:00 - 15:15;UCT 3;;sat
+20-May;;43;18G;MVBC;Eagles;15:15 - 16:30;UCT 1;mvbc;sat
+20-May;;44;M1;MVBC;Warlords;15:15 - 16:30;UCT 2;mvbc;sat
+20-May;;45;16B;Heideveld ;Mavericks;15:15 - 16:30;UCT 3;;sat
+20-May;;46;18B;Mavericks;MVBC;16:30 - 17:45;UCT 1;mvbc;sat
+20-May;;47;M1;Hellas;DTS;16:30 - 17:45;UCT 2;;sat
+20-May;;48;L1;Heideveld ;MVBC;16:30 - 17:45;UCT 3;mvbc;sat
+21-May;;49;SLL;MVBC;Gugulethu Hustlers;13:00 - 14:30;UCT 3;mvbc;sun
+21-May;;50;SL;Eagles;Maties;14:30 - 16:00;UCT 3;;sun
+21-May;;51;SL;MVBC;UWC;16:00 - 17:30;UCT 3;mvbc;sun
+21-May;;52;M1;Shaq Squad;Langa Kings;13:00 - 14:30;GSC;;sun
+21-May;;53;M1;Delft Umoja;Eagles;14:30 - 16:00;GSC;;sun
+21-May;;54;M1;Heideveld ;Alpha Wolves;16:00 - 17:30;GSC;;sun
+27-May;;55;12G;Hout Bay Snipers;MVBC;9:00 - 10:15;UCT 1;mvbc;sat
+27-May;;56;12B;Cape Waves;MVBC;9:00 - 10:15;UCT 2;mvbc;sat
+27-May;;57;12B;Heideveld ;Langa Kings;9:00 - 10:15;UCT 3;;sat
+27-May;;58;12B;Hout Bay Snipers;Delft Umoja;10:15 - 11:30;UCT 1;;sat
+27-May;;59;14G;Spartans ;Turfhall Primary;10:15 - 11:30;UCT 2;;sat
+27-May;;60;14G;MVBC;WCSS;10:15 - 11:30;UCT 3;mvbc;sat
+27-May;;61;14G;Heideveld ;Delft Umoja;11:30 - 12:45;UCT 1;;sat
+27-May;;62;14B;Heideveld ;Eagles;11:30 - 12:45;UCT 2;;sat
+27-May;;63;14B;MVBC;Turfhall Primary;11:30 - 12:45;UCT 3;mvbc;sat
+27-May;;64;16G;MVBC;Eagles;12:45 - 14:00;UCT 1;mvbc;sat
+27-May;;65;16G;Spartans ;WCSS;12:45 - 14:00;UCT 2;;sat
+27-May;;66;16G;Cape Waves;Mavericks;12:45 - 14:00;UCT 3;;sat
+27-May;;67;16B;CapeWaves;Hout Bay Snipers;14:00 - 15:15;UCT 1;;sat
+27-May;;68;16B;MVBC;Spartans;14:00 - 15:15;UCT 2;mvbc;sat
+27-May;;69;16B;WCSS;Eagles;14:00 - 15:15;UCT 3;;sat
+27-May;;70;18G;Heideveld ;MVBC;15:15 - 16:30;UCT 1;mvbc;sat
+27-May;;71;18B;Eagles 2;Spartans;15:15 - 16:30;UCT 2;;sat
+27-May;;72;L1;Eagles;UCT;15:15 - 16:30;UCT 3;;sat
+27-May;;73;18B;MVBC;WCSS;16:30 - 17:45;UCT 1;mvbc;sat
+27-May;;74;18B;Eagles 1;Heideveld;16:30 - 17:45;UCT 2;;sat
+27-May;;75;L1;Panthers;MVBC;16:30 - 17:45;UCT 3;mvbc;sat
+28-May;;76;SL;MVBC;Maties;13:00 - 14:30;UCT 1;mvbc;sun
+28-May;;77;SLL;UWC;Lethal Ladies;13:00 - 14:30;UCT 2;;sun
+28-May;;78;M1;Dragons;Gladiators;13:00 - 14:30;UCT 3;;sun
+28-May;;79;SL;CPUT Cats ;Hurricanes;14:30 - 16:00;UCT 1;;sun
+28-May;;80;SLL;MVBC;UCT;14:30 - 16:00;UCT 2;mvbc;sun
+28-May;;81;M1;Maties;UWC;14:30 - 16:00;UCT 3;;sun
+28-May;;82;SL;UCT;Heideveld;16:00 - 17:30;UCT 1;;sun
+28-May;;83;SLL;Maties;CPUT Cats;16:00 - 17:30;UCT 2;;sun
+28-May;;84;M1;Hanover Park;Hellas;16:00 - 17:30;UCT 3;;sun
