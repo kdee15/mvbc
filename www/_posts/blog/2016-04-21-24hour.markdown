@@ -2,26 +2,23 @@
 layout: 		default-post
 page-class: 	page-blog article
 categories: 	blog
-title:  		"24 Hour 2016"
-description: 	24 Hour Basketball Marathon 2016 was held at Belhar Sports Complex
-date:   		2016-04-21
-thumb: 			event/thumbs/24hour.jpg
+title:  		"Have you ever tried to play basketball in the dark?"
+description: 	If you’ve ever played for Vikings, you know what I’m talking about!
+date:   		2017-03-3
+thumb: 			blog/thumbs/play-in-the-dark.jpg
 ---
 
-<h2>24 Hour Basketball Marathon 2016</h2>
+<h2>Have you ever tried to play basketball in the dark?</h2>
+<h3>If you’ve ever played for Vikings, you know what I’m talking about!</h3>
 
-<img src="{{ site.url }}/assets/images/blog/pics/kfm.jpg" alt="KFM Team" class="fluid-c" />
-<p>MVBC on the Ryan O'Connor Show - KFM 21 April 2016</p>
+<img src="{{ site.url }}/assets/images/blog/pics/play-in-the-dark.jpg" alt="Play In The Dark" class="fluid-c" />
 
+<p>Remember the old days at Montevideo Primary School when we practiced outdoors, in the cold and even in the rain? Well, some things just don’t change!  But some things have. Bread costs more and so does everything else. Rising electricity costs have had a major impact on all of us and MVBC needs to keep up.</p>
 
-<p>The Montana Vikings Basketball Club (MVBC) 24 Hour Basketball Marathon is an event where all members of the club get together to participate in basketball themed activities continuously for 24 hours. The idea behind the event was to create an environment where the entire club could get together and do the thing we love most – play basketball. Throughout the course of the event members from across all age groups team up to compete for 20 minute periods, resulting in scenarios where under 12 girls end up sharing the court with players from our senior men’s teams. Due to the fact that this event focuses more on the fun aspect than the winning, these moments become quite special for our juniors who aspire to become great basketball players one day!</p>
+<p>Winter is a cold and dark time but MVBC is a beacon of light in many children’s lives. And who are we kidding - not only the kids, but for many of our seniors too. We have academic support sessions in the classrooms in the afternoon and evening, as well as our practices on the court where we need those floodlights to be on.. Not only to actually see each other (and the ball!) but also for our member’s safety. The new school hall has a small gym section where some of our members work out on their off days.</p>
 
-<p>At MVBC, we use every club event to deliver a positive message, and impart valuable life skills to our juniors. These are in the form of social awareness sessions, talks from our seniors about their life experiences, and sessions from external community organisations.</p>
+<h3>That's why MVBC needs your help right now!</h3>
 
-<p>The event has grown tremendously since its inception in 2000, and with a club membership of 120 active players, along with parents, friends and non-playing members, we have been able to generate hype around the event. In 2012 and 2013 &amp; 2016 KFM covered the event, and in the past we’ve had Hectic99 presenters covering it as well.</p>
+<p>With a small donation of R100 per month over a period of 12 months, all we need is 20 sponsors to keep the lights on. Commit to this small donation and you’ll be making a HUGE difference. Please use the reference: ‘Alumni’ with your donation.</p>
 
-<p>
-    <a href="http://www.kfm.co.za/Articles/2016/04/21/montana-vikings-are-ready-for-24-hours-of-b-ball" target="_blank">
-        Check out the insert from KFM
-</a>
-</p>
+<p>Contact Kirk Daniels @ 082 377 9991 or Tanya Daniels @ 082 5225 978 for more information and to let us know if you'll be 1 of the 20 donors we need.</p>
