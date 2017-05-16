@@ -4,10 +4,11 @@ email: kirk@mvbc.co.za
 description: "Montana Vikings Basketball Club" 
 
 # FOR LIVE PUBLISHING
-url: "http://www.mvbc.co.za" # the base hostname & protocol for your site
+url: "http://mvbc.co.za" # the base hostname & protocol for your site
 
 # FOR TESTING
-# url: "http://localhost:4000" # the base hostname & protocol for your site
+#url: "http://localhost:4000" # the base hostname & protocol for your site
+
 
 permalink: /:categories/:title
 version: 1.0
@@ -15,6 +16,9 @@ version: 1.0
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+=======
+exclude: [README.md, package.json, 'node_modules', '*.esproj', 'site', 'konstruct', 'config', 'components', 'scripts']
 
 #
 ## Config
