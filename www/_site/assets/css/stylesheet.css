@@ -1840,6 +1840,8 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
     text-align: center; } }
 
 @media only screen and (min-width: 1024px) {
+  #masthead .container #nav ul li {
+    float: left; }
   #masthead .nav-close {
     display: none; }
   #masthead .nav-close span {
@@ -2336,7 +2338,7 @@ section .grid .grid-item ul, section .tabs .tabs__header .grid-item ul, .tabs se
     color: #000; }
 
 .page-fixture #mast .container .wrapper .mvbc {
-  background: rgba(85, 85, 85, 0.8); }
+  background: rgba(85, 85, 85, 0.2); }
   .page-fixture #mast .container .wrapper .mvbc td {
     color: #000; }
 
