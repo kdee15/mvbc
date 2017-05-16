@@ -265,6 +265,17 @@
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
     @include media-query(desk) { 
+      
+      .container {
+
+          #nav {
+
+              ul {
+                  li { float: left; }
+              }
+          }
+      }
+      
 
         .nav-close { display: none; }
         .nav-close { span { display: none; }}
