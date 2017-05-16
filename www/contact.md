@@ -16,7 +16,7 @@ permalink: 	/contact/
 
 </div>
 
-<br/><br/><br/>
+<br/><br/>
 
 <p>Teams and practice times:</p>
 
