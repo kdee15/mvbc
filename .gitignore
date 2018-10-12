@@ -9,10 +9,6 @@ _site/*
 .DS_Store
 ._*
 
-_system/node_modules/
-_system/.sass-cache/
-_system/_bower.cache/
-
 #CONTENT
 www/photos/*
 www/_site/*
