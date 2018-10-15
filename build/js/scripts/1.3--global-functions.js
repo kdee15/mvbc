@@ -19,11 +19,34 @@ $('.reveal').click(function(e) {
         
         $(target).removeClass('hidden');
         $('.reveal').addClass('close');
-        
+
     } else {
         
         $(target).addClass('hidden');
         $('.reveal').removeClass('close');
+
+    }
+    
+    e.preventDefault();
+    
+  });
+    
+    
+$('.c-hamburger').click(function(e) {
+    
+    var target = $(this).attr('href');
+    
+    if ($(target).hasClass('hidden') ) {
+        
+        $(target).removeClass('hidden');
+        $('.c-hamburger').addClass('is-active');
+        $('body').addClass('fixed');
+        
+    } else {
+        
+        $(target).addClass('hidden');
+        $('.c-hamburger').removeClass('is-active');
+        $('body').removeClass('fixed');
         
     }
     
@@ -33,71 +56,22 @@ $('.reveal').click(function(e) {
     
 // A.1. END -----------------------------------------------------------------------------------------------------------
     
-// A.2. GENERAL SHOW --------------------------------------------------------------------------------------------------
-    
-$('.showhide').click(function(e) {
-    
-    var target = $(this).attr('href');
-    
-    if ($(target).hasClass('hidden') ) {
-        
-        $(target).removeClass('hidden');
-        $('.showhide').addClass('close');
-        
-    } else {
-        
-        $(target).addClass('hidden');
-        $('.showhide').removeClass('close');
-        
-    } 
-     
-    e.preventDefault(); 
-    
-  });
-    
+ 
 // A.2. END -----------------------------------------------------------------------------------------------------------
-    
-// A.2. END -----------------------------------------------------------------------------------------------------------
-    
-    // A.2.1. TOGGLE DIV ----------------------------
 
-    var currentContent = '';	
-    $('.toggle-div').on('click', function(){
-        currentContent = $(this).attr('name');
-        if($('#'+currentContent).hasClass('on')){
-            $('#'+currentContent).removeClass('on');
-            $('body').removeClass('modal-open');
-        }else{
-            hideAllContent();
-            showCurrentContent(currentContent);
-        }
-    });
+	// A.2.2. MODAL POPUPS ----------------------------------
 
-	function hideAllContent(){
-        $('.toggle-content').removeClass('on');
-        $('body').removeClass('modal-open');
-	};
-	
-	function showCurrentContent(currentContentDiv){
-        $('#'+currentContentDiv).addClass('on');
-        $('body').addClass('modal-open');
-	};
-
-    // A.2.1. END -----------------------------------------
-
-    // A.2.2. MODAL POPUPS --------------------------------
-
-    var modalContent = '';	
-    $('.modal-open').on('click', function(){
-        modalContent = $(this).attr('name');
-        if($('#'+modalContent).hasClass('on')){
-            $('#'+modalContent).removeClass('on');
-            $('body').removeClass('modal-open');
-        }else{
-            hideAllContent();
-            showmodalContent(modalContent);
-        }
-    });
+	var modalContent = '';	
+	$('.modal-open').on('click', function(){
+			modalContent = $(this).attr('name');
+			if($('#'+modalContent).hasClass('on')){
+					$('#'+modalContent).removeClass('on');
+					$('body').removeClass('modal-open');
+			}else{
+					hideAllContent();
+					showmodalContent(modalContent);
+			}
+	});
 
 	function hideAllContent(){
         $('.o-modal-full').removeClass('on');
@@ -109,88 +83,20 @@ $('.showhide').click(function(e) {
         $('body').addClass('modal-open');
 	};
 
-    // A.2.2. END -----------------------------------------
+	// A.2.2. END -------------------------------------------
 
-    // A.2.3. MOBILE SHOWHIDE -----------------------------
-
-    (function($){
-      if($('html').hasClass('mobile')){
-        $('.a-config').on('click', function(){
-          //e.preventDefault();
-          if($('.a-config').hasClass('active')){
-            $('.a-config').removeClass('active');
-            $('body').removeClass('fixed');
-          } else {
-            $('.a-config').addClass('active');
-            $('body').addClass('fixed');
-          }
-        });
-      }
-    })(jQuery)
-
-    // A.2.3. END -----------------------------------------
-    
 // A.2. END -----------------------------------------------------------------------------------------------------------
-    
-// A.3. SCROLL TO LINK ------------------------------------------------------------------------------------------------
-    
-    $(".textLink, .bob-backUp").click(function(event){
-        
-         event.preventDefault();
-        
-         //calculate destination place
-         var dest=0;
-         if($(this.hash).offset().top > $(document).height()-$(window).height()){
-              dest=$(document).height()-$(window).height();
-         }else{
-              dest=$(this.hash).offset().top;
-         }
-        
-         //go to destination
-         $('html,body').animate({scrollTop:dest}, 1000,'swing');
-        
-        //add class to burger
-        $('#mobi-nav').addClass('hide-nav');
-        
-    });
-    
-// A.3. END -----------------------------------------------------------------------------------------------------------
-    
-// A.4. SHOW HIDE LOGO ------------------------------------------------------------------------------------------------
-
-//    var t = $('.wrapper').offset().top;
-//
-//    $(document).scroll(function(){
-//
-//        if (document.documentElement.clientWidth > 640) {
-//
-//            // Hide the logo, and show as you scroll
-//            if($(this).scrollTop() > t)
-//            {   
-//                $('.logo').css({"display":'block'});
-//
-//            }else{
-//                $('.logo').css({"display":'none'});
-//            }
-//
-//
-//        } else {}
-//
-//    });
-    
-// A.4. END -----------------------------------------------------------------------------------------------------------
     
 // A.5. SCREEN SIZE CHECK ---------------------------------------------------------------------------------------------
     
-    var screen = $( window ).width();
-    console.log('I am a device, and my width is: ' + screen);
+	var screen = $( window ).width();
+	console.log('I am a device, and my width is: ' + screen);
     
 // A.5. END -----------------------------------------------------------------------------------------------------------
     
-// A.6. RESOURCE PATHS ------------------------------------------------------------------------------------------------
-    
-    var icons = 'assets/includes/icons/';
-    
-// A.6. END -----------------------------------------------------------------------------------------------------------
+// A.3. SCROLL TO LINK ------------------------------------------------------------------------------------------------
 
+
+// A.3. END -----------------------------------------------------------------------------------------------------------
+    
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

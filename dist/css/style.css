@@ -551,4 +551,40 @@ h1 {
   .o-table-layout.full-width {
     width: 100%; }
 
+.o-block.home-carousel .swiper-container {
+  overflow-x: hidden;
+  padding-bottom: 45px; }
+
+.o-block.home-carousel .swiper-button {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 15px;
+  height: 25px;
+  background-size: cover;
+  display: none;
+  opacity: 0.3;
+  transition: 0.2s;
+  outline: none !important; }
+  .o-block.home-carousel .swiper-button.swiper-button-next {
+    background-image: url("../../dist/images/site/button--arrow-right.svg");
+    right: 6px;
+    left: auto; }
+  .o-block.home-carousel .swiper-button.swiper-button-prev {
+    background-image: url("../../dist/images/site/button--arrow-left.svg");
+    left: 6px;
+    right: auto; }
+  .o-block.home-carousel .swiper-button:hover {
+    opacity: 1;
+    transition: 0.2s;
+    width: 17px;
+    height: 27px; }
+
+.o-block.home-carousel .swiper-pagination .swiper-pagination-bullet {
+  width: 16px;
+  height: 4px;
+  border-radius: 0; }
+
 /*# sourceMappingURL=style.css.map */
