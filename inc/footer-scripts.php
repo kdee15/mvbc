@@ -2,7 +2,7 @@
 
     <!-- D.2. SITE -->
 
-    <script src="<?php bloginfo('template_url'); ?>/dist/js/libraries/modernizr-2.6.2.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/dist/js/libraries/modernizr.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/dist/js/libraries/html5shiv.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/dist/js/libraries/jquery.cbpFWSlider.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/dist/js/libraries/ios-orientationchange-fix.js"></script>
