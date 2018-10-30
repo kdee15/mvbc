@@ -2,41 +2,30 @@
 
 // ====== INDEX  ======================================================================================================
 // ==
-// == A. MOBILE CLASS
+// == A. SWIPER CAROUSEL
 // ==
 // ====== INDEX  ======================================================================================================
 
 // A. SHOW/HIDE +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     
 // A.1. MOBILE CLASS --------------------------------------------------------------------------------------------------
-    
-  var deviceAgent = navigator.userAgent.toLowerCase();
 
-  $('html').addClass('desktop');
-  
-  if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
-    $('html').removeClass('desktop');
-    $('html').addClass('ios');
-    $('html').addClass('mobile');
+var mySwiper = new Swiper ('.home-carousel', {
+
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 0,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   }
-  
-  if (deviceAgent.match(/android/)) {
-    $('html').removeClass('desktop');
-    $('html').addClass('android');
-    $('html').addClass('mobile');
-  }
-  
-  if (deviceAgent.match(/blackberry/)) {
-    $('html').removeClass('desktop');
-    $('html').addClass('blackberry');
-    $('html').addClass('mobile');
-  }
-  
-  if (deviceAgent.match(/(symbianos|^sonyericsson|^nokia|^samsung|^lg)/)) {
-    $('html').removeClass('desktop');
-    $('html').addClass('mobile');
-  }
-    
+})
+
 // A.1. END -----------------------------------------------------------------------------------------------------------
-  
+
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
