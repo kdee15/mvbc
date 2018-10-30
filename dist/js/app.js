@@ -125,7 +125,7 @@ $('.reveal').click(function(e) {
   });
     
     
-$('.c-hamburger').click(function(e) {
+$('.o-hamburger').click(function(e) {
     
     var target = $(this).attr('href');
     
@@ -146,6 +146,8 @@ $('.c-hamburger').click(function(e) {
     e.preventDefault();
     
   });
+
+
     
 // A.1. END -----------------------------------------------------------------------------------------------------------
     
