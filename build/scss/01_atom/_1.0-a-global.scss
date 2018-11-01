@@ -4,7 +4,7 @@
 
 // A.1. GENERAL SETTINGS ----------------------------------
 
-html, body { font-family: $default; font-weight: 100; background: $white; height: 100%; }
+html, body { font-family: $default; font-weight: 100; background: $white; height: 100%; overflow-x: hidden; }
 
 body {
   &.fixed,
@@ -23,7 +23,7 @@ body {
 
 // A.3. ELEMENTS ------------------------------------------
 
-.m-logo { @include aspect-ratio( 70%, 50% ); margin: 0 auto;
+.m-logo { @include aspect-ratio( 60%, 50% ); margin: 0 auto;
   svg { @include position (absolute, 0); width: 100%; height: 100%; }
 }
 
@@ -55,6 +55,8 @@ body {
 
   h1 { font-size: 70px; }
   h2 { font-size: 50px; }
+
+  .m-logo { width: 70%; }
 
 }
 
