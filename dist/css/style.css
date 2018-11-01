@@ -293,7 +293,7 @@ body {
   background-color: #FFFFFF; }
 
 .a-burger-menu .o-hamburger {
-  top: 20px;
+  top: 10px;
   transform: translateY(0); }
 
 html, body {
@@ -851,12 +851,66 @@ body.fixed, body.modal-open {
   background-size: cover;
   background-position: center; }
 
-.o-card.stacked .o-card-image img {
-  width: 100%;
-  height: auto; }
+.card {
+  border: 0; }
+  .card .m-card-image {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    display: block; }
+  .card .m-card-body {
+    transition: 0.3s ease; }
+  .card .m-card-footer .a-btn {
+    min-width: auto; }
 
-.o-card.stacked .o-card-footer .a-btn {
+.o-card.stacked .m-card-image {
+  margin: 0; }
+  .o-card.stacked .m-card-image img {
+    width: 100%;
+    height: auto; }
+
+.o-card.stacked .m-card-footer .a-btn {
   min-width: auto; }
+
+.o-card.hover-card {
+  transition: 0.3s ease;
+  position: relative; }
+  .o-card.hover-card .m-card-image {
+    position: relative;
+    width: 100%; }
+    .o-card.hover-card .m-card-image:before {
+      content: "";
+      display: block;
+      padding-top: 100%; }
+    .o-card.hover-card .m-card-image .a-image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      position: absolute;
+      width: auto;
+      height: 100%;
+      transition: 0.3s ease; }
+  .o-card.hover-card .m-card-body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    transition: 0.3s ease; }
+  .o-card.hover-card:hover {
+    transition: 0.3s ease; }
+    .o-card.hover-card:hover .m-card-image .a-image {
+      height: 105%;
+      transition: 0.3s ease; }
+    .o-card.hover-card:hover .m-card-body {
+      top: 0;
+      transition: 0.3s ease; }
 
 .o-table-layout {
   display: table;
