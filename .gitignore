@@ -13,3 +13,4 @@ _site/*
 www/photos/*
 www/_site/*
 www/_site/
+.idea/workspace.xml

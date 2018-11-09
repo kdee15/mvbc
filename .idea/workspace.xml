@@ -199,7 +199,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="13" />
+    <option name="y" value="33" />
     <option name="width" value="1280" />
     <option name="height" value="740" />
   </component>
