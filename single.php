@@ -15,7 +15,9 @@ get_header();
 
 <!-- C.1. PAGE HEADER ------------------------------- -->
 
-<?php get_template_part( 'inc/navigation-home' ); ?>
+<?php get_template_part( 'inc/page-header' ); ?>
+
+<?php get_template_part( 'inc/navigation-page' ); ?>
 
 <!-- C.1. END --------------------------------------- -->
 
@@ -23,13 +25,14 @@ get_header();
 
   <!-- C.1. PAGE HEADER ----------------------------- -->
 
-  <?php get_template_part( 'inc/page-header' ); ?>
+  <section class="page single">
+
+
 
   <!-- C.1. END ------------------------------------- -->
 
   <!-- C.2. SECTIONS -------------------------------- -->
 
-  <section class="container">
 
     <!-- C.2.2.1. ABOUT US ---------------------------------------------------------------------------- -->
 
@@ -72,7 +75,6 @@ get_header();
     <!-- C.2.2.2. END --------------------------------------------------------------------------------- -->
 
   </section>
-
 
   <!-- C.2. END ------------------------------------- -->
 

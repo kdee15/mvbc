@@ -98,35 +98,23 @@ $('.o-hamburger').click(function(e) {
     
 // A.3. SCROLL TO LINK ------------------------------------------------------------------------------------------------
 
-// WINDOW SCROLL ALTER LOGO -------------------------------
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
 
-function getScrollXY() {
-  let scrOfX = 0, scrOfY = 0;
-  if( typeof( window.pageYOffset ) == 'number' ) {
-    //Netscape compliant
-    scrOfY = window.pageYOffset;
-    scrOfX = window.pageXOffset;
-  } else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {
-    //DOM compliant
-    scrOfY = document.body.scrollTop;
-    scrOfX = document.body.scrollLeft;
-  } else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {
-    //IE6 standards compliant mode
-    scrOfY = document.documentElement.scrollTop;
-    scrOfX = document.documentElement.scrollLeft;
+// Get the header
+var header = document.getElementById("o-header");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
   }
-  return [ scrOfX, scrOfY ];
 }
-
-
-$(window).scroll(function() {
-  console.log('piele');
-  let h1 = $("p-main");
-  let offs = getScrollXY();
-  console.log(h1.offset().top - offs[1]);
-});
-
-// END: WINDOW SCROLL ALTER LOGO --------------------------
 
 // A.3. END -----------------------------------------------------------------------------------------------------------
     

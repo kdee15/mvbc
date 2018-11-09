@@ -8,12 +8,13 @@ html, body { font-family: $default; font-weight: 100; background: $white; height
 
 body {
   &.fixed,
-  &.modal-open { @include position(fixed, 0); overflow: hidden;
+  &.modal-open { @include position(absolute, 0); overflow: hidden;
+    &:before { @include position (absolute, 0); content: ''; background-color: rgba(0,0,0,0.9); }
     .p-main { @include position (absolute, 0); transform: translateX(-300px); transition: 0.3s; }
   }
 }
 
-.p-main { height: 100%; }
+.p-main { height: 100%; margin-top: 120px; }
 
 // A.1. END -----------------------------------------------
 

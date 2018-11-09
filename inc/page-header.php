@@ -7,12 +7,19 @@
 
 	<!-- C.1. MASTHEAD -->
 
-	<header class="o-header page-header">
+	<header class="o-header page-header" id="o-header">
     <figure class="m-figure">
       <?php get_template_part( 'inc/svg--page-logo' ); ?>
     </figure>
 		<div class="m-breadcrumbs">
       <?php if (function_exists('the_breadcrumb')) the_breadcrumb(); ?>
+    </div>
+
+
+    <div class="o-hamburger m-hamburger--spin toggle-div burger-nav" name="burger-nav" id="burger-menu">
+      <div class="m-hamburger-box">
+        <div class="m-hamburger-inner"></div>
+      </div>
     </div>
 
 	</header>
