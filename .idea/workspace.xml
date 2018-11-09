@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be97611c-de55-486b-84f5-f668b408d8d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/inc/svg--logo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/html/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/00_base/_0.1-b-custom-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/00_base/_0.1-b-custom-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/01_atom/_1.0-a-global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/01_atom/_1.0-a-global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/03_organism/_3.1-o-cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/03_organism/_3.1-o-cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_html/src/partials/_blog-posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_html/src/partials/_blog-posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/logo-svg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/navigation-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/navigation-home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/section-blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/section-front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_html/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_html/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_html/src/partials/_page-footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_html/src/partials/_page-footer.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,35 +72,39 @@
     <session id="1434881141">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="7" />
-          <entry key="scss" value="6" />
+          <entry key="html" value="16" />
+          <entry key="php" value="11" />
+          <entry key="scss" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="7" />
-          <entry key="SCSS" value="6" />
+          <entry key="HTML" value="16" />
+          <entry key="PHP" value="11" />
+          <entry key="SCSS" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="266" />
-          <entry key="scss" value="543" />
+          <entry key="html" value="378" />
+          <entry key="php" value="133" />
+          <entry key="scss" value="589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="266" />
-          <entry key="SCSS" value="543" />
+          <entry key="HTML" value="378" />
+          <entry key="PHP" value="133" />
+          <entry key="SCSS" value="589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -108,11 +118,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.1-o-cards.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+            <state relative-caret-position="410">
+              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static_html/src/partials/_page-footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static_html/src/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -121,16 +149,16 @@
         <entry file="file://$PROJECT_DIR$/build/scss/01_atom/_1.0-a-global.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static_html/src/partials/_blog-posts.html">
+        <entry file="file://$PROJECT_DIR$/section-blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="405">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -162,12 +190,18 @@
         <option value="$PROJECT_DIR$/build/scss/00_base/_0.4.0-b-burger-menu.scss" />
         <option value="$PROJECT_DIR$/static_html/src/partials/_page-menu.html" />
         <option value="$PROJECT_DIR$/build/scss/00_base/_0.4.1-b-burger-menu.scss" />
-        <option value="$PROJECT_DIR$/static_html/src/home.html" />
-        <option value="$PROJECT_DIR$/static_html/src/partials/_page-footer.html" />
-        <option value="$PROJECT_DIR$/static_html/src/partials/_blog-posts.html" />
         <option value="$PROJECT_DIR$/build/scss/01_atom/_1.0-a-global.scss" />
         <option value="$PROJECT_DIR$/build/scss/00_base/_0.1-b-custom-variables.scss" />
+        <option value="$PROJECT_DIR$/inc/svg--logo.php" />
+        <option value="$PROJECT_DIR$/section-front.php" />
+        <option value="$PROJECT_DIR$/inc/navigation-home.php" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/section-blog.php" />
         <option value="$PROJECT_DIR$/build/scss/03_organism/_3.1-o-cards.scss" />
+        <option value="$PROJECT_DIR$/static_html/src/home.html" />
+        <option value="$PROJECT_DIR$/static_html/src/partials/_blog-posts.html" />
+        <option value="$PROJECT_DIR$/static_html/src/partials/_page-footer.html" />
       </list>
     </option>
   </component>
@@ -198,10 +232,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="740" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1652" />
+    <option name="y" value="-681" />
+    <option name="width" value="1282" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -224,27 +259,7 @@
               <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mvbc" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="00_base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
@@ -252,13 +267,6 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="01_atom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="02_molecule" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
@@ -277,33 +285,7 @@
             <path>
               <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="style.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
@@ -346,6 +328,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inc" />
       <recent name="$PROJECT_DIR$/static_html/src/partials" />
     </key>
   </component>
@@ -375,20 +358,21 @@
       <workItem from="1540894114792" duration="606000" />
       <workItem from="1540934089384" duration="1165000" />
       <workItem from="1541016260227" duration="98000" />
-      <workItem from="1541104748831" duration="3504000" />
+      <workItem from="1541104748831" duration="6324000" />
+      <workItem from="1541742181112" duration="402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11371000" />
+    <option name="totallyTimeSpent" value="14593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="740" extended-state="6" />
+    <frame x="-1719" y="-700" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25201938" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2267525" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -418,23 +402,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static_html/src/partials/_footer-includes.html" />
     <entry file="file://$PROJECT_DIR$/static_html/src/partials/_header-includes.html" />
-    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_logo-svg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_html/src/inc/_header-includes.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/04_pages/_4.0-p-global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/scss/00_base/_0.4-b-burger-menu.scss" />
     <entry file="file://$PROJECT_DIR$/build/js/scripts/1.4--toggle-functions.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -450,20 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.0-o-header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_page-footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -483,45 +436,10 @@
     <entry file="file://$PROJECT_DIR$/static_html/src/partials/_services-detail.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_page-header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_html/src/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_page-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/scss/00_base/_0.4.1-b-burger-menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_blog-posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/01_atom/_1.0-a-global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -532,10 +450,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inc/page-header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_logo-svg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-end-line="1033" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_page-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="true" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/logo-svg.php" />
+    <entry file="file://$PROJECT_DIR$/inc/svg--logo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="1033" column="9" selection-start-line="1033" selection-start-column="9" selection-end-line="1033" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_page-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section-front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/navigation-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="136" selection-start-line="17" selection-start-column="136" selection-end-line="17" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/04_pages/_4.0-p-global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.3-o-block-hero.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.4-o-block-carousel.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.0-o-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-footer.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_html/src/inc/_header-includes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="212" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="212" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.1-o-cards.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        <state relative-caret-position="410">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/01_atom/_1.0-a-global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section-blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_blog-posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_html/src/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_page-footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -867,13 +867,13 @@ body.fixed, body.modal-open {
     font-size: 14px;
     color: #FFFFFF;
     text-shadow: 0 0 5px #000000; }
-  .card .m-card-body .a-card-text {
+  .card .m-card-body .a-card-text, .card .m-card-body p {
     margin: 0;
     padding: 0;
     font-size: 12px;
     color: #FFFFFF;
     text-shadow: 0 0 5px #000000; }
-    .card .m-card-body .a-card-text.truncated {
+    .card .m-card-body .a-card-text.truncated, .card .m-card-body p.truncated {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -901,7 +901,7 @@ body.fixed, body.modal-open {
         content: "";
         display: block;
         padding-top: 100%; }
-      .o-card.hover-card .m-card-image .a-image {
+      .o-card.hover-card .m-card-image .a-image, .o-card.hover-card .m-card-image img {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -926,13 +926,17 @@ body.fixed, body.modal-open {
         position: absolute;
         top: 15px;
         left: 15px; }
-      .o-card.hover-card .m-card-body .a-card-text {
+      .o-card.hover-card .m-card-body .a-card-text, .o-card.hover-card .m-card-body p {
         position: absolute;
         top: 45px;
         left: 15px;
         right: 15px;
         line-height: 14px;
-        height: 14px; }
+        height: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: 0.5s; }
     .o-card.hover-card:hover {
       transition: 0.3s ease; }
       .o-card.hover-card:hover .m-card-image .a-image {
@@ -947,7 +951,7 @@ body.fixed, body.modal-open {
           margin: 0;
           transition: 0.8s;
           top: 20%; }
-        .o-card.hover-card:hover .m-card-body .a-card-text.truncated {
+        .o-card.hover-card:hover .m-card-body .a-card-text, .o-card.hover-card:hover .m-card-body p {
           white-space: normal;
           transition: 0.6s;
           height: auto;

@@ -10,7 +10,7 @@
   .m-card-image { margin: 0; position: relative; overflow: hidden; display: block; }
   .m-card-body {
     .a-card-header { margin: 0; padding: 0; font-size: 14px; color: $white; text-shadow: 0 0 5px $black; }
-    .a-card-text { margin: 0; padding: 0; font-size: 12px; color: $white; text-shadow: 0 0 5px $black;
+    .a-card-text, p { margin: 0; padding: 0; font-size: 12px; color: $white; text-shadow: 0 0 5px $black;
       &.truncated { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: 0.5s; }
     }
   }
@@ -40,7 +40,7 @@
   &.hover-card { transition: 0.3s ease; position: relative;
 
     .m-card-image { @include aspect-ratio (100%, 100%);
-      .a-image { @include middle-align(); position: absolute; width: auto; height: 100%; transition: 0.3s ease; }
+      .a-image, img { @include middle-align(); position: absolute; width: auto; height: 100%; transition: 0.3s ease; }
     }
 
     .m-card-body {
@@ -51,7 +51,19 @@
       transform: translateY(50%);
 
       .a-card-header { position: absolute; top: $base; left: $base; }
-      .a-card-text { position: absolute; top: $base-lg; left: $base; right: $base; line-height: 14px; height: 14px; }
+      .a-card-text, p {
+        position: absolute;
+        top: $base-lg;
+        left: $base;
+        right: $base;
+        line-height: 14px;
+        height: 14px;
+        // TRUNCATE TEXT
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: 0.5s;
+      }
 
     }
 
@@ -61,9 +73,7 @@
       }
       .m-card-body { top: 0; background: rgba(0,0,0,0.6); transition: 0.3s ease; transform: translateY(0%);
         .a-card-header { margin: 0; transition: 0.8s; top: 20%; }
-        .a-card-text {
-          &.truncated { white-space: normal; transition: 0.6s; height: auto; top: 40%; }
-        }
+        .a-card-text, p { white-space: normal; transition: 0.6s; height: auto; top: 40%; }
       }
     }
 
