@@ -98,6 +98,35 @@ $('.o-hamburger').click(function(e) {
     
 // A.3. SCROLL TO LINK ------------------------------------------------------------------------------------------------
 
+// WINDOW SCROLL ALTER LOGO -------------------------------
+
+function getScrollXY() {
+  let scrOfX = 0, scrOfY = 0;
+  if( typeof( window.pageYOffset ) == 'number' ) {
+    //Netscape compliant
+    scrOfY = window.pageYOffset;
+    scrOfX = window.pageXOffset;
+  } else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {
+    //DOM compliant
+    scrOfY = document.body.scrollTop;
+    scrOfX = document.body.scrollLeft;
+  } else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {
+    //IE6 standards compliant mode
+    scrOfY = document.documentElement.scrollTop;
+    scrOfX = document.documentElement.scrollLeft;
+  }
+  return [ scrOfX, scrOfY ];
+}
+
+
+$(window).scroll(function() {
+  console.log('piele');
+  let h1 = $("p-main");
+  let offs = getScrollXY();
+  console.log(h1.offset().top - offs[1]);
+});
+
+// END: WINDOW SCROLL ALTER LOGO --------------------------
 
 // A.3. END -----------------------------------------------------------------------------------------------------------
     
