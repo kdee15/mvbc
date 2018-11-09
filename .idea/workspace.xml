@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be97611c-de55-486b-84f5-f668b408d8d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/html/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/scripts/1.3--global-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/scripts/1.3--global-functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_html/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_html/src/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_html/src/partials/_blog-posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_html/src/partials/_blog-posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/04_pages/_4.0-p-global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/04_pages/_4.0-p-global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,39 +18,41 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="16" />
           <entry key="js" value="4" />
-          <entry key="php" value="4" />
-          <entry key="scss" value="8" />
+          <entry key="php" value="6" />
+          <entry key="scss" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="16" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="4" />
-          <entry key="SCSS" value="8" />
+          <entry key="PHP" value="6" />
+          <entry key="SCSS" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="526" />
           <entry key="js" value="8" />
-          <entry key="scss" value="847" />
+          <entry key="php" value="8" />
+          <entry key="scss" value="872" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="526" />
           <entry key="JavaScript" value="8" />
-          <entry key="SCSS" value="847" />
+          <entry key="PHP" value="8" />
+          <entry key="SCSS" value="872" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -112,7 +112,16 @@
         <entry file="file://$PROJECT_DIR$/build/js/scripts/1.3--global-functions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="104" column="46" lean-forward="true" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+              <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -126,7 +135,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/page-header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static_html/src/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -134,6 +152,15 @@
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/scss/04_pages/_4.0-p-global.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -166,7 +193,6 @@
         <option value="$PROJECT_DIR$/static_html/src/partials/_footer-includes.html" />
         <option value="$PROJECT_DIR$/static_html/src/partials/_header-includes.html" />
         <option value="$PROJECT_DIR$/static_html/src/partials/_logo-svg.html" />
-        <option value="$PROJECT_DIR$/build/scss/04_pages/_4.0-p-global.scss" />
         <option value="$PROJECT_DIR$/build/scss/03_organism/_3.0-o-header.scss" />
         <option value="$PROJECT_DIR$/build/scss/00_base/_0.4-b-burger-menu.scss" />
         <option value="$PROJECT_DIR$/build/scss/00_base/_0.0-index.scss" />
@@ -181,6 +207,8 @@
         <option value="$PROJECT_DIR$/build/js/scripts/1.3--global-functions.js" />
         <option value="$PROJECT_DIR$/static_html/src/partials/_page-header.html" />
         <option value="$PROJECT_DIR$/static_html/src/home.html" />
+        <option value="$PROJECT_DIR$/build/scss/04_pages/_4.0-p-global.scss" />
+        <option value="$PROJECT_DIR$/single.php" />
       </list>
     </option>
   </component>
@@ -237,27 +265,33 @@
             <path>
               <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="static_html" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="static_html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="static_html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="04_pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
               <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvbc" type="462c0819:PsiDirectoryNode" />
-              <item name="static_html" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,11 +340,12 @@
       <workItem from="1541016260227" duration="98000" />
       <workItem from="1541104748831" duration="3504000" />
       <workItem from="1541751537987" duration="1286000" />
+      <workItem from="1541767099075" duration="169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12657000" />
+    <option name="totallyTimeSpent" value="12826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1646" y="-877" width="1440" height="877" extended-state="6" />
@@ -318,7 +353,7 @@
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2267525" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22961374" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -352,13 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/04_pages/_4.0-p-global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -421,18 +449,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/page-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/scss/01_atom/_1.0-a-global.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,20 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_page-header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/js/scripts/1.3--global-functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="104" column="46" lean-forward="true" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -487,6 +491,41 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/04_pages/_4.0-p-global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_html/src/partials/_page-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/page-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/js/scripts/1.3--global-functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>

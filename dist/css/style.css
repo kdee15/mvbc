@@ -1007,4 +1007,7 @@ body.fixed, body.modal-open {
   height: 4px;
   border-radius: 0; }
 
+body.single.single-post {
+  height: auto; }
+
 /*# sourceMappingURL=style.css.map */
