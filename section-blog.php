@@ -1,62 +1,46 @@
-<!-- C.2.6. ARTISTS -->
+<section class="o-block blog-posts mt-4 row no-gutters">
+  <div class="container">
+    <div class="row">
 
-<section class="section section-blog" id="section-blog">
+      <?php
 
-    <div class="container">
+      $args=array(
+        'post_type' => 'post',
+        'post_status' => 'publish',
+        'meta_key' => 'featured',
+        'orderby' => 'meta_value date',
+        'order' => 'DESC',
+        'posts_per_page' => 10
+      );
+      $my_query = null;
+      $my_query = new WP_Query($args);
 
-        <!-- C.2.6.2. Case Study List -->
-        
-        <section class="section__articles">
-            <section class="row">
+      if( $my_query->have_posts() ) {
+        while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-                <?php
+          <article class="card blog-card col-12 col-md-4 col-lg-3 <?php the_field('featured') ?>">
+            <a class="o-card hover-card" href="<?php the_permalink() ?>">
+              <figure class="m-card-image">
+                <?php the_post_thumbnail(); ?>
+              </figure>
+              <div class="m-card-body">
+                <h3 class="a-card-header"><?php the_title(); ?></h3>
+                <?php the_excerpt(); ?>
+              </div>
 
-                    $args=array(
-                      'post_type' => 'post',
-                      'post_status' => 'publish',
-                      'meta_key' => 'featured',
-                      'orderby' => 'meta_value date',
-                      'order' => 'DESC',
-                      'posts_per_page' => 10
-                    );
-                    $my_query = null;
-                    $my_query = new WP_Query($args);
+            </a>
+          </article>
 
-                    if( $my_query->have_posts() ) {
-                        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+        <?php
 
-                        <aside class="col-md-6 <?php the_field('featured') ?>">
-                            <article class="article">
-                                <div class="article__body">
-                                    <h3><?php the_title(); ?></h3>
-                                </div>
-                                <div class="article__figure">
-                                    <a class="image-wrapper" href="<?php the_permalink() ?>">
-                                        <?php the_post_thumbnail(); ?>
-                                    </a>
-                                </div>
-                                <div class="article__body">
-                                    <p><?php the_excerpt(); ?></p>
-                                    <a class="btn-default" href="<?php the_permalink() ?>">Continue reading</a>
-                                </div>
-                            </article>
-                        </aside>
+        endwhile;
+      }
+      wp_reset_query();  // Restore global post data stomped by the_post().
+      ?>
 
-                        <?php
+    </div>
+  </div>
 
-                        endwhile;
-                    }
-                    wp_reset_query();  // Restore global post data stomped by the_post().
-                ?>
-
-            </section>
-            
-            <a class="btn-default button" href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=24">VIEW MORE ARTICLES</a>
-            
-        </section>
-
-    </div>                 
+  <a class="btn-default button" href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=24">VIEW MORE ARTICLES</a>
 
 </section>
-
-<!-- C.2.6. END -->
