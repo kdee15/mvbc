@@ -13,76 +13,49 @@ get_header();
 
 <!-- C. WORK AREA +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-<!-- C.1. PAGE HEADER ------------------------------- -->
+<!-- C.1. PAGE HEADER --------------------------------- -->
 
 <?php get_template_part( 'inc/page-header' ); ?>
 
 <?php get_template_part( 'inc/navigation-page' ); ?>
 
-<!-- C.1. END --------------------------------------- -->
+<!-- C.1. END ----------------------------------------- -->
 
-<main class="p-main">
+<main class="p-main page single">
 
-  <!-- C.1. PAGE HEADER ----------------------------- -->
+  <!-- C.1. PAGE HEADER ------------------------------- -->
 
-  <section class="page single">
+  <?php while ( have_posts() ) : the_post(); ?>
 
-
-
-  <!-- C.1. END ------------------------------------- -->
-
-  <!-- C.2. SECTIONS -------------------------------- -->
-
-
-    <!-- C.2.2.1. ABOUT US ---------------------------------------------------------------------------- -->
-
-    <!-- C.2.4.1.1. Dynanic Content area -->
-
-    <?php while ( have_posts() ) : the_post(); ?>
-
-      <h3><?php the_title(); ?></h3>
-
-      <!-- .nav-single -->
-
-    <?php endwhile; // end of the loop. ?>
-
-    <!-- C.1.1 End -->
-
-    <figure class="article__figure">
-      <span class="image-wrapper">
-          <?php the_post_thumbnail(); ?>
-      </span>
+    <figure class="o-article-header">
+      <?php the_post_thumbnail(); ?>
+      <h3 class="a-post-title"><?php the_title(); ?></h3>
     </figure>
 
-    <?php while ( have_posts() ) : the_post(); ?>
+
+  <?php endwhile; // end of the loop. ?>
+
+  <!-- C.1. END --------------------------------------- -->
+
+  <!-- C.2. SECTIONS ---------------------------------- -->
+
+  <?php while ( have_posts() ) : the_post(); ?>
+
+    <section class="container">
 
       <?php the_content(); ?>
 
-      <!-- .nav-single -->
-
-    <?php endwhile; // end of the loop. ?>
-
-    <!-- C.1.1 End -->
-
-    <!-- C.2.2.1. END --------------------------------------------------------------------------------- -->
-
-    <!-- C.2.2.2. COMMENTS SECTION -------------------------------------------------------------------- -->
-
-    <section class="block__comments">
-      <?php comments_template(); ?>
     </section>
 
-    <!-- C.2.2.2. END --------------------------------------------------------------------------------- -->
+  <?php endwhile; // end of the loop. ?>
 
-  </section>
+  <!-- C.2. END --------------------------------------- -->
 
-  <!-- C.2. END ------------------------------------- -->
-
-  <!-- C.3. FOOTER  --------------------------------- -->
+  <!-- C.3. FOOTER  ----------------------------------- -->
 
   <?php get_footer(); ?>
 
-  <!-- C.3. END ------------------------------------- -->
+  <!-- C.3. END --------------------------------------- -->
 
 </main>
 

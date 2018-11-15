@@ -18,7 +18,9 @@ body {
 
 // A.1. END -----------------------------------------------
 
-// A.2. BUTTONS -------------------------------------------
+// A.2. GENERAL -------------------------------------------
+
+.alignleft { float: left; margin-right: $base; margin-bottom: $base; width: 100%; height: auto; }
 
 // A.2. END -----------------------------------------------
 
@@ -58,6 +60,10 @@ body {
   h2 { font-size: 50px; }
 
   .m-logo { width: 70%; }
+
+
+  .alignleft { width: auto; }
+
 
 }
 

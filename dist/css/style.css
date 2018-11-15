@@ -331,6 +331,13 @@ body.fixed, body.modal-open {
   height: 100%;
   margin-top: 120px; }
 
+.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: auto; }
+
 .m-logo {
   position: relative;
   width: 60%;
@@ -354,7 +361,9 @@ body.fixed, body.modal-open {
   h2 {
     font-size: 50px; }
   .m-logo {
-    width: 70%; } }
+    width: 70%; }
+  .alignleft {
+    width: auto; } }
 
 .a-icon {
   width: 30px;
@@ -909,6 +918,77 @@ body.fixed, body.modal-open {
   .o-header.sticky .o-hamburger {
     transition: 0.3s; }
 
+.o-article-header {
+  position: relative;
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .o-article-header:before {
+    content: "";
+    display: block;
+    padding-top: 65%; }
+  .o-article-header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    opacity: 0.5;
+    min-height: 100%;
+    filter: blur(2px); }
+  .o-article-header .a-post-title {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    z-index: 10;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #000000; }
+
+@media (min-width: 768px) {
+  .o-article-header {
+    position: relative;
+    width: 100%; }
+    .o-article-header:before {
+      content: "";
+      display: block;
+      padding-top: 30%; }
+    .o-article-header img {
+      width: 100%; }
+    .o-article-header .a-post-title {
+      font-size: 32px; } }
+
+@media (min-width: 1200px) {
+  .o-article-header {
+    position: relative;
+    width: 100%; }
+    .o-article-header:before {
+      content: "";
+      display: block;
+      padding-top: 20%; }
+    .o-article-header .a-post-title {
+      max-width: 1200px;
+      position: absolute;
+      left: 50%;
+      -ms-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      width: 100%; } }
+
+@media (min-width: 1900px) {
+  .o-article-header {
+    position: relative;
+    width: 100%;
+    max-height: 250px; }
+    .o-article-header:before {
+      content: "";
+      display: block;
+      padding-top: 15%; } }
+
 .card {
   border: 0; }
   .card .m-card-image {
@@ -1064,5 +1144,7 @@ body.fixed, body.modal-open {
 
 body.single.single-post {
   height: auto; }
+  body.single.single-post .p-main {
+    margin-top: 0; }
 
 /*# sourceMappingURL=style.css.map */
