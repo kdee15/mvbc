@@ -1,4 +1,5 @@
-<section class="o-block blog-posts mt-4 row no-gutters">
+<section class="o-block blog-posts">
+
   <div class="container">
     <div class="row">
 
@@ -39,8 +40,9 @@
       ?>
 
     </div>
-  </div>
 
-  <a class="btn-default button" href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=24">VIEW MORE ARTICLES</a>
+    <a class="a-btn btn-blue" href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=22">VIEW MORE ARTICLES</a>
+
+  </div>
 
 </section>
