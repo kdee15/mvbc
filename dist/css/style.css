@@ -843,15 +843,20 @@ body.fixed, body.modal-open {
   height: 4px;
   border-radius: 0; }
 
+html,
 body.home {
   height: 100%; }
+  html.blog .p-main,
   body.home.blog .p-main {
     height: 100%; }
+    html.blog .p-main .o-header,
     body.home.blog .p-main .o-header {
       height: 100%;
       position: relative; }
+    html.blog .p-main .o-block.blog-posts,
     body.home.blog .p-main .o-block.blog-posts {
       margin-top: 15px; }
+      html.blog .p-main .o-block.blog-posts .a-btn,
       body.home.blog .p-main .o-block.blog-posts .a-btn {
         margin: 30px 0 0 0; }
 
