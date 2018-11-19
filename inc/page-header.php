@@ -7,10 +7,10 @@
 
 	<!-- C.1. MASTHEAD -->
 
-	<header class="o-header page-header" id="o-header">
-    <figure class="m-figure">
+	<header class="o-header o-page-header" id="o-header">
+    <a class="m-figure" href="/">
       <?php get_template_part( 'inc/svg--page-logo' ); ?>
-    </figure>
+    </a>
 		<div class="m-breadcrumbs">
       <?php if (function_exists('the_breadcrumb')) the_breadcrumb(); ?>
     </div>

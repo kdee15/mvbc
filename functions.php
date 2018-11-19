@@ -13,15 +13,52 @@
     // A.1.0.5. Wordpress Menu
 
     register_nav_menus( array(  
-    'primary' => __( 'Primary Navigation', 'iamnotthai' )
+    'primary' => __( 'Primary Navigation', 'mvbc' )
     ) );
 
     // A.1.0.5. Wordpress Menu
 
     // A.1.0.6. Wordpress Stuff
     
-    add_theme_support( 'post-thumbnails' ); 
+    add_theme_support( 'post-thumbnails' );
 
+// A.3 TEMPLATE CUSTOMISATION +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// A.1.0.1. REGISTER SIDEBAR
+
+function social_sidebar_widgets_init() {
+
+  register_sidebar( array(
+    'name' => 'social sidebar widget',
+    'id' => 'social_sidebar',
+    'before_widget' => '<div>',
+    'after_widget' => '</div>',
+    'before_title' => '<h2 class="rounded">',
+    'after_title' => '</h2>',
+  ) );
+}
+
+add_action( 'widgets_init', 'social_sidebar_widgets_init' );
+
+// A.1.0.1. END
+
+// A.1.0.2. Twitter Widget
+
+function arphabet_widgets_init() {
+
+  register_sidebar( array(
+    'name' => 'insta widget',
+    'id' => 'instagram',
+    'before_widget' => '<div class="o-insta-feed">',
+    'after_widget' => '</div>',
+  ) );
+}
+
+add_action( 'widgets_init', 'arphabet_widgets_init' );
+
+// A.1.0.2. Twitter Widget
+
+// A.3 END ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // A.4 END ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

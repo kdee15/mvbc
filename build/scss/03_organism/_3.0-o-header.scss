@@ -14,7 +14,11 @@
   width: 100%;
   z-index: 100;
 
-  &.o-home-header { z-index: 1; }
+  &.o-home-header { z-index: 1; background-size: cover; background-position: center center; }
+  &.o-page-header {
+    .m-figure { max-width: 120px; }
+    .m-breadcrumbs { opacity: 0; }
+  }
 
   .m-figure { width: 250px; padding: 0; margin: $base 0 $base $base; transition: 0.3s;  }
 

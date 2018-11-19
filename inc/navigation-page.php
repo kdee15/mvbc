@@ -11,7 +11,7 @@
       <nav id="site-navigation" class="main-navigation navbar-nav" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'mvbc' ); ?>">
         <?php
         wp_nav_menu( array(
-          'theme_location' => 'primary',
+          'theme_location' => 'mvbc',
           'menu_class'     => 'primary-menu',
         ) );
         ?>

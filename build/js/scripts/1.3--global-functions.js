@@ -7,6 +7,7 @@
 initToggleFunctions();
 initSwiperFunctions();
 initScrollFunctions();
+initAltTextFunctions();
 
 // A.1. END -----------------------------------------------
 
@@ -15,6 +16,10 @@ initScrollFunctions();
 	var screen = $( window ).width();
 	console.log('I am a device, and my width is: ' + screen);
     
+// A.2. END -----------------------------------------------
+
+// A.2. END -----------------------------------------------
+
 // A.2. END -----------------------------------------------
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
