@@ -142,7 +142,52 @@ h1 {
     transition: 0s; }
   .navbar-collapse .navbar-nav,
   .a-burger-menu .navbar-nav {
-    padding: 15px; }
+    padding: 0; }
+    .navbar-collapse .navbar-nav div ul, .navbar-collapse .navbar-nav div .primary-menu, .navbar-collapse .navbar-nav .menu-main-container ul, .navbar-collapse .navbar-nav .menu-main-container .primary-menu,
+    .a-burger-menu .navbar-nav div ul,
+    .a-burger-menu .navbar-nav div .primary-menu,
+    .a-burger-menu .navbar-nav .menu-main-container ul,
+    .a-burger-menu .navbar-nav .menu-main-container .primary-menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 60px; }
+      .navbar-collapse .navbar-nav div ul li, .navbar-collapse .navbar-nav div ul .menu-item, .navbar-collapse .navbar-nav div .primary-menu li, .navbar-collapse .navbar-nav div .primary-menu .menu-item, .navbar-collapse .navbar-nav .menu-main-container ul li, .navbar-collapse .navbar-nav .menu-main-container ul .menu-item, .navbar-collapse .navbar-nav .menu-main-container .primary-menu li, .navbar-collapse .navbar-nav .menu-main-container .primary-menu .menu-item,
+      .a-burger-menu .navbar-nav div ul li,
+      .a-burger-menu .navbar-nav div ul .menu-item,
+      .a-burger-menu .navbar-nav div .primary-menu li,
+      .a-burger-menu .navbar-nav div .primary-menu .menu-item,
+      .a-burger-menu .navbar-nav .menu-main-container ul li,
+      .a-burger-menu .navbar-nav .menu-main-container ul .menu-item,
+      .a-burger-menu .navbar-nav .menu-main-container .primary-menu li,
+      .a-burger-menu .navbar-nav .menu-main-container .primary-menu .menu-item {
+        display: inline-block;
+        width: 100%; }
+        .navbar-collapse .navbar-nav div ul li a, .navbar-collapse .navbar-nav div ul .menu-item a, .navbar-collapse .navbar-nav div .primary-menu li a, .navbar-collapse .navbar-nav div .primary-menu .menu-item a, .navbar-collapse .navbar-nav .menu-main-container ul li a, .navbar-collapse .navbar-nav .menu-main-container ul .menu-item a, .navbar-collapse .navbar-nav .menu-main-container .primary-menu li a, .navbar-collapse .navbar-nav .menu-main-container .primary-menu .menu-item a,
+        .a-burger-menu .navbar-nav div ul li a,
+        .a-burger-menu .navbar-nav div ul .menu-item a,
+        .a-burger-menu .navbar-nav div .primary-menu li a,
+        .a-burger-menu .navbar-nav div .primary-menu .menu-item a,
+        .a-burger-menu .navbar-nav .menu-main-container ul li a,
+        .a-burger-menu .navbar-nav .menu-main-container ul .menu-item a,
+        .a-burger-menu .navbar-nav .menu-main-container .primary-menu li a,
+        .a-burger-menu .navbar-nav .menu-main-container .primary-menu .menu-item a {
+          display: block;
+          padding: 8px 15px;
+          color: #000000;
+          font-weight: 400; }
+          .navbar-collapse .navbar-nav div ul li a:hover, .navbar-collapse .navbar-nav div ul .menu-item a:hover, .navbar-collapse .navbar-nav div .primary-menu li a:hover, .navbar-collapse .navbar-nav div .primary-menu .menu-item a:hover, .navbar-collapse .navbar-nav .menu-main-container ul li a:hover, .navbar-collapse .navbar-nav .menu-main-container ul .menu-item a:hover, .navbar-collapse .navbar-nav .menu-main-container .primary-menu li a:hover, .navbar-collapse .navbar-nav .menu-main-container .primary-menu .menu-item a:hover,
+          .a-burger-menu .navbar-nav div ul li a:hover,
+          .a-burger-menu .navbar-nav div ul .menu-item a:hover,
+          .a-burger-menu .navbar-nav div .primary-menu li a:hover,
+          .a-burger-menu .navbar-nav div .primary-menu .menu-item a:hover,
+          .a-burger-menu .navbar-nav .menu-main-container ul li a:hover,
+          .a-burger-menu .navbar-nav .menu-main-container ul .menu-item a:hover,
+          .a-burger-menu .navbar-nav .menu-main-container .primary-menu li a:hover,
+          .a-burger-menu .navbar-nav .menu-main-container .primary-menu .menu-item a:hover {
+            background-color: #808bA1;
+            color: white;
+            text-decoration: none; }
 
 body {
   transition: 0.3s; }
@@ -327,7 +372,8 @@ body.fixed, body.modal-open {
     left: 0;
     content: '';
     background-color: rgba(0, 0, 0, 0.9);
-    z-index: 1000; }
+    z-index: 1000;
+    bottom: -2000%; }
   body.fixed .p-main, body.modal-open .p-main {
     position: absolute;
     top: 0;
@@ -335,7 +381,14 @@ body.fixed, body.modal-open {
     bottom: 0;
     left: 0;
     transform: translateX(-300px);
-    transition: 0.3s; }
+    transition: 0.3s;
+    bottom: -2000%; }
+
+body.home.fixed:before, body.home.modal-open:before {
+  bottom: -2000%; }
+
+body.home.fixed .p-main, body.home.modal-open .p-main {
+  bottom: -2000%; }
 
 .p-main {
   height: 100%; }
@@ -398,7 +451,10 @@ body.fixed, body.modal-open {
   .m-logo {
     width: 70%; }
   .alignleft {
-    width: auto; } }
+    width: auto; }
+  .aligncenter {
+    max-width: 100%;
+    height: auto; } }
 
 @media (min-width: 1900px) {
   .m-logo {
@@ -703,6 +759,9 @@ body.fixed, body.modal-open {
     z-index: 10;
     color: #FFFFFF;
     text-shadow: 0 0 10px #000000; }
+    .o-article-header .a-post-title .a-footnote {
+      font-size: 12px;
+      display: block; }
 
 @media (min-width: 768px) {
   .o-article-header {
@@ -975,6 +1034,9 @@ body.fixed, body.modal-open {
 @media (min-width: 1900px) {
   .o-insta-feed .instagram-pics li {
     max-width: 16.66%; } }
+
+.page__blog {
+  margin-top: 120px; }
 
 html,
 body.home {

@@ -29,7 +29,7 @@ get_header();
 
     <figure class="o-article-header">
       <?php the_post_thumbnail(); ?>
-      <h3 class="a-post-title"><?php the_title(); ?></h3>
+      <h3 class="a-post-title"><?php the_title(); ?><span class="a-footnote"><?php the_date(); ?></span></h3>
     </figure>
 
 

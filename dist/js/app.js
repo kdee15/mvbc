@@ -111,10 +111,6 @@ initAltTextFunctions();
     
 // A.2. END -----------------------------------------------
 
-// A.2. END -----------------------------------------------
-
-// A.2. END -----------------------------------------------
-
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // JAVASCRIPT LAYER [APP.JS]  =========================================================================================
 
@@ -423,8 +419,9 @@ function initAltTextFunctions() {
 
   // A.2. RANDOM BACKGROUND -------------------------------
 
-  var totalImages = 11;
-  var RandomNumPath = 'http://staging.kdee.co.za/mvbc/wp-content/themes/mvbc';
+  var totalImages = 13;
+  var RandomNumPath = 'http://www.mvbc.co.za/wp-content/themes/mvbc';
+  // var RandomNumPath = 'http://staging.kdee.co.za/mvbc/wp-content/themes/mvbc';
   // var RandomNumPath = 'http://localhost/kdee/mvbc.co.za/3_root/wp-content/themes/mvbc';
   var RandomNum = Math.floor( Math.random() * totalImages);
 
