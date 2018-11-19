@@ -31,7 +31,7 @@
     }
   }
 
-  p.clear { margin: $base; }
+  p.clear { margin: $base auto; max-width: 1140px; padding: 0 $base $base-xl; }
 }
 
 

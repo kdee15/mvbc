@@ -953,7 +953,9 @@ body.fixed, body.modal-open {
         transition: 0.5s; }
 
 .o-insta-feed p.clear {
-  margin: 15px; }
+  margin: 15px auto;
+  max-width: 1140px;
+  padding: 0 15px 60px; }
 
 .social-media {
   list-style-type: none;

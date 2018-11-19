@@ -416,6 +416,7 @@ function initAltTextFunctions() {
 
   $(".instagram-pics img").each(function() {
     $(this).after('<div class="m-image-text"><p class="alt">' + $(this).attr('alt') + '</p></div>');
+    $(".o-insta-feed .clear a").addClass("a-btn btn-blue");
   })
 
   // A.1. END ---------------------------------------------
