@@ -4,7 +4,15 @@
 
 // A.1. GENERAL CARDS -------------------------------------------------------------------------------------------------
 
-.o-footer {}
+.o-footer { background-color: $grey-80; padding: $base-lg 0; margin-top: $base-xl;
+  h6 { color: $grey-f2; }
+  p { color: white; }
+  a { color: white;
+    &:hover { color: $grey-f2; }
+  }
+
+  .a-credits { font-size: 10px; font-weight: 300; margin-top: $base-xl; }
+}
 
 // A.1. END -----------------------------------------------------------------------------------------------------------
 

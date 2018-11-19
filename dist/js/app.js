@@ -93,232 +93,207 @@ jQuery(document).ready(function($) {
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // JAVASCRIPT LAYER [APP.JS]  =========================================================================================
 
-// ====== INDEX  ======================================================================================================
-// ==
-// == A. BURGER MENU
-// == B. HOMEPAGE CAROUSEL
-// ==
-// ====== INDEX  ======================================================================================================
+// A. GLOBAL FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
+// A.1. FUNCTIONS -----------------------------------------
 
-// A. SHOW/HIDE +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    
-// A.1. BURGER MENU --------------------------------------------------------------------------------------------------- 
-    
-$('.reveal').click(function(e) {
-    
-    var target = $(this).attr('href');
-    
-    if ($(target).hasClass('hidden') ) {
-        
-        $(target).removeClass('hidden');
-        $('.reveal').addClass('close');
+initToggleFunctions();
+initSwiperFunctions();
+initScrollFunctions();
+initAltTextFunctions();
 
-    } else {
-        
-        $(target).addClass('hidden');
-        $('.reveal').removeClass('close');
+// A.1. END -----------------------------------------------
 
-    }
-    
-    e.preventDefault();
-    
-  });
-    
-    
-$('.o-hamburger').click(function(e) {
-    
-    var target = $(this).attr('href');
-    
-    if ($(target).hasClass('hidden') ) {
-        
-        $(target).removeClass('hidden');
-        $('.c-hamburger').addClass('is-active');
-        $('body').addClass('fixed');
-        
-    } else {
-        
-        $(target).addClass('hidden');
-        $('.c-hamburger').removeClass('is-active');
-        $('body').removeClass('fixed');
-        
-    }
-    
-    e.preventDefault();
-    
-  });
-
-
-    
-// A.1. END -----------------------------------------------------------------------------------------------------------
-    
- 
-// A.2. END -----------------------------------------------------------------------------------------------------------
-
-	// A.2.2. MODAL POPUPS ----------------------------------
-
-	var modalContent = '';	
-	$('.modal-open').on('click', function(){
-			modalContent = $(this).attr('name');
-			if($('#'+modalContent).hasClass('on')){
-					$('#'+modalContent).removeClass('on');
-					$('body').removeClass('modal-open');
-			}else{
-					hideAllContent();
-					showmodalContent(modalContent);
-			}
-	});
-
-	function hideAllContent(){
-        $('.o-modal-full').removeClass('on');
-        $('body').removeClass('modal-open');
-	};
-	
-	function showmodalContent(modalContentDiv){
-        $('#'+modalContentDiv).addClass('on');
-        $('body').addClass('modal-open');
-	};
-
-	// A.2.2. END -------------------------------------------
-
-// A.2. END -----------------------------------------------------------------------------------------------------------
-    
-// A.5. SCREEN SIZE CHECK ---------------------------------------------------------------------------------------------
+// A.2. SCREEN SIZE CHECK ---------------------------------
     
 	var screen = $( window ).width();
 	console.log('I am a device, and my width is: ' + screen);
     
-// A.5. END -----------------------------------------------------------------------------------------------------------
-    
-// A.3. SCROLL TO LINK ------------------------------------------------------------------------------------------------
+// A.2. END -----------------------------------------------
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+// A.2. END -----------------------------------------------
 
-// Get the header
-var header = document.getElementById("o-header");
+// A.2. END -----------------------------------------------
 
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// JAVASCRIPT LAYER [APP.JS]  =========================================================================================
 
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
+// A. TOGGLE FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+function initToggleFunctions() {
+
+  // A.1. GENERAL SHOW ------------------------------------
+
+  $('.showhide').click(function(e) {
+
+    var target = $(this).attr('href');
+
+    if ($(target).hasClass('hidden') ) {
+
+      $(target).removeClass('hidden');
+      $('.showhide').addClass('close');
+
+    } else {
+
+      $(target).addClass('hidden');
+      $('.showhide').removeClass('close');
+
+    }
+
+    e.preventDefault();
+
+  });
+
+  // A.1. END ---------------------------------------------
+
+  // A.2. TOGGLE DIV --------------------------------------
+
+  var currentContent = '';
+  $('.toggle-div').on('click', function(){
+    currentContent = $(this).attr('name');
+    if($('#'+currentContent).hasClass('on')){
+      $('#'+currentContent).removeClass('on');
+      $('body').removeClass('modal-open');
+    }else{
+      hideAllContent();
+      showCurrentContent(currentContent);
+    }
+  });
+
+  function hideAllContent(){
+    $('.toggle-content').removeClass('on');
+    $('body').removeClass('modal-open');
+  };
+
+  function showCurrentContent(currentContentDiv){
+    $('#'+currentContentDiv).addClass('on');
+    $('body').addClass('modal-open');
+  };
+
+  // A.2. END ---------------------------------------------
+
+  // A.3. MOBILE SHOWHIDE ---------------------------------
+
+  (function($){
+    if($('html').hasClass('mobile')){
+      $('.a-config').on('click', function(){
+        //e.preventDefault();
+        if($('.a-config').hasClass('active')){
+          $('.a-config').removeClass('active');
+          $('body').removeClass('fixed');
+        } else {
+          $('.a-config').addClass('active');
+          $('body').addClass('fixed');
+        }
+      });
+    }
+  })(jQuery)
+
+  // A.3. END ---------------------------------------------
+
+  // A.4. BURGER MENU -------------------------------------
+
+  $('.reveal').click(function(e) {
+
+    var target = $(this).attr('href');
+
+    if ($(target).hasClass('hidden') ) {
+
+      $(target).removeClass('hidden');
+      $('.reveal').addClass('close');
+
+    } else {
+
+      $(target).addClass('hidden');
+      $('.reveal').removeClass('close');
+
+    }
+
+    e.preventDefault();
+
+  });
+
+  $('.o-hamburger').click(function(e) {
+
+    var target = $(this).attr('href');
+
+    if ($(target).hasClass('hidden') ) {
+
+      $(target).removeClass('hidden');
+      $('.c-hamburger').addClass('is-active');
+      $('body').addClass('fixed');
+
+    } else {
+
+      $(target).addClass('hidden');
+      $('.c-hamburger').removeClass('is-active');
+      $('body').removeClass('fixed');
+
+    }
+
+    e.preventDefault();
+
+  });
+
+  // A.4. END ---------------------------------------------
+
+  // A.5. MODAL POPUPS ------------------------------------
+
+  var modalContent = '';
+  $('.modal-open').on('click', function(){
+    modalContent = $(this).attr('name');
+    if($('#'+modalContent).hasClass('on')){
+      $('#'+modalContent).removeClass('on');
+      $('body').removeClass('modal-open');
+    }else{
+      hideAllContent();
+      showmodalContent(modalContent);
+    }
+  });
+
+  function hideAllContent(){
+    $('.o-modal-full').removeClass('on');
+    $('body').removeClass('modal-open');
+  };
+
+  function showmodalContent(modalContentDiv){
+    $('#'+modalContentDiv).addClass('on');
+    $('body').addClass('modal-open');
+  };
+
+  // A.5. END ---------------------------------------------
+
 }
 
-// A.3. END -----------------------------------------------------------------------------------------------------------
-    
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // JAVASCRIPT LAYER [APP.JS]  =========================================================================================
 
-// A. SHOW/HIDE +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// A. CAROUSEL FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// A.2. GENERAL SHOW --------------------------------------------------------------------------------------------------
+function initSwiperFunctions() {
+
+  // A.1. HOME CAROUSEL -----------------------------------
+
+  var mySwiper = new Swiper ('.home-carousel', {
+
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 0,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  })
+
+  // A.1. END ---------------------------------------------
+
+}
     
-$('.showhide').click(function(e) {
-    
-    var target = $(this).attr('href');
-    
-    if ($(target).hasClass('hidden') ) {
-        
-        $(target).removeClass('hidden');
-        $('.showhide').addClass('close');
-        
-    } else {
-        
-        $(target).addClass('hidden');
-        $('.showhide').removeClass('close');
-        
-    } 
-     
-    e.preventDefault(); 
-    
-  });
-    
-// A.2. END -----------------------------------------------------------------------------------------------------------
-    
-// A.2. END -----------------------------------------------------------------------------------------------------------
-
-	// A.2.1. TOGGLE DIV ----------------------------
-
-	var currentContent = '';	
-	$('.toggle-div').on('click', function(){
-			currentContent = $(this).attr('name');
-			if($('#'+currentContent).hasClass('on')){
-					$('#'+currentContent).removeClass('on');
-					$('body').removeClass('modal-open');
-			}else{
-					hideAllContent();
-					showCurrentContent(currentContent);
-			}
-	});
-
-	function hideAllContent(){
-        $('.toggle-content').removeClass('on');
-        $('body').removeClass('modal-open');
-	};
-	
-	function showCurrentContent(currentContentDiv){
-        $('#'+currentContentDiv).addClass('on');
-        $('body').addClass('modal-open');
-	};
-
-	// A.2.1. END -------------------------------------------
-
-	// A.2.3. MOBILE SHOWHIDE -------------------------------
-
-	(function($){
-		if($('html').hasClass('mobile')){
-			$('.a-config').on('click', function(){
-				//e.preventDefault();
-				if($('.a-config').hasClass('active')){
-					$('.a-config').removeClass('active');
-					$('body').removeClass('fixed');
-				} else {
-					$('.a-config').addClass('active');
-					$('body').addClass('fixed');
-				}
-			});
-		}
-	})(jQuery)
-
-	// A.2.3. END -------------------------------------------
-
-// A.2. END -----------------------------------------------------------------------------------------------------------
-
-// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// JAVASCRIPT LAYER [APP.JS]  =========================================================================================
-
-// ====== INDEX  ======================================================================================================
-// ==
-// == A. SWIPER CAROUSEL
-// ==
-// ====== INDEX  ======================================================================================================
-
-// A. SHOW/HIDE +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    
-// A.1. MOBILE CLASS --------------------------------------------------------------------------------------------------
-
-var mySwiper = new Swiper ('.home-carousel', {
-
-  direction: 'horizontal',
-  loop: true,
-  slidesPerView: 1,
-  spaceBetween: 0,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  }
-})
-
-// A.1. END -----------------------------------------------------------------------------------------------------------
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // JAVASCRIPT LAYER [APP.JS]  =========================================================================================
@@ -397,6 +372,73 @@ $(window).resize(function() {
 });
 
 // A.9. END -----------------------------------------------------------------------------------------------------------
+
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// JAVASCRIPT LAYER [APP.JS]  =========================================================================================
+
+// A. SCROLL FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+function initScrollFunctions() {
+
+  // A.1. ON SCROLL STICKY --------------------------------
+
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
+
+  // Get the header
+  var header = document.getElementById("o-header");
+
+  // Get the offset position of the navbar
+  var sticky = header.offsetTop;
+
+  // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+
+  // A.1. END ---------------------------------------------
+
+}
+    
+
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// JAVASCRIPT LAYER [APP.JS]  =========================================================================================
+
+// A. SCROLL FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+function initAltTextFunctions() {
+
+  // A.1. INSTA IMAGE MANIPULATE --------------------------
+
+  $(".instagram-pics img").each(function() {
+    $(this).after('<div class="m-image-text"><p class="alt">' + $(this).attr('alt') + '</p></div>');
+    $(".o-insta-feed .clear a").addClass("a-btn btn-blue");
+  })
+
+  // A.1. END ---------------------------------------------
+
+  // A.2. RANDOM BACKGROUND -------------------------------
+
+  var totalImages = 11;
+  var RandomNumPath = 'http://staging.kdee.co.za/mvbc/wp-content/themes/mvbc';
+  // var RandomNumPath = 'http://localhost/kdee/mvbc.co.za/3_root/wp-content/themes/mvbc';
+  var RandomNum = Math.floor( Math.random() * totalImages);
+
+  $(document).ready(function(){
+
+    $('.o-home-header').attr("style","background-image:url('"+ RandomNumPath +"/dist/images/background/bg-main"+RandomNum+".jpg')");
+    //$('.article').attr("style","background-image:url('../../../../../dist/images/background/bg-main"+RandomNum+".jpg')");
+
+  });
+
+  // A.2. END ---------------------------------------------
+
+}
+    
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // FILE END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

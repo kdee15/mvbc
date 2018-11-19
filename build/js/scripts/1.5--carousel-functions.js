@@ -1,31 +1,30 @@
 // JAVASCRIPT LAYER [APP.JS]  =========================================================================================
 
-// ====== INDEX  ======================================================================================================
-// ==
-// == A. SWIPER CAROUSEL
-// ==
-// ====== INDEX  ======================================================================================================
+// A. CAROUSEL FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// A. SHOW/HIDE +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+function initSwiperFunctions() {
+
+  // A.1. HOME CAROUSEL -----------------------------------
+
+  var mySwiper = new Swiper ('.home-carousel', {
+
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 0,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  })
+
+  // A.1. END ---------------------------------------------
+
+}
     
-// A.1. MOBILE CLASS --------------------------------------------------------------------------------------------------
-
-var mySwiper = new Swiper ('.home-carousel', {
-
-  direction: 'horizontal',
-  loop: true,
-  slidesPerView: 1,
-  spaceBetween: 0,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  }
-})
-
-// A.1. END -----------------------------------------------------------------------------------------------------------
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

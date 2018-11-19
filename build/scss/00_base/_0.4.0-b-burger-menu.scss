@@ -111,11 +111,11 @@ $BarRounded:            0px;
   bottom: 0;
   width: 100%;
   max-width: 300px;
-  background: $black;
+  background: $blue-lt;
   display: block;
-  z-index: 100;
   transform: translateX(150%);
   transition: 0.3s;
+  z-index: 10000;
 
   &.on { transition: 0.3s; transform: translateX(0%); }
   &.collapse { transition: 0s; }

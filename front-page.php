@@ -11,23 +11,28 @@ get_header();
 
 ?>
 
+<div id="o-header"></div>
+
 <!-- C. WORK AREA +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
   <!-- C.1. PAGE HEADER ------------------------------- -->
 
   <?php get_template_part( 'inc/navigation-home' ); ?>
 
+
   <!-- C.1. END --------------------------------------- -->
 
   <main class="p-main">
 
-    <!-- C.1. PAGE HEADER ----------------------------- -->
+    <!-- C.1. PAGE HEADER ------------------------------- -->
 
     <?php get_template_part( 'section-front' ); ?>
 
-    <!-- C.1. END ------------------------------------- -->
+    <!-- C.1. END --------------------------------------- -->
 
     <!-- C.2. SECTIONS -------------------------------- -->
+
+    <?php get_template_part( 'section-feeds' ); ?>
 
     <?php get_template_part( 'section-blog' ); ?>
 
