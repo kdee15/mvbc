@@ -1,7 +1,7 @@
 <section class="o-block blog-posts">
 
   <div class="container">
-    <div class="row">
+    <div class="row no-gutters">
 
       <?php
 
@@ -11,7 +11,7 @@
         'meta_key' => 'featured',
         'orderby' => 'meta_value date',
         'order' => 'DESC',
-        'posts_per_page' => 10
+        'posts_per_page' => 4
       );
       $my_query = null;
       $my_query = new WP_Query($args);

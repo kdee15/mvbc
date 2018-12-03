@@ -26,7 +26,7 @@ get_header();
   <!-- C.2. SECTIONS ---------------------------------- -->
 
   <div class="container">
-    <div class="row">
+    <div class="row no-gutters">
 
       <?php
 
